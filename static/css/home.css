@@ -83,3 +83,117 @@
     display: block;
     margin: 0 auto;
 }
+
+/* 新秀推荐区 */
+.yz-home-newHot {
+    width: 1200px;
+    margin: 35px auto;
+    background: #fff;
+    overflow: hidden;
+}
+.yz-home-newHot-title {
+    float: left;
+    margin-left: 60px;
+}
+.yz-home-newHot-list {
+    width: auto;
+    overflow: hidden;
+}
+.yz-home-newHot-list li {
+    float: left;
+    width: 130px;
+    padding: 20px;
+}
+.yz-home-newHot-card {
+    width: 80%;
+    overflow: hidden;
+}
+.yz-home-newHot-card-headImg {
+    width: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.yz-home-newHot-card-name {
+    margin-top: 10px;
+    text-align: center;
+}
+.yz-home-newHot-card-details {
+    width: 100%;
+    margin-top: 10px;
+}
+.yz-home-newHot-card-details p{
+    float: left;
+    width: 40px;
+}
+.yz-home-newHot-card-details span {
+    width: 73px;
+    float: right;
+}
+
+/* 三大排行榜 */
+.yz-home-ranking {
+    width: 1200px;
+    margin: 35px auto;
+    overflow: hidden; 
+}
+
+.yz-home-ranking-list {
+    width: 30%;
+    float: left;
+    background-color: #fff;
+}
+.yz-home-ranking-title {
+    width: 100%;
+    text-align: center;
+    color: rgb(255,48,49);
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.yz-home-ranking-title img {
+    display: inline;
+    vertical-align: bottom;
+}
+.yz-home-ranking-details {
+    margin: 0 auto;
+}
+.yz-home-ranking-head{
+    position: relative;
+}
+.yz-home-ranking-head-bg {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* background: url(../img/huangguan.png) no-repeat center;
+    background-size: 100%; */
+}
+.yz-home-ranking-nav {
+    width: 45%;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.yz-home-ranking-nav span:first-child {
+    float: left;
+    cursor: pointer;
+}
+.yz-home-ranking-nav span:last-child {
+    float: right;
+    cursor: pointer;
+}
+.yz-home-ranking-nav-active {
+    padding: 0 6px;
+    background-color: rgb(31, 198, 251);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.yz-home-ranking-two {
+    width: 100%;
+}

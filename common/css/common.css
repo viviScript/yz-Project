@@ -79,10 +79,6 @@
 }
 .yz-card-user-name span:last-child {
     float: right;
-    padding: 2px;
-    background-color: rgb(31, 198, 251);
-    color: #fff;
-    border-radius: 4px;
 }
 .yz-card-user-text {
     width: auto;
@@ -100,4 +96,25 @@
 }
 .yz-card-user-text p span{
     color: rgb(255,63,141)
+}
+
+/* 排行名称 */
+.yz-grade {
+    padding: 2px;
+    background-color: rgb(31, 198, 251);
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* 性别年龄 */
+.yz-details {
+    color: #fff;
+    padding: 2px;
+    line-height: 15px;
+    border-radius: 4px;
+    background-color: rgb(255,81,148);
+}
+.yz-details img {
+    width: 10px;
 }

@@ -1,0 +1,32 @@
+/* 海报图样式 */
+.yz-qdmx-banner img{
+    width: 100%;
+}
+
+/* 趣带梦新导航 */
+.yz-qdmx-nav {
+}
+.yz-qdmx-nav li{
+    width: 100px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    background-color: #fff;
+    color: #999999;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.yz-qdmx-nav-active {
+    background-color: rgb(253,92,45) !important;
+    color: #fff !important;
+}
+
+/* 趣带萌新列表 */
+.yz-qdmx-list-rigth {
+    width: 80%;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 40px;
+}

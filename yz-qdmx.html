@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>约战电竞-趣带萌新</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='./common/js/common.js'></script>
+    <link rel="stylesheet" href="./common//css/reset.css">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./static/css/qdmx.css">
+</head>
+<body>
+    
+    <!-- 头部导航栏 -->
+    <header class="yz-header yz-header-bg">
+        <nav class="yz-nav">
+            <!-- <img class='yz-logo' src="./static/img/logo.png" alt=""> -->
+            <ul class='yz-ul'>
+                <li onclick="setUrl('./yz-home.html')" class="yz-ul-active">首页</li>
+                <li onclick="setUrl('./yz-zyds.html')">
+                    职业大神
+                    <img src="./common/img/jiaru.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-mfkh.html')">免费开黑
+                    <img src="./common/img/free.gif" alt="">
+                </li>
+                <li class="yz-header-active" onclick="setUrl('./yz-qdmx.html')">趣带萌新
+                    <img src="./common/img/new.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-xxpw.html')">线下陪玩
+                    <img src="./common/img/hot.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-wbss.html')">网吧赛事</li>
+                <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
+                <li onclick="setUrl('./yz-hd.html')">活动</li>
+            </ul>
+            <div class="yz-user">
+                <span>APP下载</span>
+                <img class="yz-user-img" src="./static/img/icon_me.png" alt="">
+                <span>登陆/注册</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner海报图 -->
+    <section class="yz-qdmx-banner yz-section-auto yz-section-top">
+        <img src="./static/img/mfkh-banner.jpg" alt="">
+    </section>
+    
+    <!-- 通知消息栏 -->
+    <section class="yz-section-auto">
+        <p class="yz-message">*本页为免费开黑页，同城开黑乐趣无限！注意胜率第二，快乐第一哦！</p>
+    </section>
+
+    <!-- 趣带萌新列表 -->
+    <ul class="yz-qdmx-nav yz-section-auto">
+        <li class="yz-qdmx-nav-active">综合排序</li>
+        <li>求带</li>
+        <li>带人</li>
+    </ul>
+</body>
+</html>

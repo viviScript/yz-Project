@@ -4,8 +4,8 @@
 }
 
 /* 趣带梦新导航 */
-.yz-qdmx-nav {
-}
+/* .yz-qdmx-nav {
+} */
 .yz-qdmx-nav li{
     width: 100px;
     height: 37px;
@@ -29,4 +29,151 @@
     overflow: hidden;
     float: left;
     padding-bottom: 40px;
+}
+.yz-qdmx-list-rigth li {
+    width: 46%;
+    overflow: hidden;
+    float: left;
+    margin: 10px 1%;
+}
+.yz-qdmx-card {
+    width: auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.yz-qdmx-card-img {
+    width: 60px;
+    height:60px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.yz-qdmx-card-left {
+    width: 50%;
+    height: 60px;
+    line-height: 30px;
+    float: left;
+}
+.yz-qdmx-card-left p {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.yz-qdmx-card-left .text {
+    color: #333333;
+}
+.yz-qdmx-card-left .text span{
+    width: 49px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    
+}
+.yz-qdmx-card-right {
+    float:right;
+    width: 30%;
+    height: 60px;
+    line-height: 30px;
+}
+.yz-qdmx-card-left .time {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666666; 
+}
+
+.yz-qdmx-card-right .order {
+    width: 70px;
+    height: 37px;
+    display: block;
+    line-height: 37px;
+    text-align: center;
+    float: right;
+    border-radius: 4px;
+}
+.yz-qdmx-card-right .gameName {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666666;
+    font-size: 16px;
+    float: right;
+    text-align: right;
+}
+
+.yz-qdmx-txt {
+    width: auto;
+    height: 125px;
+    padding: 10px 20px;
+    color: #666666;
+}
+.yz-qdmx-txt .details {
+    width: 100%;
+    padding: 20px 0;
+}
+.yz-qdmx-txt .details p {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+}
+
+.yz-qdmx-txt .content {
+    width: 100%;
+    padding: 10px 0;
+    line-height: 25px;
+    font-size: 16px;
+}
+/* 蓝色 */
+.yz-qdmx-blue  {
+    border: 1px solid #1fc7fc; 
+}
+.yz-qdmx-blue  .text span{
+    background-color: rgb(34,187,250);
+    color: #ffffff;
+}
+.yz-qdmx-blue  .time span{
+    color: #ff3030;
+}
+.yz-qdmx-blue  .order{
+    background-color:rgb(34,187,250); 
+    color: #fff;
+}
+.yz-qdmx-blue .yz-qdmx-txt{
+    background-color: rgba(31,199,252,0.1);
+}    
+.yz-qdmx-blue .details p span{
+    color: #1fc7fc;
+}   
+/* 橙色 */
+.yz-qdmx-orange {
+    border: 1px solid #ff733a; 
+}
+.yz-qdmx-orange  .text span{
+    background-color: #ff733a;
+    color: #ffffff;
+}
+.yz-qdmx-orange .time span{
+    color: #ff3030;
+}
+.yz-qdmx-orange  .order{
+    background-color:#ff733a; 
+    color: #fff;
+}
+.yz-qdmx-orange .yz-qdmx-txt{
+    background-color: rgba(255,115,58,0.1);
+}  
+.yz-qdmx-orange .details p span{
+    color: #ff733a;
+}   
+.yz-qdmx-right {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 40px; 
 }

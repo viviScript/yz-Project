@@ -32,6 +32,10 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+a:link {color: #000000} /* 未访问的链接 */
+a:visited {color: #d90a81} /* 已访问的链接 */
+a:hover {color: #d90a81} /* 当有鼠标悬停在链接上 */
+a:active {color: #d90a81} /* 被选择的链接 */
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';

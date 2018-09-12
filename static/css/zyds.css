@@ -1,0 +1,106 @@
+
+/* 游戏类型 */
+.yz-zyds-gameType {
+    background-color: #fff;
+}
+
+.yz-zyds-gameType-game {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(144,144,144);
+}
+.yz-zyds-gameType-type {
+    width: 130px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    background-color: rgb(240,240,240);
+    display: block;
+}
+.yz-zyds-gameType-list {
+    width: 1030px;
+    overflow: hidden;
+    padding: 20px 20px 10px;
+    float: left;
+    color: rgb(114,114,114);
+    background-color: #fff;
+}
+.yz-zyds-gameType-list-active {
+    color: rgb(229,139, 103);
+}
+.yz-zyds-gameType-list li{
+    float: left;
+    width: 140px;
+    text-align: center;
+}
+.yz-zyds-gameType-list li img{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.yz-zyds-gameType-rank {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(144,144,144);
+}
+.yz-zyds-gameType-gander {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(144,144,144);
+}
+
+/* 排序区 */
+
+.yz-zyds-sort {
+    width: 1200px;
+    overflow: hidden;
+    margin: 40px auto;
+}
+
+.yz-zyds-sort-ul {
+    width: 100%;
+    overflow: hidden;
+}
+.yz-zyds-sort-active {
+    background-color: rgb(253,92,45) !important;
+    color: #fff !important;
+}
+.yz-zyds-sort-ul li {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    float: left;
+    font-size: 20px;
+    color:rgb(114,114,114);
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.yz-zyds-sort-ul li:hover {
+    background-color: rgb(253,92,45) !important;
+    color: #fff !important; 
+}
+
+/* 排序搜索区 */
+
+.yz-zyds-userCard {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.yz-zyds-userCard-left {
+    width: 80%;
+    overflow: hidden;
+    float: left;
+}
+.yz-zyds-userCard-right {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+}

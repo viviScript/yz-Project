@@ -15,6 +15,11 @@
     color: rgb(108,108,108);
     border-bottom: 1px solid rgba(108, 108, 108, 0.2);
 }
+/* 头部选中样式 */
+.yz-header-active {
+    background:rgb(253,92,45);
+    color: #fff;
+}
 .yz-nav {
     width: 1200px;
     overflow: hidden;
@@ -34,10 +39,19 @@
 }
 .yz-ul li {
     float: left;
-    margin: 0 25px;
+    position: relative;
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 10px;
 }
 .yz-ul li:hover {
     border-bottom: #fff 2px solid; 
+}
+.yz-ul li img{
+    position: absolute;
+    top: 0;
+    right: -27px;
 }
 .yz-user {
     float: right;
@@ -173,4 +187,146 @@
     color: rgb(54,54,54);
     margin-top: 20px;
     text-align: center;
+}
+/* 距离顶部120px */
+
+.yz-section-top{
+    margin-top: 120px !important;
+}
+/* 1200px居中 */
+.yz-section-auto {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* 排行榜 */
+
+.yz-ranking {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.yz-ranking-title {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    color: rgb(255,48,49);
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.yz-ranking-title img {
+    display: inline;
+    vertical-align: bottom;
+}
+.yz-ranking-nav {
+    width: 45%;
+    overflow: hidden;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.yz-ranking-nav span:first-child {
+    float: left;
+    cursor: pointer;
+}
+.yz-ranking-nav span:last-child {
+    float: right;
+    cursor: pointer;
+}
+.yz-ranking-nav-active {
+    padding: 0 6px;
+    background-color: rgb(31, 198, 251);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.yz-ranking-list-ul {
+    width: 100%;
+    overflow: hidden;
+}
+.yz-ranking-list-ul-head{
+    width: 30%;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+.yz-ranking-list-ul-head-img {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.yz-ranking-list-ul li {
+    width: auto;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-top: 1px dashed rgb(167,214,285);
+}
+.yz-ranking-list-ul-details {
+    width: 70%;;
+    float: left;
+}
+.yz-ranking-list-ul-details .details {
+    width: 100%;
+    height: 30px;
+}
+.yz-ranking-list-ul-details .details .yz-ranking-name {
+    float: left;
+}
+.yz-ranking-list-ul-details .details .yz-grade {
+    float: right;
+}
+.yz-ranking-list-ul-details .bill {
+    width: 100%;
+    height: 30px;
+}
+.yz-ranking-list-ul-details .bill .yz-details{
+    float: left;
+    line-height: 30px;
+}
+.yz-ranking-list-ul-details .bill .yz-ranking-bill {
+    float: right;
+    line-height: 30px;
+}
+.yz-details-vip {
+    color: #fff;
+    background-color: rgb(34,187,250);
+    float: left;
+    margin-top: 6px;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+
+/* 右侧固定栏 */
+
+.yz-aside {
+    width: 100px;
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    right: 10px;
+}
+
+.yz-aside ul {
+    width: 100%;
+}
+.yz-aside ul li{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    /* border: 1px solid rgba(0,0,0,0.1); */
+}
+.yz-aside ul li img{
+    display: block;
+    margin: 30px auto 10px;
+}
+.yz-aside-active {
+    background-color: rgb(253,92,45);
+    color: #fff;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="./static/css/home.css">
     <link rel="stylesheet" href="./common/css/release.css">
 </head>
+
 <body>
     <!-- 头部导航栏 -->
     <header class="yz-header">
@@ -38,9 +40,49 @@
                 <li onclick="setUrl('./yz-hd.html')">活动</li>
             </ul>
             <div class="yz-user">
-                <span>APP下载</span>
-                <img class="yz-user-img" src="./static/img/icon_me.png" alt="">
-                <span>登陆/注册</span>
+                <input class="yz-user-search" type="text" placeholder="ID/手机号/靓号">
+                <span class="yz-app-download">APP下载</span>
+                <div class="yz-user-img">
+                    <img src="./static/img/icon_me.png" alt="">
+                    <div class="yz-user-details">
+                        <div class="yz-user-sanjiao"></div>
+                        <img class="head-img" src="./static/img/touxiang.jpg" alt="">
+                        <p class="head-name">娇御</p>
+                        <p class="yz-details">
+                            <img src="./static/img/icon_nvxing.png" alt="">
+                            22
+                        </p>
+                        <p class="yz-user-rank">
+                            <span class="vip">vip0</span>
+                            <span class="line">|</span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <ul class="list">
+                            <li>
+                                <img src="./common/img/icon_qianbao.png" alt="">
+                                <p>充值</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_tixian.png" alt="">
+                                <p>提现</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_quanzi.png" alt="">
+                                <p>圈子</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_xiaoxi.png" alt="">
+                                <p>消息</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_shezhi.png" alt="">
+                                <p>设置</p>
+                            </li>
+                        </ul>
+                        <p class="yz-user-logout">退出登陆</p>
+                    </div>
+                </div>
+                <span class="yz-user-login">登陆/注册</span>
             </div>
         </nav>
     </header>
@@ -49,7 +91,7 @@
     <section class="yz-home-banner">
         <img class="yz-home-banner-img" src="./static/img/banner.jpg" alt="">
         <div class="yz-home-search">
-            <p class="yz-home-search-text">约战，陪你征战天下</span>
+            <p class="yz-home-search-text">约战，陪你征战天下</p>
             <input class="yz-home-search-input" type="text">
             <ul class="yz-home-search-hot">
                 <li>萌神</li>
@@ -343,18 +385,18 @@
     <section class="yz-home-ranking">
         <div class="yz-home-ranking-list">
             <div class="yz-home-ranking-title">
-                <img src="./static/img/icon_huo.png" alt=""> 
+                <img src="./static/img/icon_huo.png" alt="">
                 热度榜
             </div>
             <div class="yz-home-ranking-nav">
                 <span class="yz-home-ranking-nav-active">周榜</span>
                 <span>总榜</span>
             </div>
-           <div class="yz-home-ranking-details">
-               <div class="yz-home-ranking-head">
+            <div class="yz-home-ranking-details">
+                <div class="yz-home-ranking-head">
                     <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
                     <span class="yz-home-ranking-head-num">1</span>
-               </div>
+                </div>
                 <p class="yz-home-ranking-name">娇御</p>
                 <div class="yz-home-ranking-user-details">
                     <p class="yz-details">
@@ -369,8 +411,8 @@
             <div class="yz-home-ranking-winner">
                 <div class="yz-home-ranking-details">
                     <div class="yz-home-ranking-head">
-                            <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
-                            <span class="yz-home-ranking-head-num">2</span>
+                        <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
+                        <span class="yz-home-ranking-head-num">2</span>
                     </div>
                     <p class="yz-home-ranking-name">娇御</p>
                     <div class="yz-home-ranking-user-details">
@@ -384,8 +426,8 @@
                 </div>
                 <div class="yz-home-ranking-details">
                     <div class="yz-home-ranking-head">
-                            <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
-                            <span class="yz-home-ranking-head-num">3</span>
+                        <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
+                        <span class="yz-home-ranking-head-num">3</span>
                     </div>
                     <p class="yz-home-ranking-name">娇御</p>
                     <div class="yz-home-ranking-user-details">
@@ -400,230 +442,230 @@
             </div>
             <ul class="yz-home-ranking-list-ul">
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
-       <div class="yz-home-ranking-list yz-home-ranking-middle">
+        <div class="yz-home-ranking-list yz-home-ranking-middle">
             <div class="yz-home-ranking-title">
-                <img src="./static/img/icon_xingxing.png" alt=""> 
+                <img src="./static/img/icon_xingxing.png" alt="">
                 人气榜
             </div>
             <div class="yz-home-ranking-nav">
                 <span class="yz-home-ranking-nav-active">周榜</span>
                 <span>总榜</span>
             </div>
-           <div class="yz-home-ranking-details">
-               <div class="yz-home-ranking-head">
+            <div class="yz-home-ranking-details">
+                <div class="yz-home-ranking-head">
                     <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
                     <span class="yz-home-ranking-head-num">1</span>
-               </div>
+                </div>
                 <p class="yz-home-ranking-name">娇御</p>
                 <div class="yz-home-ranking-user-details">
                     <p class="yz-details">
@@ -638,8 +680,8 @@
             <div class="yz-home-ranking-winner">
                 <div class="yz-home-ranking-details">
                     <div class="yz-home-ranking-head">
-                            <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
-                            <span class="yz-home-ranking-head-num">2</span>
+                        <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
+                        <span class="yz-home-ranking-head-num">2</span>
                     </div>
                     <p class="yz-home-ranking-name">娇御</p>
                     <div class="yz-home-ranking-user-details">
@@ -653,8 +695,8 @@
                 </div>
                 <div class="yz-home-ranking-details">
                     <div class="yz-home-ranking-head">
-                            <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
-                            <span class="yz-home-ranking-head-num">3</span>
+                        <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
+                        <span class="yz-home-ranking-head-num">3</span>
                     </div>
                     <p class="yz-home-ranking-name">娇御</p>
                     <div class="yz-home-ranking-user-details">
@@ -669,230 +711,230 @@
             </div>
             <ul class="yz-home-ranking-list-ul">
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
-        </div> 
+        </div>
         <div class="yz-home-ranking-list">
             <div class="yz-home-ranking-title">
-                <img src="./static/img/icon_qian.png" alt=""> 
+                <img src="./static/img/icon_qian.png" alt="">
                 富豪榜
             </div>
             <div class="yz-home-ranking-nav">
                 <span class="yz-home-ranking-nav-active">周榜</span>
                 <span>总榜</span>
             </div>
-           <div class="yz-home-ranking-details">
-               <div class="yz-home-ranking-head">
+            <div class="yz-home-ranking-details">
+                <div class="yz-home-ranking-head">
                     <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
                     <span class="yz-home-ranking-head-num">1</span>
-               </div>
+                </div>
                 <p class="yz-home-ranking-name">娇御</p>
                 <div class="yz-home-ranking-user-details">
                     <p class="yz-details">
@@ -907,8 +949,8 @@
             <div class="yz-home-ranking-winner">
                 <div class="yz-home-ranking-details">
                     <div class="yz-home-ranking-head">
-                            <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
-                            <span class="yz-home-ranking-head-num">2</span>
+                        <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
+                        <span class="yz-home-ranking-head-num">2</span>
                     </div>
                     <p class="yz-home-ranking-name">娇御</p>
                     <div class="yz-home-ranking-user-details">
@@ -922,8 +964,8 @@
                 </div>
                 <div class="yz-home-ranking-details">
                     <div class="yz-home-ranking-head">
-                            <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
-                            <span class="yz-home-ranking-head-num">3</span>
+                        <img class="yz-home-ranking-head-img" src="./static/img/touxiang1.png" alt="">
+                        <span class="yz-home-ranking-head-num">3</span>
                     </div>
                     <p class="yz-home-ranking-name">娇御</p>
                     <div class="yz-home-ranking-user-details">
@@ -938,217 +980,227 @@
             </div>
             <ul class="yz-home-ranking-list-ul">
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <div class="yz-home-ranking-list-ul-head">
+                    <div class="yz-home-ranking-list-ul-head">
                         <img class="yz-home-ranking-list-ul-head-img" src="./static/img/touxiang1.png" alt="">
                         <span class="yz-home-ranking--list-ul-head-num">3</span>
-                   </div> 
-                   <div class="yz-home-ranking-list-ul-details">
-                       <div class="details">
+                    </div>
+                    <div class="yz-home-ranking-list-ul-details">
+                        <div class="details">
                             <p class="yz-home-ranking-name">娇御</p>
-                           <span class="yz-grade">荣耀皇冠</span> 
-                       </div>
-                       <div class="bill">
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </div>
+                        <div class="bill">
                             <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
+                                <img src="./static/img/icon_nvxing.png" alt="">
                                 22
                             </p>
-                            <p class="yz-home-ranking-bill">接单2999次</p>  
-                       </div>
-                   </div>
+                            <p class="yz-home-ranking-bill">接单2999次</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
     </section>
+
+    <!-- 右侧固定栏 -->
+    <aside class="yz-aside">
+        <ul>
+            <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
+            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+            <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
+            <li><img src="./common/img/icon_top.png" alt="">top</li>
+        </ul>
+    </aside>
 
     <!-- 发布趣带萌新功能区 -->
     <section class="yz-relase-box yz-relase-none">
@@ -1163,11 +1215,11 @@
             <div class="form">
                 <label class="textLaber" for="">标题</label>
                 <input type="text" placeholder="如：高玩带队">
-             </div>
+            </div>
             <div class="form">
                 <label class="textLaber" for="">备注</label>
                 <input type="text" placeholder="如：高玩带队">
-             </div>
+            </div>
             <div class="select">
                 <p class="textLaber">选择游戏</p>
                 <ul>
@@ -1193,7 +1245,7 @@
 
 
     <!-- 发布免费开黑功能区 -->
-    <section class="yz-relase-box">
+    <section class="yz-relase-box yz-relase-none">
         <div class="title">
             发布免费开黑任务
         </div>
@@ -1210,7 +1262,7 @@
                     <option value="长沙无极网吧">长沙无极网吧</option>
                     <option value="长沙天辰网吧">长沙天辰网吧</option>
                 </select>
-             </div>
+            </div>
             <div class="form">
                 <label class="textLaber" for="">选择时限</label>
                 <select name="" id="" class="selectTime">
@@ -1222,7 +1274,7 @@
                     <option value="等待">等待</option>
                     <option value="到达">到达</option>
                 </select>
-             </div>
+            </div>
             <div class="form">
                 <label class="textLaber" for="">标题</label>
                 <input type="text" placeholder="如：高玩带队">
@@ -1230,16 +1282,16 @@
             <div class="form">
                 <label class="textLaber" for="">备注</label>
                 <textarea type="" placeholder="如：高玩带队"></textarea>
-             </div>
+            </div>
             <div class="yz-relase-btn">
                 <button>发布</button>
             </div>
         </div>
     </section>
-    
+
 
     <!-- 发布意见反馈功能区 -->
-    <section class="yz-relase-box">
+    <section class="yz-relase-box yz-relase-none">
         <div class="title">
             您的意见
         </div>
@@ -1280,4 +1332,5 @@
         </div>
     </footer>
 </body>
+
 </html>

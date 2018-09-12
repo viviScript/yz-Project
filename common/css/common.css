@@ -2,7 +2,6 @@
 .yz-header {
    width: 100%;
    height: 100px;
-   overflow: hidden;
    font-size: 16px;
    position: fixed;
    top: 0;
@@ -22,7 +21,6 @@
 }
 .yz-nav {
     width: 1200px;
-    overflow: hidden;
     line-height: 39px;
     margin: 30px auto;
     padding-left: 100px;
@@ -42,7 +40,7 @@
     position: relative;
     margin: 0 15px;
     cursor: pointer;
-    padding: 0 20px;
+    padding: 0 10px;
     border-radius: 10px;
 }
 .yz-ul li:hover {
@@ -60,12 +58,129 @@
 .yz-user-img {
     width: 30px;
     height: 30px;
-    display: inline;
-    margin: 0 10px;
-    vertical-align: middle;
+    float: left;
+    background: #000;
+    position: relative;
+    margin-right: 10px;
+}
+.yz-user-img img {
+    width: 100%;
+    height: 100%;
+}
+.yz-user-search {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px 0 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(123,123,123, 0.6);
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.yz-app-download {
+    float: left;
+    margin-right: 10px;
+}
+.yz-user-search::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+}
+.yz-user-login {
+    float: left;
 }
 
-
+.yz-user-details {
+    width: 247px;
+    height: 284px;
+    border: 1px solid #e1e1e1;
+    position: absolute;
+    bottom: -300px;
+    left: -100px;
+    z-index: 1888;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #666666;
+    display: none;
+}
+.yz-user-sanjiao{
+    width: 0px;
+    position: absolute;
+    top: -21px;
+    left: 110px;
+    height: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #e1e1e1 transparent;
+}
+.yz-user-details .head-img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 20px auto 14px;
+    border-radius: 60px;
+}
+.yz-user-details .head-name {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+}
+.yz-user-details .yz-details {
+    width: 40px;
+    display: block;
+    margin: 4px auto;
+}
+.yz-user-details .yz-user-rank{
+    width: 100%;
+    display: block;
+    margin: 4px auto;
+    text-align: center;
+    font-size: 14px;
+}
+.yz-user-details .yz-user-rank .vip {
+    width: 60px;
+    text-align: right;
+    display: inline-block;
+}
+.yz-user-details .yz-user-rank .line {
+    margin: 0 5px;
+    color: #e1e1e1;
+}
+.yz-user-details .list {
+    width: auto;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.yz-user-details .list li {
+    width: 20%;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+.yz-user-details .list li img {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-user-details .list li p {
+    height: 15px;
+    line-height:15px;
+}
+.yz-user-logout {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-top: 14px;
+    cursor: pointer;
+}
 /*  通用用户卡片 */
 
 .yz-card {
@@ -324,7 +439,7 @@
 }
 .yz-aside ul li img{
     display: block;
-    margin: 30px auto 10px;
+    margin: 22px auto 10px;
 }
 .yz-aside-active {
     background-color: rgb(253,92,45);

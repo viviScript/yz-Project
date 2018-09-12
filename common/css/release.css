@@ -23,6 +23,15 @@
     text-align: left;
     border-bottom: 1px solid #e1e1e1;
     color: #333333;
+    position: relative;
+}
+.yz-relase-box .title .close {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #666666;
 }
 .yz-relase-box .content {
     width: auto;

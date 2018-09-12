@@ -8,8 +8,13 @@
    top: 0;
    left: 0;
    z-index: 1999;
+   color: #fff;
 }
-
+.yz-header-bg {
+    background: #fff;
+    color: rgb(108,108,108);
+    border-bottom: 1px solid rgba(108, 108, 108, 0.2);
+}
 .yz-nav {
     width: 1200px;
     overflow: hidden;
@@ -18,18 +23,22 @@
     padding-left: 100px;
     background: url(../img/logo.png) no-repeat left 4px;
     background-size: 100px;
-    color: #fff;
 }
 
 .yz-ul {
     float: left;
     
 }
+.yz-ul-active {
+    border-bottom: #fff 2px solid;
+}
 .yz-ul li {
     float: left;
     margin: 0 25px;
 }
-
+.yz-ul li:hover {
+    border-bottom: #fff 2px solid; 
+}
 .yz-user {
     float: right;
     line-height: 40px;

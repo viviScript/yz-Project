@@ -120,6 +120,7 @@
 }
 .yz-home-newHot-card-details {
     width: 100%;
+    overflow: hidden;
     margin-top: 10px;
 }
 .yz-home-newHot-card-details p{
@@ -145,6 +146,7 @@
 }
 .yz-home-ranking-title {
     width: 100%;
+    height: 38px;
     text-align: center;
     color: rgb(255,48,49);
     font-size: 25px;
@@ -155,12 +157,7 @@
     display: inline;
     vertical-align: bottom;
 }
-.yz-home-ranking-details {
-    margin: 0 auto;
-}
-.yz-home-ranking-head{
-    position: relative;
-}
+
 .yz-home-ranking-head-bg {
     width: 100px;
     height: 100px;
@@ -175,6 +172,7 @@
 }
 .yz-home-ranking-nav {
     width: 45%;
+    overflow: hidden;
     line-height: 30px;
     margin: 0 auto;
 }
@@ -193,7 +191,130 @@
     border-radius: 10px;
     text-align: center;
 }
-
-.yz-home-ranking-two {
+.yz-home-ranking-details {
+    width: 40%;
+    margin: 0 auto;
+}
+.yz-home-ranking-user-details {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto; 
+}
+.yz-home-ranking-user-details p{
+    float: left;
+}
+.yz-home-ranking-user-details span{
+    float: right;
+}
+.yz-home-ranking-head-img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+}
+.yz-home-ranking-head-num {
     width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    z-index: 10;
+    font-size: 70px;
+    color: #fff;
+}
+.yz-home-ranking-head{
+    width: 100%;
+    position: relative;
+    background: url(../img/huangguan.png) no-repeat 13px 0;
+    background-size: 100%;
+}
+.yz-home-ranking-name {
+    text-align: center;
+    padding: 6px 0;
+    display: block;
+}
+.yz-home-ranking-winner {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.yz-home-ranking-winner .yz-home-ranking-details {
+    width: 45%;
+    font-size: 14px;
+}
+.yz-home-ranking-winner .yz-home-ranking-details:first-child {
+    float: left;
+}
+.yz-home-ranking-winner .yz-home-ranking-details:last-child {
+    float: right;
+}
+.yz-home-ranking-winner .yz-home-ranking-head {
+    background-position: 11px 4px;
+}
+.yz-home-ranking-bill {
+    text-align: center;
+    color: rgb(102,102,102);
+    padding: 4px 0;
+}
+.yz-home-ranking-list-ul {
+    width: 100%;
+    overflow: hidden;
+}
+.yz-home-ranking-list-ul-head{
+    width: 30%;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+.yz-home-ranking-list-ul-head-img {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.yz-home-ranking--list-ul-head-num {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    z-index: 10;
+    font-size: 40px;
+    color: #fff; 
+}
+.yz-home-ranking-list-ul li {
+    width: auto;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-top: 1px dashed rgb(167,214,285);
+}
+.yz-home-ranking-list-ul-details {
+    width: 70%;;
+    float: left;
+}
+.yz-home-ranking-list-ul-details .details {
+    width: 100%;
+    height: 30px;
+}
+.yz-home-ranking-list-ul-details .details .yz-home-ranking-name {
+    float: left;
+}
+.yz-home-ranking-list-ul-details .details .yz-grade {
+    float: right;
+}
+.yz-home-ranking-list-ul-details .bill {
+    width: 100%;
+    height: 30px;
+}
+.yz-home-ranking-list-ul-details .bill .yz-details{
+    float: left;
+}
+.yz-home-ranking-list-ul-details .bill .yz-home-ranking-bill {
+    float: right;
+}
+
+.yz-home-ranking-middle {
+    margin: 0 3.333%;
 }

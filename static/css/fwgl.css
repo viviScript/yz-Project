@@ -1,0 +1,36 @@
+
+.yz-fwgl-box {
+    width: auto;
+    min-height: 800px;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: #fff;
+}
+.yz-fwgl-box .title {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-fwgl-box .nav {
+    width: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    color: #666666;
+}
+.yz-fwgl-box .nav li{
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    float: left;
+    text-align: center;
+}
+.yz-fwgl-box .nav .nav-active{
+    color: #ff733a;
+    border-bottom: 4px solid #ff733a;
+}

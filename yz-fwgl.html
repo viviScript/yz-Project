@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>约战电竞-安全中心</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='./common/js/common.js'></script>
+    <link rel="stylesheet" href="./common//css/reset.css">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./static/css/fwgl.css">
+    <link rel="stylesheet" href="./common/css/grzx.css">
+    <link rel="stylesheet" href="./static/css/fwgl-release.css">
+</head>
+
+<body>
+
+    <!-- 头部导航栏 -->
+    <header class="yz-header yz-header-bg">
+        <nav class="yz-nav">
+            <!-- <img class='yz-logo' src="./static/img/logo.png" alt=""> -->
+            <ul class='yz-ul'>
+                <li onclick="setUrl('./yz-home.html')" class="yz-ul-active">首页</li>
+                <li onclick="setUrl('./yz-zyds.html')">
+                    职业大神
+                    <img src="./common/img/jiaru.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-mfkh.html')">免费开黑
+                    <img src="./common/img/free.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-qdmx.html')">趣带萌新
+                    <img src="./common/img/new.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-xxpw.html')">线下陪玩
+                    <img src="./common/img/hot.gif" alt="">
+                </li>
+                <li class="yz-header-active onclick=" setUrl('./yz-wbss.html')">网吧赛事 </li> <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
+                <li onclick="setUrl('./yz-hd.html')">活动</li>
+            </ul>
+            <div class="yz-user">
+                <input class="yz-user-search" type="text" placeholder="ID/手机号/靓号">
+                <span class="yz-app-download">APP下载</span>
+                <div class="yz-user-img">
+                    <img src="./static/img/icon_me.png" alt="">
+                    <div class="yz-user-details">
+                        <div></div>
+                        <img class="head-img" src="./static/img/touxiang.jpg" alt="">
+                        <p class="head-name">娇御</p>
+                        <p class="yz-details">
+                            <img src="./static/img/icon_nvxing.png" alt="">
+                            22
+                        </p>
+                        <p class="yz-user-rank">
+                            <span class="vip">vip0</span>
+                            <span class="line">|</span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <ul class="list">
+                            <li>
+                                <img src="./common/img/icon_qianbao.png" alt="">
+                                <p>充值</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_tixian.png" alt="">
+                                <p>提现</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_quanzi.png" alt="">
+                                <p>圈子</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_xiaoxi.png" alt="">
+                                <p>消息</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_shezhi.png" alt="">
+                                <p>设置</p>
+                            </li>
+                        </ul>
+                        <p class="yz-user-logout">退出登陆</p>
+                    </div>
+                </div>
+                <span class="yz-user-login">登陆/注册</span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="yz-grzx yz-section-auto yz-section-top">
+        <!-- 个人中心左侧栏 -->
+        <aside class="yz-grzx-left">
+            <div class="yz-grzx-left-title">
+                <img src="./common/img/icon_guanli.png" alt="">
+                管理
+            </div>
+            <ul class="yz-grzx-left-list">
+                <li>我的订单</li>
+                <li>我的钱包</li>
+                <li>会员中心</li>
+                <li class="yz-grzx-active">服务管理</li>
+                <li onclick="setUrl('./yz-ddgl.html')">订单管理</li>
+            </ul>
+            <div class="yz-grzx-left-title">
+                <img src="./common/img/icon__grzx_shezhi.png" alt="">
+                设置
+            </div>
+            <ul class="yz-grzx-left-list">
+                <li>个人资料</li>
+                <li>安全中心</li>
+            </ul>
+        </aside>
+
+        <!-- 安全中心 -->
+        <div class="yz-grzx-right">
+            <div class="yz-fwgl-box">
+                <p class="title">安全中心</p>
+                <ul class="nav">
+                    <li class="nav-active">免费开黑</li>
+                    <li>趣带萌新</li>
+                    <li>职业大神</li>
+                    <li>线下陪玩</li>
+                </ul>
+                <div class="mfkh yz-fwgl-relase-box">
+                    <div class="content">
+                        <div class="form">
+                            <label class="textLaber" for="">选择网吧</label>
+                            <select name="" id="" class="selectBar">
+                                <option value="长沙四季网吧">长沙四季网吧</option>
+                                <option value="长沙无极网吧">长沙无极网吧</option>
+                                <option value="长沙天辰网吧">长沙天辰网吧</option>
+                            </select>
+                            <select name="" id="" class="selectBar">
+                                <option value="长沙四季网吧">长沙四季网吧</option>
+                                <option value="长沙无极网吧">长沙无极网吧</option>
+                                <option value="长沙天辰网吧">长沙天辰网吧</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label class="textLaber" for="">选择时限</label>
+                            <select name="" id="" class="selectTime">
+                                <option value="10分钟">10分钟</option>
+                                <option value="30分钟">30分钟</option>
+                                <option value="1小时">1小时</option>
+                            </select>
+                            <select name="" id="" class="selectTime">
+                                <option value="等待">等待</option>
+                                <option value="到达">到达</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label class="textLaber" for="">标题</label>
+                            <input type="text" placeholder="如：高玩带队">
+                        </div>
+                        <div class="form">
+                            <label class="textLaber" for="">备注</label>
+                            <textarea type="" placeholder="如：高玩带队"></textarea>
+                        </div>
+                        <div class="yz-fwgl-relase-btn">
+                            <button>发布</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 右侧固定栏 -->
+    <aside class="yz-aside">
+        <ul>
+            <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
+            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+            <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
+            <li><img src="./common/img/icon_top.png" alt="">top</li>
+        </ul>
+    </aside>
+
+    <!-- 脚部区 -->
+    <footer class="yz-footer">
+        <div class="yz-footer-box">
+            <div class="yz-footer-flow">
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_mian.png" alt="">
+                    <p class="yz-footer-flow-text">消费不满意 无理由退单</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_tui.png" alt="">
+                    <p class="yz-footer-flow-text">下单未开始 订单随时退</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_kuaisu.png" alt="">
+                    <p class="yz-footer-flow-text">八分钟未接单 立即退款</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_qian1.png" alt="">
+                    <p class="yz-footer-flow-text">实时掌控工资 给您安心</p>
+                </div>
+            </div>
+            <p class="yz-footer-info">Copyright www.91yuezhan.com,All Rights Reserved</p>
+            <p class="yz-footer-info">Email:531745270@qq.com QQ:531745270</p>
+        </div>
+    </footer>
+</body>
+
+</html>

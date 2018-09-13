@@ -1,0 +1,62 @@
+.yz-grzx {
+    position: relative;
+}
+
+/* 个人中心左侧固定 */
+.yz-grzx-left {
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+.yz-grzx-left-title {
+    width: auto;
+    padding-top: 24px;
+    height: 60px;
+    text-align: left;
+    line-height: 60px;
+    font-size: 20px;
+    color: #333;
+}
+.yz-grzx-left-title img {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+.yz-grzx-left-list {
+    width: auto;
+    font-size: 20px;
+    color: #666666;
+}
+.yz-grzx-left-list li{
+    width: auto;
+    padding-left: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    cursor: pointer;
+    border-left: 4px solid transparent;
+}
+.yz-grzx-left-list li:hover{
+    color: #ff885c;
+    border-left-color: #ff733a;
+    background-color: #fff1eb;
+}
+.yz-grzx-active {
+    color: #ff885c !important;
+    border-left-color: #ff733a !important;
+    background-color: #fff1eb !important;
+}
+
+
+/* 个人中右侧固定栏 */
+
+.yz-grzx-right {
+    width: auto;
+    min-height: 800px;
+    overflow: hidden;
+    padding-left: 240px;
+}

@@ -23,7 +23,7 @@
 
 .yz-home-search-text {
     display: block;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .yz-home-search-input {
@@ -113,6 +113,7 @@
 }
 .yz-home-newHot-card-headImg {
     width: 100px;
+    height: 100px;
     border-radius: 100%;
     margin: 0 auto;
     display: block;
@@ -217,7 +218,9 @@
     float: right;
 }
 .yz-home-ranking-head-img {
-    width: 80%;
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
     margin: 0 auto;
     display: block;
     padding-top: 30px;
@@ -249,6 +252,11 @@
     width: 80%;
     overflow: hidden;
     margin: 0 auto;
+}
+.yz-home-ranking-winner .yz-home-ranking-head-img{
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
 }
 .yz-home-ranking-winner .yz-home-ranking-details {
     width: 45%;
@@ -284,7 +292,9 @@
     float: left;
 }
 .yz-home-ranking-list-ul-head-img {
-    height: 100%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
     margin: 0 auto;
     display: block;
 }

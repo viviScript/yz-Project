@@ -136,6 +136,13 @@
 }
 
 /* 三大排行榜 */
+.yz-home-ranking-box {
+    width: 100%;
+    overflow: hidden;
+    background:url(../img/yinpin.png) no-repeat top center;
+    background-size: 100%;
+}
+
 .yz-home-ranking {
     width: 1200px;
     margin: 35px auto;
@@ -188,15 +195,15 @@
     cursor: pointer;
 }
 .yz-home-ranking-nav-active {
-    padding: 0 6px;
+    padding: 0 10px;
     background-color: rgb(31, 198, 251);
     color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
 }
 .yz-home-ranking-details {
     width: 40%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .yz-home-ranking-user-details {
     width: 80%;
@@ -231,6 +238,7 @@
     position: relative;
     background: url(../img/huangguan.png) no-repeat 13px 0;
     background-size: 100%;
+    margin-bottom: 10px;
 }
 .yz-home-ranking-name {
     text-align: center;
@@ -259,6 +267,11 @@
     text-align: center;
     color: rgb(102,102,102);
     padding: 4px 0;
+    font-size: 14px;
+}
+.yz-home-ranking-contribute {
+    color: #ff3030;
+    font-size: 16px;
 }
 .yz-home-ranking-list-ul {
     width: 100%;
@@ -314,6 +327,9 @@
 .yz-home-ranking-list-ul-details .bill .yz-details{
     float: left;
 }
+.yz-home-ranking-list-ul-details .yz-home-ranking-contribute {
+    float: right;
+}
 .yz-home-ranking-list-ul-details .bill .yz-home-ranking-bill {
     float: right;
 }
@@ -321,3 +337,6 @@
 .yz-home-ranking-middle {
     margin: 0 3.333%;
 }
+ .yz-home-ranking-rich {
+     margin-bottom: 44px;
+ }

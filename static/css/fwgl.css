@@ -29,8 +29,22 @@
     font-size: 22px;
     float: left;
     text-align: center;
+    cursor: pointer;
 }
 .yz-fwgl-box .nav .nav-active{
     color: #ff733a;
     border-bottom: 4px solid #ff733a;
+}
+
+.yz-fwgl-mfkh {
+    /* display: none; */
+}
+.yz-fwgl-qdmx {
+    display: none;
+}
+.yz-fwgl-zyds {
+    display: none;
+}
+.yz-fwgl-xxpw {
+    display: none;
 }

@@ -33,6 +33,20 @@
     width: auto;
     padding: 50px 109px 0;
 }
+.yz-fwgl-relase-box .content .title-content{
+    width: auto;
+    text-align: left;
+    color: #ff3030;
+}
+.yz-fwgl-relase-box .content .title-explain{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    color: #e1e1e1;
+}
 .yz-fwgl-relase-box .content .options{
     width: 100%;
 }
@@ -70,6 +84,9 @@
     border: 1px solid #e1e1e1;
     font-size: 14px;
     color: #999999;
+}
+.yz-fwgl-relase-box .form .form-float {
+    float: left;
 }
 .yz-fwgl-relase-box .select {
     width: 100%;

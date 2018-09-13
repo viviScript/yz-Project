@@ -1,0 +1,257 @@
+/* 账户充值头部 */
+.yz-czzx-titleName {
+    height: 77px;
+    line-height: 77px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.yz-czzx-titleName span {
+    float: left;
+    margin-left: 15px;
+    color: #333333;
+}
+.yz-czzx-titleName .line {
+    width: 2px;
+    height: 20px;
+    background-color: #ff733a;
+    display: block;
+    margin-top: 28px;
+    margin-right: 6px;
+}
+
+/* 充值类型与金额 */
+
+.yz-czzx-type {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.yz-czzx-block {
+    width: auto;
+    overflow: hidden;
+    line-height: 40px;
+    padding: 30px 40px;
+}
+.yz-czzx-label {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    color: #333333;
+    display: block;
+    float: left;
+}
+.yz-czzx-block .price {
+    float: left;
+    font-size: 18px;
+    color: #ff5b5b;
+}
+.yz-czzx-block .priceSelect {
+    width: auto;
+    float: left;
+}
+.yz-czzx-block .priceSelect li {
+    float: left;
+    padding: 0 20px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.yz-czzx-block .priceSelect li:hover {
+    color: #ff733a !important;
+    border: 1px solid #ff733a !important; 
+}
+.price-default {
+    color: #e1e1e1;
+    border: 1px solid #e1e1e1;
+}
+.price-active {
+    color: #ff733a !important;
+    border: 1px solid #ff733a !important;
+}
+.price-input {
+    width: 150px;
+    height: 38px;
+    float: left;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.yz-czzx-pay{
+    width: auto;
+    float: left;
+}
+.yz-czzx-pay .pay-block{
+    width: 140px;
+    height: 66px;
+    line-height: 66px;
+    float: left;
+    border-radius: 4px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.yz-czzx-pay .pay-block img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.pay-active {
+    color: #ff733a !important;
+    border: 1px solid #ff733a !important;
+}
+.yz-czzx-order {
+    width: auto;
+    overflow: hidden;
+}
+.yz-czzx-order-btn {
+    width: 166px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #ff733a;
+    display: block;
+    float: left;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.yz-czzx-order-txt {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    float: left;
+    color: #b8b8b8;
+    border-radius: 6px;
+    text-align: left;
+}
+
+/* 充值介绍 */
+.yz-czzx-referral {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 20px 0 40px; 
+}
+.yz-czzx-title {
+    width: 95%;
+    height: 40px;
+    line-height: 40px;
+    margin:  0 auto;
+    display: block;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-czzx-yuan {
+    width: 10px;
+    height: 10px;
+    background-color: #ff733a;
+    border-radius: 4px;
+    display: block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.yz-czzx-referral-list {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.yz-czzx-referral-list li{
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+.yz-czzx-referral-list li img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 0;
+}
+.yz-czzx-referral-list li .text{
+    font-size: 18px;
+    padding: 10px 0 20px;
+    color: #333333;
+}
+.yz-czzx-referral-list li .rank{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    margin: 10px auto;
+    padding: 2px 4px;
+    color: #ffac91;
+    background-color: #fff1eb;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+
+/* 充值说明 */
+.yz-czzx-explain {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 20px 0 40px; 
+}
+
+.yz-czzx-explain-list {
+    width: 95%;
+    overflow: hidden;
+    margin: 20px auto;
+    display: block;
+    border-radius: 4px;
+    border: 1px dashed #e1e1e1;
+}
+
+.yz-czzx-explain-list .item {
+    width: auto;
+    overflow: hidden;
+    border-bottom: 1px dashed#e1e1e1; 
+}
+.yz-czzx-explain-list .item .name{
+    width: 118px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #f5f5f5;
+    float: left;
+}
+.yz-czzx-explain-list .item .list{
+    width: 89%;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    float: left;
+}
+.yz-czzx-explain-list .item .list li{
+    width: 10%;
+    height: 55px;
+    display: block;
+    float: left;
+}
+.yz-czzx-explain-list .item .list li img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.orange {
+    width: 100%;
+    height: 55px;
+    display: block;
+    text-align: center;
+    line-height: 55px;
+    color: #ffac91;
+}
+.yz-czzx-explain-list .item .text {
+    width: auto;
+    height: 55px;
+    line-height: 55px;
+    text-align: left;
+    margin-left: 20px;
+    color: #808080;
+    float: left;
+    font-size: 14px;
+}

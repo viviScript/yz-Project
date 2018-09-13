@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>约战电竞-趣带萌新</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='./common/js/common.js'></script>
+    <link rel="stylesheet" href="./common//css/reset.css">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./static/css/czzx.css">
+</head>
+
+<body>
+
+    <!-- 头部导航栏 -->
+    <header class="yz-header yz-header-bg">
+        <nav class="yz-nav">
+            <!-- <img class='yz-logo' src="./static/img/logo.png" alt=""> -->
+            <ul class='yz-ul'>
+                <li onclick="setUrl('./yz-home.html')" class="yz-ul-active">首页</li>
+                <li onclick="setUrl('./yz-zyds.html')">
+                    职业大神
+                    <img src="./common/img/jiaru.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-mfkh.html')">免费开黑
+                    <img src="./common/img/free.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-qdmx.html')">趣带萌新
+                    <img src="./common/img/new.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-xxpw.html')">线下陪玩
+                    <img src="./common/img/hot.gif" alt="">
+                </li>
+                <li class="yz-header-active onclick=" setUrl('./yz-wbss.html')">网吧赛事 </li> <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
+                <li onclick="setUrl('./yz-hd.html')">活动</li>
+            </ul>
+            <div class="yz-user">
+                <input class="yz-user-search" type="text" placeholder="ID/手机号/靓号">
+                <span class="yz-app-download">APP下载</span>
+                <div class="yz-user-img">
+                    <img src="./static/img/icon_me.png" alt="">
+                    <div class="yz-user-details">
+                        <div></div>
+                        <img class="head-img" src="./static/img/touxiang.jpg" alt="">
+                        <p class="head-name">娇御</p>
+                        <p class="yz-details">
+                            <img src="./static/img/icon_nvxing.png" alt="">
+                            22
+                        </p>
+                        <p class="yz-user-rank">
+                            <span class="vip">vip0</span>
+                            <span class="line">|</span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <ul class="list">
+                            <li>
+                                <img src="./common/img/icon_qianbao.png" alt="">
+                                <p>充值</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_tixian.png" alt="">
+                                <p>提现</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_quanzi.png" alt="">
+                                <p>圈子</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_xiaoxi.png" alt="">
+                                <p>消息</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_shezhi.png" alt="">
+                                <p>设置</p>
+                            </li>
+                        </ul>
+                        <p class="yz-user-logout">退出登陆</p>
+                    </div>
+                </div>
+                <span class="yz-user-login">登陆/注册</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 账户充值 -->
+    <section class="yz-czzx-titleName yz-section-auto yz-section-top">
+        <span class="line"></span>
+        <span>账户充值</span>
+    </section>
+
+    <!-- 充值类型与金额 -->
+    <section class="yz-czzx-type yz-section-auto">
+        <div class="yz-czzx-block">
+            <span class="yz-czzx-label">账户余额：</span>
+            <p class="price">$10.00</p>
+        </div>
+        <div class="yz-czzx-block">
+            <span class="yz-czzx-label">充值金额：</span>
+            <ul class="priceSelect">
+                <li class="price-active">98元</li>
+                <li class="price-default">198元</li>
+                <li class="price-default">298元</li>
+                <li class="price-default">398元</li>
+                <li class="price-default">598元</li>
+                <li class="price-default">888元</li>
+                <li class="price-default">999元</li>
+                <input placeholder="输入充值金额" class="price-input" type="text">
+            </ul>
+        </div>
+        <div class="yz-czzx-block">
+            <span class="yz-czzx-label">充值方式：</span>
+            <div class="yz-czzx-pay">
+                <div class="pay-block">
+                    <img src="./static/img/icon_zhifubao.png" alt="">
+                    支付宝支付
+                </div>
+                <div class="pay-block pay-active">
+                    <img src="./static/img/icon_weixin.png" alt="">
+                    微信支付
+                </div>
+            </div>
+        </div> 
+        <div class="yz-czzx-block">
+            <span class="yz-czzx-label"></span>
+            <div class="yz-czzx-order">
+                <div class="yz-czzx-order-btn">提交订单</div>
+                <p class="yz-czzx-order-txt">注：充值金额不能用于提现！</p>
+            </div>
+        </div> 
+    </section>
+
+    <!-- 充值介绍 -->
+    <section class="yz-czzx-referral yz-section-auto">
+        <p class="yz-czzx-title"><span class="yz-czzx-yuan"></span> 特权等级</p>
+        <ul class="yz-czzx-referral-list">
+            <li>
+                <img src="./static/img/xunzhang.png" alt="">
+                <p class="text">会员勋章</p>
+                <span class="rank">1v1开启</span>
+            </li>
+            <li>
+                <img src="./static/img/luwu.png" alt="">
+                <p class="text">贵族礼物</p>
+                <span class="rank">1v2开启</span>
+            </li>
+            <li>
+                <img src="./static/img/qingzhu.png" alt="">
+                <p class="text">生日祝福</p>
+                <span class="rank">1v3开启</span>
+            </li>
+            <li>
+                <img src="./static/img/czzx-huangguan.png" alt="">
+                <p class="text">更多祝福</p>
+                <span class="rank">敬请期待</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 充值说明 -->
+    <section class="yz-czzx-explain yz-section-auto">
+            <p class="yz-czzx-title"><span class="yz-czzx-yuan"></span> 说明</p>
+            <ul class="yz-czzx-explain-list">
+                <li class="item">
+                    <p class="name">获得勋章</p>
+                    <ul class="list">
+                        <li><img src="./static/img/v0.png" alt=""></li>
+                        <li><img src="./static/img/v1.png" alt=""></li>
+                        <li><img src="./static/img/v2.png" alt=""></li>
+                        <li><img src="./static/img/v3.png" alt=""></li>
+                        <li><img src="./static/img/v4.png" alt=""></li>
+                        <li><img src="./static/img/v5.png" alt=""></li>
+                        <li><img src="./static/img/v6.png" alt=""></li>
+                        <li><img src="./static/img/v7.png" alt=""></li>
+                        <li><img src="./static/img/v8.png" alt=""></li>
+                        <li><img src="./static/img/v9.png" alt=""></li>
+                        <li><img src="./static/img/v10.png" alt=""></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <p class="name">单次充值</p>
+                    <ul class="list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>1000</li>
+                        <li>2000</li>
+                        <li>5000</li>
+                        <li>10000</li>
+                        <li>20000</li>
+                        <li>30000</li>
+                        <li>60000</li>
+                        <li>100000</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <p class="name">累计消费(元)</p>
+                    <ul class="list">
+                        <li><span class="orange">>0</span></li>
+                        <li><span class="orange">>100</span></li>
+                        <li><span class="orange">>500</span></li>
+                        <li><span class="orange">>800</span></li>
+                        <li><span class="orange">>1888</span></li>
+                        <li><span class="orange">>3888</span></li>
+                        <li><span class="orange">>6888</span></li>
+                        <li><span class="orange">>18888</span></li>
+                        <li><span class="orange">>38888</span></li>
+                        <li><span class="orange">>68888</span></li>
+                        <li><span class="orange">>158888</span></li>
+                        <li><span class="orange">>288888</span></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <p class="name">温馨提示</p>
+                    <p class="text">单次充值可获得临时等级15天，累计消费可获得永久等级。</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- 右侧固定栏 -->
+    <aside class="yz-aside">
+        <ul>
+            <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
+            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+            <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
+            <li><img src="./common/img/icon_top.png" alt="">top</li>
+        </ul>
+    </aside>
+
+    <!-- 脚部区 -->
+    <footer class="yz-footer">
+        <div class="yz-footer-box">
+            <div class="yz-footer-flow">
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_mian.png" alt="">
+                    <p class="yz-footer-flow-text">消费不满意 无理由退单</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_tui.png" alt="">
+                    <p class="yz-footer-flow-text">下单未开始 订单随时退</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_kuaisu.png" alt="">
+                    <p class="yz-footer-flow-text">八分钟未接单 立即退款</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_qian1.png" alt="">
+                    <p class="yz-footer-flow-text">实时掌控工资 给您安心</p>
+                </div>
+            </div>
+            <p class="yz-footer-info">Copyright www.91yuezhan.com,All Rights Reserved</p>
+            <p class="yz-footer-info">Email:531745270@qq.com QQ:531745270</p>
+        </div>
+    </footer>
+</body>
+
+</html>

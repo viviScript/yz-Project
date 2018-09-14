@@ -43,41 +43,47 @@
                 <div class="yz-user-img">
                     <img src="./static/img/icon_me.png" alt="">
                     <div class="yz-user-details">
-                        <div></div>
-                        <img class="head-img" src="./static/img/touxiang.jpg" alt="">
-                        <p class="head-name">娇御</p>
-                        <p class="yz-details">
-                            <img src="./static/img/icon_nvxing.png" alt="">
-                            22
-                        </p>
-                        <p class="yz-user-rank">
-                            <span class="vip">vip0</span>
-                            <span class="line">|</span>
-                            <span class="yz-grade">荣耀皇冠</span>
-                        </p>
+                        <div class="yz-user-box">
+                            <img class="head-img" src="./static/img/touxiang.jpg" alt="">
+                            <div class="head-box">
+                                <p class="head-name">娇御</p>
+                                <p class="yz-details">
+                                    <img src="./static/img/icon_nvxing.png" alt="">
+                                    22
+                                </p>
+                                <p class="yz-user-rank">
+                                    <span class="vip">vip0</span>
+                                    <span class="line">|</span>
+                                    <span class="yz-grade">荣耀皇冠</span>
+                                </p>
+                            </div>
+                        </div>
                         <ul class="list">
-                            <li>
+                            <li onclick="setUrl('./yz-czzx.html')">
                                 <img src="./common/img/icon_qianbao.png" alt="">
                                 <p>充值</p>
                             </li>
-                            <li>
+                            <li onclick="setUrl('./yz-txzx.html')">
                                 <img src="./common/img/icon_tixian.png" alt="">
                                 <p>提现</p>
                             </li>
-                            <li>
+                            <li onclick="setUrl('./yz-qzzx.html')">
                                 <img src="./common/img/icon_quanzi.png" alt="">
                                 <p>圈子</p>
                             </li>
-                            <li>
+                            <li onclick="setUrl('./yz-xxzx.html')">
                                 <img src="./common/img/icon_xiaoxi.png" alt="">
                                 <p>消息</p>
                             </li>
+                            <li onclick="setUrl('./yz-aqzx.html')">
+                                <img src="./common/img/icon_shezhi.png" alt="">
+                                <p>个人中心</p>
+                            </li>
                             <li>
                                 <img src="./common/img/icon_shezhi.png" alt="">
-                                <p>设置</p>
+                                <p>退出登陆</p>
                             </li>
                         </ul>
-                        <p class="yz-user-logout">退出登陆</p>
                     </div>
                 </div>
                 <span class="yz-user-login">登陆/注册</span>
@@ -122,14 +128,14 @@
                     微信支付
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="yz-czzx-block">
             <span class="yz-czzx-label"></span>
             <div class="yz-czzx-order">
                 <div class="yz-czzx-order-btn">提交订单</div>
                 <p class="yz-czzx-order-txt">注：充值金额不能用于提现！</p>
             </div>
-        </div> 
+        </div>
     </section>
 
     <!-- 充值介绍 -->
@@ -161,63 +167,63 @@
 
     <!-- 充值说明 -->
     <section class="yz-czzx-explain yz-section-auto">
-            <p class="yz-czzx-title"><span class="yz-czzx-yuan"></span> 说明</p>
-            <ul class="yz-czzx-explain-list">
-                <li class="item">
-                    <p class="name">获得勋章</p>
-                    <ul class="list">
-                        <li><img src="./static/img/v0.png" alt=""></li>
-                        <li><img src="./static/img/v1.png" alt=""></li>
-                        <li><img src="./static/img/v2.png" alt=""></li>
-                        <li><img src="./static/img/v3.png" alt=""></li>
-                        <li><img src="./static/img/v4.png" alt=""></li>
-                        <li><img src="./static/img/v5.png" alt=""></li>
-                        <li><img src="./static/img/v6.png" alt=""></li>
-                        <li><img src="./static/img/v7.png" alt=""></li>
-                        <li><img src="./static/img/v8.png" alt=""></li>
-                        <li><img src="./static/img/v9.png" alt=""></li>
-                        <li><img src="./static/img/v10.png" alt=""></li>
-                    </ul>
-                </li>
-                <li class="item">
-                    <p class="name">单次充值</p>
-                    <ul class="list">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li>1000</li>
-                        <li>2000</li>
-                        <li>5000</li>
-                        <li>10000</li>
-                        <li>20000</li>
-                        <li>30000</li>
-                        <li>60000</li>
-                        <li>100000</li>
-                    </ul>
-                </li>
-                <li class="item">
-                    <p class="name">累计消费(元)</p>
-                    <ul class="list">
-                        <li><span class="orange">>0</span></li>
-                        <li><span class="orange">>100</span></li>
-                        <li><span class="orange">>500</span></li>
-                        <li><span class="orange">>800</span></li>
-                        <li><span class="orange">>1888</span></li>
-                        <li><span class="orange">>3888</span></li>
-                        <li><span class="orange">>6888</span></li>
-                        <li><span class="orange">>18888</span></li>
-                        <li><span class="orange">>38888</span></li>
-                        <li><span class="orange">>68888</span></li>
-                        <li><span class="orange">>158888</span></li>
-                        <li><span class="orange">>288888</span></li>
-                    </ul>
-                </li>
-                <li class="item">
-                    <p class="name">温馨提示</p>
-                    <p class="text">单次充值可获得临时等级15天，累计消费可获得永久等级。</p>
-                </li>
-            </ul>
-        </section>
+        <p class="yz-czzx-title"><span class="yz-czzx-yuan"></span> 说明</p>
+        <ul class="yz-czzx-explain-list">
+            <li class="item">
+                <p class="name">获得勋章</p>
+                <ul class="list">
+                    <li><img src="./static/img/v0.png" alt=""></li>
+                    <li><img src="./static/img/v1.png" alt=""></li>
+                    <li><img src="./static/img/v2.png" alt=""></li>
+                    <li><img src="./static/img/v3.png" alt=""></li>
+                    <li><img src="./static/img/v4.png" alt=""></li>
+                    <li><img src="./static/img/v5.png" alt=""></li>
+                    <li><img src="./static/img/v6.png" alt=""></li>
+                    <li><img src="./static/img/v7.png" alt=""></li>
+                    <li><img src="./static/img/v8.png" alt=""></li>
+                    <li><img src="./static/img/v9.png" alt=""></li>
+                    <li><img src="./static/img/v10.png" alt=""></li>
+                </ul>
+            </li>
+            <li class="item">
+                <p class="name">单次充值</p>
+                <ul class="list">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>1000</li>
+                    <li>2000</li>
+                    <li>5000</li>
+                    <li>10000</li>
+                    <li>20000</li>
+                    <li>30000</li>
+                    <li>60000</li>
+                    <li>100000</li>
+                </ul>
+            </li>
+            <li class="item">
+                <p class="name">累计消费(元)</p>
+                <ul class="list">
+                    <li><span class="orange">>0</span></li>
+                    <li><span class="orange">>100</span></li>
+                    <li><span class="orange">>500</span></li>
+                    <li><span class="orange">>800</span></li>
+                    <li><span class="orange">>1888</span></li>
+                    <li><span class="orange">>3888</span></li>
+                    <li><span class="orange">>6888</span></li>
+                    <li><span class="orange">>18888</span></li>
+                    <li><span class="orange">>38888</span></li>
+                    <li><span class="orange">>68888</span></li>
+                    <li><span class="orange">>158888</span></li>
+                    <li><span class="orange">>288888</span></li>
+                </ul>
+            </li>
+            <li class="item">
+                <p class="name">温馨提示</p>
+                <p class="text">单次充值可获得临时等级15天，累计消费可获得永久等级。</p>
+            </li>
+        </ul>
+    </section>
 
     <!-- 右侧固定栏 -->
     <aside class="yz-aside">

@@ -66,6 +66,7 @@
     float: right;
     line-height: 40px;
 }
+
 .yz-user-img {
     width: 30px;
     height: 30px;
@@ -108,34 +109,36 @@
     float: left;
     margin-top: 30px;
 }
-
+.yz-user-box {
+    width: auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
 .yz-user-details {
     width: 247px;
-    height: 284px;
+    overflow: hidden;
     border: 1px solid #e1e1e1;
     position: absolute;
-    bottom: -300px;
+    bottom: -275px;
     left: -100px;
     z-index: 1888;
     border-radius: 4px;
     background-color: #fff;
     color: #666666;
+    padding-bottom: 20px;
     display: none;
 }
-.yz-user-sanjiao{
-    width: 0px;
-    position: absolute;
-    top: -21px;
-    left: 110px;
-    z-index: 1888;
-    height: 0px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: transparent transparent #e1e1e1 transparent;
-}
+
 .yz-user-details .head-img {
     width: 60px;
     height: 60px;
+    border-radius: 60px;
+    margin: 20px;
+    float: left;
+}
+.yz-user-details .head-box {
+    width: 140px;
+    float: right;
     display: block;
     margin: 20px auto 14px;
     border-radius: 60px;
@@ -145,48 +148,77 @@
     height: 20px;
     line-height: 20px;
     display: block;
-    text-align: center;
+    text-align: left;
+    float: left;
 }
 .yz-user-details .yz-details {
     width: 40px;
     display: block;
     margin: 4px auto;
+    float: left;
 }
 .yz-user-details .yz-user-rank{
     width: 100%;
+    overflow: hidden;
     display: block;
     margin: 4px auto;
     text-align: center;
     font-size: 14px;
+    float: left;
 }
 .yz-user-details .yz-user-rank .vip {
-    width: 60px;
-    text-align: right;
-    display: inline-block;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    display: block;
+    float: left;
+    margin-right: 10px;
 }
 .yz-user-details .yz-user-rank .line {
+    width: 2px;
+    height: 24px;
+    line-height: 24px;
     margin: 0 5px;
+    display: block;
     color: #e1e1e1;
+    float: left;
+}
+.yz-user-details .yz-user-rank .yz-grade {
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    float: left;
 }
 .yz-user-details .list {
     width: auto;
     overflow: hidden;
+    display: block;
     padding: 0 10px;
 }
 .yz-user-details .list li {
-    width: 20%;
+    width: 110px;
+    height: 40px;
     float: left;
     font-size: 14px;
     text-align: center;
+    cursor: pointer;
+}
+.yz-user-details .list li:hover{
+    color: #ff885c;
 }
 .yz-user-details .list li img {
     width: 20px;
+    height: 20px;
     display: inline-block;
     vertical-align: middle;
 }
 .yz-user-details .list li p {
-    height: 15px;
-    line-height:15px;
+    width: 60px;
+    height: 20px;
+    line-height:20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .yz-user-logout {
     width: 100%;

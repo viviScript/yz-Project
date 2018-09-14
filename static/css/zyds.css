@@ -32,13 +32,20 @@
 .yz-zyds-gameType-list li{
     float: left;
     width: 140px;
+    overflow: hidden;
     text-align: center;
 }
 .yz-zyds-gameType-list li img{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     display: block;
     margin: 0 auto 10px;
+}
+.yz-zyds-gameType-list li span{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
 }
 .yz-zyds-gameType-rank {
     width: 100%;
@@ -78,7 +85,7 @@
     padding: 4px 10px;
     text-align: center;
     border-radius: 6px;
-    margin-right: 20px;
+    margin-right: 10px;
     cursor: pointer;
 }
 

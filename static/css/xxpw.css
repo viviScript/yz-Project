@@ -62,11 +62,12 @@
 .yz-xxpw-sort {
     width: 1200px;
     overflow: hidden;
-    margin: 40px auto 0;
+    margin: 30px auto;
 }
 
 .yz-xxpw-sort-ul {
     width: 100%;
+    overflow: hidden;
     overflow: hidden;
 }
 .yz-xxpw-sort-active {
@@ -74,14 +75,13 @@
     color: #fff !important;
 }
 .yz-xxpw-sort-ul li {
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
+    width: 96px;
+    height: 37px;
+    line-height: 37px;
     background-color: #fff;
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     color:rgb(114,114,114);
-    padding: 4px 10px;
     text-align: center;
     border-radius: 6px;
     margin-right: 10px;
@@ -101,12 +101,12 @@
     margin: 0 auto;
 }
 .yz-xxpw-userCard-left {
-    width: 80%;
+    width: 940px;
     overflow: hidden;
     float: left;
 }
 .yz-xxpw-userCard-right {
-    width: 20%;
+    width: 260px;
     overflow: hidden;
     float: left;
 }

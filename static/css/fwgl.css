@@ -4,14 +4,15 @@
     min-height: 800px;
     overflow: hidden;
     border-radius: 6px;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
 }
 .yz-fwgl-box .title {
     width: auto;
     height: 40px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 18px;
+    color: #333333;
     text-align: left;
     padding-bottom: 10px;
     border-bottom: 1px solid #e1e1e1;
@@ -26,10 +27,11 @@
     width: 25%;
     height: 40px;
     line-height: 40px;
-    font-size: 22px;
+    font-size: 18px;
     float: left;
     text-align: center;
     cursor: pointer;
+    color: #333333;
 }
 .yz-fwgl-box .nav .nav-active{
     color: #ff733a;

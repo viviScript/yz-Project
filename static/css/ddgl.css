@@ -3,7 +3,7 @@
     width: auto;
     overflow: hidden;
     border-radius: 6px;
-    padding: 20px;
+    padding: 30px;
     min-height: 800px;
     background-color: #fff;
 }
@@ -16,6 +16,8 @@
     padding-bottom: 10px;
 }
 .yz-ddgl-box .title .name {
+    font-size: 18px;
+    color: #333333;
     float: left;
 }
 .yz-ddgl-box .title .list {
@@ -25,8 +27,8 @@
 .yz-ddgl-box .title .list span{
     width: 70px;
     text-align: center;
-    height: 25px;
-    line-height: 25px;
+    height: 26px;
+    line-height: 26px;
     float: left;
     font-size: 16px;
     margin-right: 20px;
@@ -64,7 +66,8 @@
     float: left;
     text-align: center;
     border-right: 1px solid #ff733a;
-    font-size: 18px;
+    font-size: 16px;
+    color: #333333;
 }
 .yz-ddgl-box .nav li:nth-child(1) {
     width: 15%;
@@ -102,7 +105,7 @@
     float: left;
     text-align: center;
     border-right: 1px solid transparent;
-    font-size: 16px;
+    font-size: 14px;
 }
 .yz-ddgl-box .item li:nth-child(1) {
     width: 15%;

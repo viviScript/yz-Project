@@ -35,7 +35,9 @@
 }
 .yz-fwgl-relase-box .content .title-content{
     width: auto;
+    font-size: 14px;
     text-align: left;
+    margin-bottom: 10px;
     color: #ff3030;
 }
 .yz-fwgl-relase-box .content .title-explain{
@@ -48,6 +50,7 @@
     color: #666666;
 }
 .yz-fwgl-relase-box .content .options{
+    margin-bottom: 40px;
     width: 100%;
 }
 .yz-fwgl-relase-box .content .options span{
@@ -72,12 +75,13 @@
     width: 100%;
     overflow: hidden;
     display: block;
-    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .yz-fwgl-relase-box .form input {
-    width: 70%;
+    width: 454px;
     height: 35px;
+    display: block;
     float: left;
     padding: 0 20px;
     border-radius: 4px;
@@ -126,9 +130,9 @@
 }
 .yz-fwgl-relase-box .textLaber {
     width: 70px;
-    height: 40px;
-    line-height: 40px;
-    margin-right: 37px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 30px;
     font-size: 16px;
     float: left;
     text-align:justify;
@@ -174,9 +178,9 @@
 }
 
 .yz-fwgl-relase-box .form .selectBar {
-    width: 228px;
-    height: 35px;
-    line-height: 35px;
+    width: 284px;
+    height: 26px;
+    line-height: 26px;
     font-size: 14px;
     color: #666666;
     border: 1px solid #666666;
@@ -197,7 +201,7 @@
 }
 
 .yz-fwgl-relase-box .form textarea {
-    width: 70%;
+    width: 494px;
     height: 128px;
     line-height: 35px;
     font-size: 14px;

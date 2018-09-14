@@ -57,6 +57,7 @@
 .yz-home-hot {
     width: 1200px;
     margin: 35px auto;
+    padding-bottom: 30px;
     background: #fff;
 } 
 .yz-home-hot-title {
@@ -119,6 +120,7 @@
     display: block;
 }
 .yz-home-newHot-card-name {
+    font-size: 18px;
     margin-top: 10px;
     text-align: center;
 }
@@ -130,10 +132,18 @@
 .yz-home-newHot-card-details p{
     float: left;
     width: 40px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0;
+    text-align: center;
 }
 .yz-home-newHot-card-details span {
     width: 73px;
     float: right;
+    height: 23px;
+    line-height: 23px;
+    padding: 0;
+    text-align: center;
 }
 
 /* 三大排行榜 */
@@ -151,7 +161,8 @@
 }
 
 .yz-home-ranking-list {
-    width: 30%;
+    width: 366px;
+    overflow: hidden;
     float: left;
     background-color: #fff;
 }
@@ -186,8 +197,12 @@
     overflow: hidden;
     line-height: 30px;
     margin: 0 auto;
+    font-size: 18px;
 }
 .yz-home-ranking-nav span:first-child {
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
     float: left;
     cursor: pointer;
 }
@@ -196,26 +211,39 @@
     cursor: pointer;
 }
 .yz-home-ranking-nav-active {
-    padding: 0 10px;
     background-color: rgb(31, 198, 251);
     color: #fff;
     border-radius: 20px;
     text-align: center;
 }
 .yz-home-ranking-details {
-    width: 40%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 20px auto 0;
 }
 .yz-home-ranking-user-details {
-    width: 80%;
+    width: 180px;
     overflow: hidden;
-    margin: 0 auto; 
+    margin: 5px auto; 
 }
 .yz-home-ranking-user-details p{
+    width: 40px;
+    line-height: 23px;
+    line-height: 23px;
     float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
 }
 .yz-home-ranking-user-details span{
-    float: right;
+    width: 67px;
+    line-height: 23px;
+    line-height: 23px;
+    float: left;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
 }
 .yz-home-ranking-head-img {
     width: 115px;
@@ -223,24 +251,51 @@
     border-radius: 100%;
     margin: 0 auto;
     display: block;
-    padding-top: 30px;
+    border: 4px solid #ffb72d;
+}
+.yz-home-ranking-head-bg {
+    position: absolute;
+    top: -20px;
+    right: -110px;
+    width: 50px;
+    height: 50px;
 }
 .yz-home-ranking-head-num {
     width: 100%;
     height: 100%;
     text-align: center;
     position: absolute;
-    top: 36%;
+    top: 0;
     left: 0;
     z-index: 10;
     font-size: 70px;
     color: #fff;
+    line-height: 120px;
+    font-weight: bold;
+}
+.yz-home-ranking-winner .yz-home-ranking-head-num {
+    font-size: 40px;
+    line-height: 68px;
+    font-weight: bold; 
+}
+.yz-home-ranking-winner .yz-home-ranking-head-bg {
+    top: -16px;
+    right: -70px;
+    width: 40px;
+    height: 40px;
+}
+.yz-home-ranking-winner .yz-home-ranking-user-details {
+    width: 180px;
+    overflow: hidden;
+    margin: 5px auto;
+}
+.yz-home-ranking-winner .yz-home-ranking-user-details p {
+    margin-left: 45px;
+    margin-right: 10px;
 }
 .yz-home-ranking-head{
     width: 100%;
     position: relative;
-    background: url(../img/huangguan.png) no-repeat 13px 0;
-    background-size: 100%;
     margin-bottom: 10px;
 }
 .yz-home-ranking-name {
@@ -249,17 +304,17 @@
     display: block;
 }
 .yz-home-ranking-winner {
-    width: 80%;
+    width: 100%;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 .yz-home-ranking-winner .yz-home-ranking-head-img{
-    width: 105px;
-    height: 105px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
 }
 .yz-home-ranking-winner .yz-home-ranking-details {
-    width: 45%;
+    width: 50%;
     font-size: 14px;
 }
 .yz-home-ranking-winner .yz-home-ranking-details:first-child {
@@ -271,6 +326,12 @@
 .yz-home-ranking-winner .yz-home-ranking-head {
     background-position: 11px 4px;
 }
+.yz-home-ranking-winner .yz-home-ranking-bill {
+    text-align: center;
+    color: rgb(102,102,102);
+    padding: 4px 0;
+    font-size: 12px;
+}
 .yz-home-ranking-bill {
     text-align: center;
     color: rgb(102,102,102);
@@ -278,8 +339,8 @@
     font-size: 14px;
 }
 .yz-home-ranking-contribute {
-    color: #ff3030;
-    font-size: 16px;
+    color: #ff3030 !important;
+    font-size: 16px !important;
 }
 .yz-home-ranking-list-ul {
     width: 100%;
@@ -300,10 +361,11 @@
 }
 .yz-home-ranking--list-ul-head-num {
     width: 100%;
-    height: 100%;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
     position: absolute;
-    top: 22%;
+    top: 0;
     left: 0;
     z-index: 10;
     font-size: 40px;
@@ -311,9 +373,8 @@
 }
 .yz-home-ranking-list-ul li {
     width: auto;
-    padding: 20px 10px 10px;
+    padding: 12px 10px;
     overflow: hidden;
-    margin-top: 10px;
     border-top: 1px dashed rgb(167,214,285);
 }
 .yz-home-ranking-list-ul-details {
@@ -325,6 +386,7 @@
     height: 30px;
 }
 .yz-home-ranking-list-ul-details .details .yz-home-ranking-name {
+    font-size: 14px;
     float: left;
 }
 .yz-home-ranking-list-ul-details .details .yz-grade {
@@ -336,6 +398,9 @@
 }
 .yz-home-ranking-list-ul-details .bill .yz-details{
     float: left;
+    width: 40px;
+    text-align: center;
+    line-height: 15px;
 }
 .yz-home-ranking-list-ul-details .yz-home-ranking-contribute {
     float: right;
@@ -345,8 +410,16 @@
 }
 
 .yz-home-ranking-middle {
-    margin: 0 3.333%;
+    margin: 0 50px;
 }
  .yz-home-ranking-rich {
      margin-bottom: 44px;
  }
+ .yz-home-ranking-rich .yz-grade{
+     width: 50px;
+     height: 22px;
+     line-height: 22px;
+     text-align: center;
+     padding: 0;
+     display: inline-block;
+}

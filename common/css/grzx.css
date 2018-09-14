@@ -4,21 +4,22 @@
 
 /* 个人中心左侧固定 */
 .yz-grzx-left {
-    width: 200px;
+    width: 190px;
     position: absolute;
     top: 60px;
     left: 0;
     overflow: hidden;
     background-color: #fff;
+    border-radius: 4px;
 }
 .yz-grzx-left-title {
     width: auto;
     padding-top: 24px;
-    height: 60px;
+    height: 30px;
     text-align: left;
-    line-height: 60px;
-    font-size: 20px;
-    color: #333;
+    line-height: 30px;
+    font-size: 18px;
+    color: #333333;
 }
 .yz-grzx-left-title img {
     margin-left: 20px;
@@ -28,17 +29,18 @@
 }
 .yz-grzx-left-list {
     width: auto;
-    font-size: 20px;
+    font-size: 16px;
     color: #666666;
 }
 .yz-grzx-left-list li{
     width: auto;
     padding-left: 50px;
-    height: 50px;
-    line-height: 50px;
+    height: 41px;
+    line-height: 41px;
     display: block;
     cursor: pointer;
     border-left: 4px solid transparent;
+    margin: 10px 0;
 }
 .yz-grzx-left-list li:hover{
     color: #ff885c;
@@ -58,5 +60,5 @@
     width: auto;
     min-height: 800px;
     overflow: hidden;
-    padding-left: 240px;
+    padding-left: 230px;
 }

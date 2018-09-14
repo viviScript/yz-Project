@@ -50,13 +50,13 @@
     margin-top: 20px;
 }
 .yz-wbss-bannerlist-right {
-    width: 78%;
+    width: 940px;
     overflow: hidden;
     float: left;
     padding-bottom: 40px;
 }
 .yz-wbss-bannerlist-right li {
-    width: 100%;
+    width: 910px;
     overflow: hidden;
     position: relative;
     margin-bottom: 30px;
@@ -78,8 +78,8 @@
     right: 20px;
     cursor: pointer;
 }
-.yz-qdmx-right {
-    width: 20%;
+.yz-wbss-right {
+    width: 260px;
     overflow: hidden;
     float: right; 
     padding-bottom: 40px;

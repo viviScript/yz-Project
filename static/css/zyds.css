@@ -1,6 +1,7 @@
 
 /* 游戏类型 */
 .yz-zyds-gameType {
+    border-radius: 4px;
     background-color: #fff;
 }
 
@@ -63,7 +64,7 @@
 .yz-zyds-sort {
     width: 1200px;
     overflow: hidden;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 .yz-zyds-sort-ul {
@@ -75,14 +76,13 @@
     color: #fff !important;
 }
 .yz-zyds-sort-ul li {
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
+    width: 96px;
+    height: 37px;
+    line-height: 37px;
     background-color: #fff;
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     color:rgb(114,114,114);
-    padding: 4px 10px;
     text-align: center;
     border-radius: 6px;
     margin-right: 10px;

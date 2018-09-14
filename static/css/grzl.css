@@ -162,7 +162,12 @@
     margin-right: 10px;
 }
 .yz-grzl-setting .form .form-content input{
-    width: 158px;
+    width: 258px;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-grzl-setting .form .form-content select{
+    width: 258px;
     border:none;
     border-bottom: 1px solid #e1e1e1;
 }

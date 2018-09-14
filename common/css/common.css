@@ -22,17 +22,17 @@
 .yz-nav {
     width: 1200px;
     line-height: 39px;
-    margin: 30px auto;
+    margin: 0 auto;
     padding-left: 100px;
-    background: url(../img/logo.png) no-repeat left 4px;
-    background-size: 100px;
-    padding-left: 110px;
-    height: 40px;
+    background: url(../img/logo-org.png) no-repeat left 25px;
+    background-size: 150px;
+    padding-left: 150px;
+    height: 100px;
 }
 
 .yz-ul {
     float: left;
-    
+    margin: 30px auto;
 }
 .yz-ul-active {
     border-bottom: #fff 2px solid;
@@ -64,6 +64,7 @@
     background: #000;
     position: relative;
     margin-right: 10px;
+    margin-top: 30px;
 }
 .yz-user-img img {
     width: 100%;
@@ -83,9 +84,11 @@
     margin-top: 5px;
     float: left;
     margin-right: 10px;
+    margin-top: 35px;
 }
 .yz-app-download {
     float: left;
+    margin-top: 30px;
     margin-right: 10px;
 }
 .yz-user-search::-webkit-input-placeholder {
@@ -94,6 +97,7 @@
 }
 .yz-user-login {
     float: left;
+    margin-top: 30px;
 }
 
 .yz-user-details {

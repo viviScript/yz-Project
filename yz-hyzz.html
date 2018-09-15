@@ -8,9 +8,10 @@
     <title>约战电竞-安全中心</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src='./common/js/common.js'></script>
+    <script src="./static/js/aqzx.js"></script>
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
-    <link rel="stylesheet" href="./static/css/grzl.css">
+    <link rel="stylesheet" href="./static/css/aqzx.css">
     <link rel="stylesheet" href="./common/css/grzx.css">
 </head>
 
@@ -110,103 +111,53 @@
                 设置
             </div>
             <ul class="yz-grzx-left-list">
-                <li class="yz-grzx-active">个人资料</li>
-                <li onclick="setUrl('./yz-aqzx.html')">安全中心</li>
+                <li onclick="setUrl('./yz-grzl.html')">个人资料</li>
+                <li class="yz-grzx-active">安全中心</li>
             </ul>
         </aside>
 
         <!-- 安全中心 -->
         <div class="yz-grzx-right">
-            <div class="yz-grzl-box">
-                <p class="title">个人资料</p>
-                <div class="yz-grzl-data">
-                    <img class="yz-grzl-data-headImg" src="./static/img/grzl-touxiang.png" alt="">
-                    <div class="yz-grzl-data-edit">
-                        <p>修改头像</p>
-                        <p>支持jpg/gif/png格式的图片，文件小于2M</p>
-                        <p>注：修改头像，若审核通过则15分钟之后会更新头像，需要刷新页面即可显示头像</p>
-                    </div>
+            <div class="yz-aqzx-box">
+                <p class="title">安全中心</p>
+                <div class="block">
+                    <img class="block-img" src="./common/img/suo.png" alt="">
+                    <p class="block-text1">登陆密码</p>
+                    <p class="block-text2">***********</p>
+                    <p class="block-btn">修改</p>
                 </div>
-                <p class="title">相册</p>
-                <div class="yz-grzl-photo">
-                    <ul class="yz-grzl-photo-ul">
-                        <li>
-                            <div class="perch">+</div>
-                            <p>320px*126px</p>
-                        </li>
-                        <li>
-                            <div class="perch">+</div>
-                            <p>320px*126px</p>
-                        </li>
-                        <li>
-                            <div class="perch">+</div>
-                            <p>320px*126px</p>
-                        </li>
-                    </ul>
-                </div>
-                <p class="title">其他设置</p>
-                <div class="yz-grzl-setting">
-                    <div class="form">
-                        <label for="">性别：</label>
-                        <div class="form-content">
-                            <span class="active">女</span>
-                            <span>男</span>
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">标签：</label>
-                        <div class="form-content">
-                            <span class="active">人美歌甜</span>
-                            <span>人美歌甜</span>
-                            <span>人美歌甜</span>
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">昵称：</label>
-                        <div class="form-content">
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">签名：</label>
-                        <div class="form-content">
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">年龄：</label>
-                        <div class="form-content">
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">兴趣：</label>
-                        <div class="form-content">
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">职业：</label>
-                        <div class="form-content">
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="form">
-                        <label for="">星座：</label>
-                        <div class="form-content">
-                            <select name="" id="">
-                                <option value="狮子座">狮子座</option>
-                            </select>
-                        </div>
-                    </div>
-
-                </div>
-
-                <button class="yz-grzl-save">保存</button>
             </div>
         </div>
     </section>
 
+    <!-- 修改密码弹窗区 -->
+    <section class="yz-aqzx-dialog yz-aqzx-dialog-none">
+        <div class="box">
+            <div class="title">
+                修改密码
+                <span class="close">X</span>
+            </div>
+            <div class="edit">
+                <div class="form">
+                    <label class="textLaber" for="">原密码:</label>
+                    <input type="text">
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">新密码:</label>
+                    <input type="text">
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">确认密码:</label>
+                    <input type="text">
+                </div>
+                <p class="text">忘记原密码？</p>
+            </div>
+            <div class="yz-aqzx-btn">
+                <button>取消</button>
+                <button>确认</button>
+            </div>
+        </div>
+    </section>
 
     <!-- 右侧固定栏 -->
     <aside class="yz-aside">

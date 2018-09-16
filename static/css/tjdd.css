@@ -221,4 +221,142 @@
     background-color: #ff733a;
     float: right;
     border: none;
+    cursor: pointer;
+}
+
+/* 支付订单 */
+.yz-tjdd-pay {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1888;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+.yz-tjdd-pay .pay-box {
+    width: 820px;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 300px auto 0;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+}
+.yz-tjdd-pay .pay-box .title{
+    width: auto;
+    height:40px;
+    line-height: 40px;
+    padding: 0 30px;
+    text-align: left;
+    font-size: 16px;
+    color: #333333;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-tjdd-pay .pay-box .close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+}
+.yz-tjdd-pay .pay-box .pay-type {
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.yz-tjdd-pay .pay-box .pay-type .pay-type-block {
+    width: 180px;
+    height: 83px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    line-height: 85px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 25px;
+}
+.yz-tjdd-pay .pay-box .pay-type .pay-type-block img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-tjdd-pay .pay-box .pay-type .pay-type-block p {
+    width: 93px;
+    line-height: 20px;
+    color: #323232;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-tjdd-pay .pay-box .pay-type .pay-type-block p span{
+    color: #ff3030;
+}
+.yz-tjdd-pay .pay-box .pay-btn {
+    width: 179px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #ff733a;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+}
+
+/* 扫码支付 */
+.yz-tjdd-wxCode {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1888;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+.yz-tjdd-wxCode .wxCode-box{
+    width: 502px;
+    height: 462px;
+    padding: 20px 0;
+    margin: 300px auto 0;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+}
+.yz-tjdd-wxCode .wxCode-box .title{
+    width: auto;
+    height:40px;
+    line-height: 40px;
+    padding: 0 30px;
+    text-align: left;
+    font-size: 16px;
+    color: #333333;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-tjdd-wxCode .wxCode-box .close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+}
+.yz-tjdd-wxCode .wxCode-box .wxCode-img {
+    width: 227px;
+    height: 227px;
+    margin: 87px auto 0;
+    display: block;
 }

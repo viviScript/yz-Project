@@ -8,6 +8,7 @@
     <title>约战电竞-提现中心</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src='./common/js/common.js'></script>
+    <script src="./static/js/tjdd.js"></script>
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
     <link rel="stylesheet" href="./static/css/tjdd.css">
@@ -178,10 +179,48 @@
     <section class="yz-tjdd-place yz-section-auto">
         <p class="price">实付金额：<span>$</span><span>15.00</span></p>
         <div class="btn-box">
-            <button>提交订单</button>
+            <button class="place-btn">提交订单</button>
             <p>温馨提示：提交订单后，待支付的订单有三分钟的付款时间，逾期将自动取消订单。</p>
         </div>
     </section>
+
+    <!-- 支付订单 -->
+    <div class="yz-tjdd-pay">
+        <div class="pay-box">
+            <span class="close">X</span>
+            <p class="title">请选择支付方式</p>
+            <div class="pay-type">
+                <div class="pay-type-block">
+                    <img src="./static/img/icon_zhifubao.png" alt="">
+                    <p>
+                        余额支付(<span>100可用</span> )
+                    </p>
+                </div>
+                <div class="pay-type-block">
+                    <img src="./static/img/icon_zhifubao.png" alt="">
+                    <p>
+                        支付宝支付
+                    </p>
+                </div>
+                <div class="pay-type-block">
+                    <img src="./static/img/icon_weixin.png" alt="">
+                    <p>
+                        微信支付
+                    </p>
+                </div>
+            </div>
+            <button class="pay-btn">立即支付</button>
+        </div>
+    </div>
+
+    <!-- 扫码支付 -->
+    <div class="yz-tjdd-wxCode">
+        <div class="wxCode-box">
+            <span class="close">X</span>
+            <p class="title">请扫码支付</p>
+            <img class="wxCode-img" src="./static/img/touxiang.jpg" alt="">
+        </div>
+    </div>
 
     <!-- 右侧固定栏 -->
     <aside class="yz-aside">

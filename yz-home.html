@@ -89,7 +89,7 @@
                         </ul>
                     </div>
                 </div>
-                <span class="yz-user-login">登陆/注册</span>
+                <span onclick="registration('.yz-registration-login')" class="yz-user-login">登陆/注册</span>
             </div>
         </nav>
     </header>
@@ -693,12 +693,12 @@
 
     <!-- 登陆注册区域 -->
     <section class="yz-registration">
-        <span class="close">X</span>
+        <span  onclick="registration('.close')" class="close">X</span>
         <!-- 登陆弹窗 -->
-        <div class="yz-registration-login">
+        <div class="yz-registration-wrapper yz-registration-login">
             <div class="yz-registration-title">
-                <span class="nav-title border-active">登陆</span>
-                <span class="nav-title">注册</span>
+                <span onclick="registration('.yz-registration-login')" class="nav-title border-active">登陆</span>
+                <span onclick="registration('.yz-registration-regist')" class="nav-title">注册</span>
             </div>
             <div class="yz-registration-form">
                 <div class="label">
@@ -714,7 +714,7 @@
             </div>
             <div class="yz-registration-textPassword">
                 <p><input type="checkbox"> 记住密码</p>
-                <p>忘记密码了?</p>
+                <p onclick="registration('.yz-registration-findPassword')">忘记密码了?</p>
             </div>
             <div class="yz-registration-loginBtn">
                 <p class="text">使用即同意《用户服务协议》</p>
@@ -729,10 +729,10 @@
             </div>
         </div>
         <!-- 注册 -->
-        <div class="yz-registration-regist">
+        <div class="yz-registration-wrapper yz-registration-regist">
             <div class="yz-registration-title">
-                <span class="nav-title">登陆</span>
-                <span class="nav-title border-active">注册</span>
+                <span onclick="registration('.yz-registration-login')" class="nav-title">登陆</span>
+                <span onclick="registration('.yz-registration-regist')" class="nav-title border-active">注册</span>
             </div>
             <div class="yz-registration-form">
                 <div class="label">
@@ -753,7 +753,7 @@
             </div>
             <div class="yz-registration-loginBtn">
                 <p class="text"> <input type="checkbox"> 注册即同意《用户服务协议》</p>
-                <button class="loginBtn">下一步</button>
+                <button onclick="registration('.yz-registration-setPassword')" class="loginBtn">下一步</button>
             </div>
             <div class="yz-registration-line">
                 <p>其他登陆方式</p>
@@ -764,9 +764,9 @@
             </div>
         </div>
         <!-- 找回密码 -->
-        <div class="yz-registration-findPassword">
+        <div class="yz-registration-wrapper yz-registration-findPassword">
             <div class="yz-registration-brack-title">
-                <span class="yz-registration-brack">返回</span>
+                <span onclick="registration('.yz-registration-login')" class="yz-registration-brack">返回</span>
                 <p class="title">找回密码</p>
             </div>
             <div class="yz-registration-box">
@@ -801,9 +801,9 @@
             </div>
         </div>
         <!-- 设置密码 -->
-        <div class="yz-registration-setPassword">
+        <div class="yz-registration-wrapper yz-registration-setPassword">
             <div class="yz-registration-brack-title">
-                <span class="yz-registration-brack">返回</span>
+                <span  onclick="registration('.yz-registration-regist')" class="yz-registration-brack">返回</span>
                 <p class="title">设置密码</p>
             </div>
             <div class="yz-registration-box">
@@ -820,12 +820,12 @@
                     <input class="input-default" type="text" placeholder="请再次输入密码">
                 </div>
                 <div class="yz-registration-loginBtn">
-                    <button class="loginBtn">注册</button>
+                    <button onclick="registration('.yz-registration-setTelphone')" class="loginBtn">注册</button>
                 </div>
             </div>
         </div>
         <!-- 绑定手机 -->
-        <div class="yz-registration-setTelphone">
+        <div class="yz-registration-wrapper yz-registration-setTelphone">
             <p class="telPhone-title">绑定手机</p>
             <p class="telPhone-hint">*您的账号存在安全风险，请绑定手机号码！</p>
             <div class="yz-registration-form">

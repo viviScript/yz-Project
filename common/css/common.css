@@ -116,6 +116,7 @@
 .yz-user-login {
     float: left;
     margin-top: 23px;
+    cursor: pointer;
 }
 .yz-user-box {
     width: auto;

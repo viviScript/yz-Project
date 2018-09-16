@@ -10,7 +10,7 @@
     <script src='./common/js/common.js'></script>
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
-    <link rel="stylesheet" href="./static/css/txzx.css">
+    <link rel="stylesheet" href="./static/css/tjdd.css">
 </head>
 
 <body>
@@ -93,56 +93,93 @@
         </nav>
     </header>
 
-    <!-- 账户充值 -->
-    <section class="yz-txzx-titleName yz-section-auto yz-section-top">
+    <!-- 我的订单 -->
+    <section class="yz-tjdd-titleName yz-section-auto yz-section-top">
         <span class="line"></span>
-        <span>账户提现</span>
+        <span>我的订单</span>
     </section>
 
-    <!-- 提现内容 -->
-    <section class="yz-txzx-box yz-section-auto">
-        <div class="yz-txzx-block">
-            <span class="yz-txzx-label">账户余额：</span>
-            <p class="price">$10.00</p>
+    <!-- 订单内容 -->
+    <section class="yz-tjdd-box yz-section-auto">
+        <p class="title">订单信息</p>
+        <div class="yz-tjdd-shopList">
+            <ul class="nav">
+                <li>陪玩</li>
+                <li>昵称</li>
+                <li>单价(元/小时)</li>
+                <li>开始时间</li>
+                <li>购买数量</li>
+                <li>总价</li>
+            </ul>
+            <ul class="item">
+                <li><img src="./static/img/touxiang.jpg" alt=""></li>
+                <li>娇御</li>
+                <li>50.00</li>
+                <li>21:50</li>
+                <li>
+                    <span>-</span>
+                    <input type="number">
+                    <span>+</span>
+                </li>
+                <li>15</li>
+            </ul>
+            <ul class="item">
+                <li><img src="./static/img/touxiang.jpg" alt=""></li>
+                <li>娇御</li>
+                <li>50.00</li>
+                <li>21:50</li>
+                <li>
+                    <span>-</span>
+                    <input type="number">
+                    <span>+</span>
+                </li>
+                <li>15</li>
+            </ul>
+            <ul class="item">
+                <li><img src="./static/img/touxiang.jpg" alt=""></li>
+                <li>娇御</li>
+                <li>50.00</li>
+                <li>21:50</li>
+                <li>
+                    <span>-</span>
+                    <input type="number">
+                    <span>+</span>
+                </li>
+                <li>15</li>
+            </ul>
+            <ul class="item">
+                <li><img src="./static/img/touxiang.jpg" alt=""></li>
+                <li>娇御</li>
+                <li>50.00</li>
+                <li>21:50</li>
+                <li>
+                    <span>-</span>
+                    <input type="number">
+                    <span>+</span>
+                </li>
+                <li>15</li>
+            </ul>
+            <ul class="item">
+                <li><img src="./static/img/touxiang.jpg" alt=""></li>
+                <li>娇御</li>
+                <li>50.00</li>
+                <li>21:50</li>
+                <li>
+                    <span>-</span>
+                    <input type="number">
+                    <span>+</span>
+                </li>
+                <li>15</li>
+            </ul>
         </div>
-        <div class="yz-txzx-block">
-            <span class="yz-txzx-label">提现金额：</span>
-            <div class="priceSelect">
-                <input placeholder="输入提现金额" class="price-input" type="text">
-                <span class="price-unit">元</span>
-            </div>
-        </div>
-        <div class="yz-txzx-block">
-            <span class="yz-txzx-label">提现方式：</span>
-            <div class="yz-txzx-pay">
-                <div class="pay-block">
-                    <img src="./static/img/icon_zhifubao.png" alt="">
-                    支付宝
-                </div>
-                <div class="pay-block pay-active">
-                    <img src="./static/img/icon_weixin.png" alt="">
-                    微信
-                </div>
-            </div>
-        </div>
-        <div class="yz-txzx-block">
-            <span class="yz-txzx-label">账号：</span>
-            <div class="priceSelect">
-                <input placeholder="输入提现金额" class="price-input" type="text">
-            </div>
-        </div>
-        <div class="yz-txzx-block">
-            <span class="yz-txzx-label">账户名：</span>
-            <div class="priceSelect">
-                <input placeholder="输入提现金额" class="price-input" type="text">
-                <p class="text-order">*请务必提供准确的账号信息</p>
-            </div>
-        </div>
-        <div class="yz-txzx-block">
-            <span class="yz-txzx-label"></span>
-            <div class="yz-txzx-order">
-                <div class="yz-txzx-order-btn">立即提现</div>
-            </div>
+    </section>
+
+    <!-- 订单内容 -->
+    <section class="yz-tjdd-place yz-section-auto">
+        <p class="price">实付金额：<span>$</span><span>15.00</span></p>
+        <div class="btn-box">
+            <button>提交订单</button>
+            <p>温馨提示：提交订单后，待支付的订单有三分钟的付款时间，逾期将自动取消订单。</p>
         </div>
     </section>
 

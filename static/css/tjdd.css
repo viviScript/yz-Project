@@ -1,0 +1,224 @@
+/* 提交订单头部 */
+.yz-tjdd-titleName {
+    height: 77px;
+    line-height: 77px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.yz-tjdd-titleName span {
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #333333;
+}
+
+.yz-tjdd-titleName .line {
+    width: 2px;
+    height: 24px;
+    background-color: #ff733a;
+    display: block;
+    margin-top: 28px;
+    margin-right: 6px;
+}
+
+/* 提现内容区 */
+
+.yz-tjdd-box {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px 0 100px 0;
+    margin-bottom: 20px;
+}
+
+.yz-tjdd-box .title {
+    width: auto;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #333333;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* 订单列表 */
+.yz-tjdd-shopList {
+    width: auto;
+    overflow: hidden;
+    min-height: 360px;
+    margin: 20px 20px 0;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    padding-bottom: 40px;
+}
+
+.yz-tjdd-box .nav {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(255, 115, 58, 0.05);
+    overflow: hidden;
+    color: #333333;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.yz-tjdd-box .nav li {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+}
+
+.yz-tjdd-box .nav li:nth-child(1) {
+    width: 20%;
+}
+
+.yz-tjdd-box .nav li:nth-child(2) {
+    width: 15%;
+}
+
+.yz-tjdd-box .nav li:nth-child(3) {
+    width: 20%;
+}
+
+.yz-tjdd-box .nav li:nth-child(4) {
+    width: 15%;
+}
+
+.yz-tjdd-box .nav li:nth-child(5) {
+    width: 15%;
+}
+
+.yz-tjdd-box .nav li:nth-child(6) {
+    width: 15%;
+}
+
+.yz-tjdd-box .item {
+    width: auto;
+    overflow: hidden;
+    color: #333333;
+    border-bottom: 1px solid #e1e1e1;
+    ;
+}
+
+.yz-tjdd-box .item li {
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.yz-tjdd-box .item li:nth-child(1) {
+    width: 20%;
+}
+
+.yz-tjdd-box .item li:nth-child(1) img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-tjdd-box .item li:nth-child(2) {
+    width: 15%;
+}
+
+.yz-tjdd-box .item li:nth-child(3) {
+    width: 20%;
+}
+
+.yz-tjdd-box .item li:nth-child(4) {
+    width: 15%;
+}
+
+.yz-tjdd-box .item li:nth-child(5) {
+    width: 15%;
+}
+
+.yz-tjdd-box .item li:nth-child(5) span {
+    width: 25px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    background-color: #fff8f5;
+    vertical-align: middle;
+    color: #999999;
+    cursor: pointer;
+}
+
+.yz-tjdd-box .item li:nth-child(5) input {
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff8f5;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.yz-tjdd-box .item li:nth-child(6) {
+    width: 15%;
+    color: #ff3030;
+    font-weight: bold;
+}
+
+
+/* 下单 */
+.yz-tjdd-place {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 60px 0 35px 0;
+    margin-bottom: 100px;
+}
+.yz-tjdd-place .price{
+    width: auto;
+    padding: 0 50px 0 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    font-size: 16px;
+}
+.yz-tjdd-place .price span:first-child{
+    color: #ff3030;
+    font-size: 16px;
+}
+.yz-tjdd-place .price span:last-child{
+    color: #ff3030;
+    font-size: 36px;
+    font-weight: bold;
+}
+.yz-tjdd-place .btn-box{
+    width: auto;
+    overflow: hidden;
+    padding: 0 50px 0 0;
+}
+
+.yz-tjdd-place .btn-box p{
+    width: auto;
+    float: right;
+    color: #ff3030;
+    font-size: 14px;
+    margin-right: 23px;
+    margin-top: 30px;
+}
+.yz-tjdd-place .btn-box button{
+    width: 196px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #ff733a;
+    float: right;
+    border: none;
+}

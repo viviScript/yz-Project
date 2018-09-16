@@ -138,6 +138,7 @@
     height: 30px;
     line-height: 30px;
     display: block;
+    cursor: pointer;
 }
 .yz-wddd-box .item li:nth-child(7) p span:first-child{
     color: #ff733a;

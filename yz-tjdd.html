@@ -179,7 +179,9 @@
     <section class="yz-tjdd-place yz-section-auto">
         <p class="price">实付金额：<span>$</span><span>15.00</span></p>
         <div class="btn-box">
-            <button class="place-btn">提交订单</button>
+            <button onclick="toggleDisplay([
+            {el: '.yz-tjdd-pay', styleCss: 'block'}
+        ])" class="place-btn">提交订单</button>
             <p>温馨提示：提交订单后，待支付的订单有三分钟的付款时间，逾期将自动取消订单。</p>
         </div>
     </section>
@@ -187,7 +189,9 @@
     <!-- 支付订单 -->
     <div class="yz-tjdd-pay">
         <div class="pay-box">
-            <span class="close">X</span>
+            <span onclick="toggleDisplay([
+            {el: '.yz-tjdd-pay', styleCss: 'none'}
+        ])" class="close">X</span>
             <p class="title">请选择支付方式</p>
             <div class="pay-type">
                 <div class="pay-type-block">
@@ -209,14 +213,18 @@
                     </p>
                 </div>
             </div>
-            <button class="pay-btn">立即支付</button>
+            <button onclick="toggleDisplay([
+            {el: '.yz-tjdd-wxCode', styleCss: 'block'}
+        ])" class="pay-btn">立即支付</button>
         </div>
     </div>
 
     <!-- 扫码支付 -->
     <div class="yz-tjdd-wxCode">
         <div class="wxCode-box">
-            <span class="close">X</span>
+            <span onclick="toggleDisplay([
+            {el: '.yz-tjdd-wxCode', styleCss: 'none'}
+        ])" class="close">X</span>
             <p class="title">请扫码支付</p>
             <img class="wxCode-img" src="./static/img/touxiang.jpg" alt="">
         </div>

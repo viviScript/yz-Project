@@ -8,7 +8,7 @@
 .yz-zyds-gameType-game {
     width: 100%;
     overflow: hidden;
-    border-bottom: 1px solid rgb(144,144,144,0.4);
+    border-bottom: 1px solid rgba(144,144,144,0.4);
 }
 .yz-zyds-gameType-type {
     width: 130px;
@@ -37,8 +37,8 @@
     text-align: center;
 }
 .yz-zyds-gameType-list li img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     display: block;
     margin: 0 auto 10px;
 }

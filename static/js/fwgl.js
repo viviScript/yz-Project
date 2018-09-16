@@ -29,18 +29,4 @@ $(function() {
                 break;
         }
     })
-    $('.close').click(function() {
-        $('.yz-fwgl-service').css('display', 'block')
-        $('.yz-fwgl-box').css('display', 'none') 
-    })
-    $('.addService').click(function() {
-        $('.yz-fwgl-service').css('display', 'none')
-        $('.yz-fwgl-box').css('display', 'block')
-    })
-    $('.service-setting').click(function() {
-        $('.yz-fwgl-dialog').css('display', 'block')
-    })
-    $(".yz-fwgl-dialog .close").click(function() {
-        $('.yz-fwgl-dialog').css('display', 'none') 
-    })
 })

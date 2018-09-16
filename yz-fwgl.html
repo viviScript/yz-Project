@@ -124,8 +124,16 @@
                 <div class="title">
                     <p class="name">已开通服务<span>2</span></p>
                     <div class="list">
-                        <span>开始接单</span>
-                        <span class="addService">添加服务</span>
+                        <span onclick="toggleDisplay([
+                            {
+                                el: '.yz-fwgl-dialog',
+                                styleCss: 'block' 
+                            }
+                        ])">开始接单</span>
+                        <span onclick="toggleDisplay([
+                            {el: '.yz-fwgl-service', styleCss: 'none'},
+                            {el: '.yz-fwgl-box', styleCss: 'block'}
+                        ])" class="addService">添加服务</span>
                     </div>
                 </div>
                 <ul class="nav">
@@ -145,7 +153,9 @@
                     <li>中单全包</li>
                     <li>15元</li>
                     <li>
-                        <span class="service-setting">设置</span>
+                        <span onclick="toggleDisplay([
+                            {el: '.yz-fwgl-dialog', styleCss: 'block'}
+                        ])" class="service-setting">设置</span>
                         <img src="./static/img/icon_shanchu.png" alt="">
                     </li>
                 </ul>
@@ -163,7 +173,10 @@
                 </ul>
             </div>
             <div class="yz-fwgl-box">
-                <span class="close">X</span>
+                <span onclick="toggleDisplay([
+                {el: '.yz-fwgl-service', styleCss: 'block'},
+                {el: '.yz-fwgl-box', styleCss: 'none'}
+            ])" class="close">X</span>
                 <p class="title">
                     发布任务
                 </p>
@@ -320,7 +333,9 @@
         <div class="box">
             <div class="title">
                 设置
-                <span class="close">X</span>
+                <span onclick="toggleDisplay([
+                {el: '.yz-fwgl-dialog', styleCss: 'none'}
+            ])"  class="close">X</span>
             </div>
             <div class="edit">
                 <div class="form">

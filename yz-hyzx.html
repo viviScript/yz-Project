@@ -8,10 +8,9 @@
     <title>约战电竞-会员中心</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src='./common/js/common.js'></script>
-    <script src="./static/js/aqzx.js"></script>
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
-    <link rel="stylesheet" href="./static/css/aqzx.css">
+    <link rel="stylesheet" href="./static/css/hyzx.css">
     <link rel="stylesheet" href="./common/css/grzx.css">
 </head>
 
@@ -36,7 +35,7 @@
                 <li onclick="setUrl('./yz-xxpw.html')">线下陪玩
                     <img src="./common/img/hot.gif" alt="">
                 </li>
-                <li class="yz-header-active onclick=" setUrl('./yz-wbss.html')">网吧赛事 </li> <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
+                <li class="yz-header-active“ onclick=" setUrl('./yz-wbss.html')">网吧赛事 </li> <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
                 <li onclick="setUrl('./yz-hd.html')">活动</li>
             </ul>
             <div class="yz-user">
@@ -100,9 +99,9 @@
                 管理
             </div>
             <ul class="yz-grzx-left-list">
-                <li>我的订单</li>
-                <li>我的钱包</li>
-                <li>会员中心</li>
+                <li onclick="setUrl('./yz-wddd.html')">我的订单</li>
+                <li onclick="setUrl('./yz-wdqb.html')">我的钱包</li>
+                <li class="yz-grzx-active" onclick="setUrl('./yz-hyzx.html')">会员中心</li>
                 <li onclick="setUrl('./yz-fwgl.html')">服务管理</li>
                 <li onclick="setUrl('./yz-ddgl.html')">订单管理</li>
             </ul>
@@ -112,52 +111,69 @@
             </div>
             <ul class="yz-grzx-left-list">
                 <li onclick="setUrl('./yz-grzl.html')">个人资料</li>
-                <li class="yz-grzx-active">安全中心</li>
+                <li onclick="setUrl('./yz-aqzx.html')">安全中心</li>
             </ul>
         </aside>
 
-        <!-- 安全中心 -->
+        <!-- 会员中心 -->
         <div class="yz-grzx-right">
-            <div class="yz-aqzx-box">
-                <p class="title">安全中心</p>
-                <div class="block">
-                    <img class="block-img" src="./common/img/suo.png" alt="">
-                    <p class="block-text1">登陆密码</p>
-                    <p class="block-text2">***********</p>
-                    <p class="block-btn">修改</p>
+            <div class="yz-hyzx-box">
+                <p class="title">
+                    会员等级
+                    <span>VIP0</span>
+                </p>
+                <div class="yz-hyzx-data">
+                    <img class="yz-hyzx-data-headImg" src="./static/img/grzl-touxiang.png" alt="">
+                    <div class="yz-hyzx-data-edit">
+                        <p>娇御</p>
+                        <p>lx0 <input type="range">lx1</p>
+                        <p>到达下一等级还需要<span>1001</span>的成长值</p>
+                    </div>
                 </div>
+                <!-- 特权等级 -->
+                <section class="yz-hyzx-referral">
+                    <p class="yz-hyzx-title"><span class="yz-hyzx-yuan"></span> 特权等级</p>
+                    <ul class="yz-hyzx-referral-list">
+                        <li>
+                            <img src="./static/img/xunzhang.png" alt="">
+                            <p class="text">会员勋章</p>
+                            <span class="rank">1v1开启</span>
+                        </li>
+                        <li>
+                            <img src="./static/img/luwu.png" alt="">
+                            <p class="text">贵族礼物</p>
+                            <span class="rank">1v2开启</span>
+                        </li>
+                        <li>
+                            <img src="./static/img/qingzhu.png" alt="">
+                            <p class="text">生日祝福</p>
+                            <span class="rank">1v3开启</span>
+                        </li>
+                        <li>
+                            <img src="./static/img/czzx-huangguan.png" alt="">
+                            <p class="text">更多祝福</p>
+                            <span class="rank">敬请期待</span>
+                        </li>
+                    </ul>
+                </section>
+                <!-- 特权设置 -->
+                <section class="yz-hyzx-referral">
+                    <p class="yz-hyzx-title"><span class="yz-hyzx-yuan"></span> 特权设置</p>
+                    <div class="yz-hyzx-set">
+                        <div class="yz-hyzx-set-item">
+                            <p class="title-p"></p>
+                            <div class="content"></div>
+                        </div>
+                        <div class="yz-hyzx-set-item">
+                                <p class="title-p"></p>
+                                <div class="content"></div>
+                            </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
 
-    <!-- 修改密码弹窗区 -->
-    <section class="yz-aqzx-dialog yz-aqzx-dialog-none">
-        <div class="box">
-            <div class="title">
-                修改密码
-                <span class="close">X</span>
-            </div>
-            <div class="edit">
-                <div class="form">
-                    <label class="textLaber" for="">原密码:</label>
-                    <input type="text">
-                </div>
-                <div class="form">
-                    <label class="textLaber" for="">新密码:</label>
-                    <input type="text">
-                </div>
-                <div class="form">
-                    <label class="textLaber" for="">确认密码:</label>
-                    <input type="text">
-                </div>
-                <p class="text">忘记原密码？</p>
-            </div>
-            <div class="yz-aqzx-btn">
-                <button>取消</button>
-                <button>确认</button>
-            </div>
-        </div>
-    </section>
 
     <!-- 右侧固定栏 -->
     <aside class="yz-aside">

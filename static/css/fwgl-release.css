@@ -75,7 +75,7 @@
     width: 100%;
     overflow: hidden;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .yz-fwgl-relase-box .form input {
@@ -96,7 +96,7 @@
     width: 100%;
     overflow: hidden;
     display: block;
-    margin-top: 40px; 
+    margin-top: 30px; 
 }
 .yz-fwgl-relase-box .select ul {
     width: 80%;
@@ -126,7 +126,7 @@
     width: 100%;
     overflow: hidden;
     display: block;
-    margin-top: 40px; 
+    margin-top: 30px; 
 }
 .yz-fwgl-relase-box .textLaber {
     width: 70px;
@@ -139,8 +139,9 @@
     text-align-last:justify 
 }
 .yz-fwgl-relase-box .price input {
-    width: 100px;
-    height: 35px;
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
     float: left;
     padding: 0 20px;
     border-radius: 4px;
@@ -151,8 +152,8 @@
 }
 .yz-fwgl-relase-box .price span {
     width: auto;
-    height: 35px;
-    line-height: 35px;
+    height: 26px;
+    line-height: 26px;
     float: left;
     font-size: 14px;
     color: #999999; 

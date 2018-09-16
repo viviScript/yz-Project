@@ -82,20 +82,21 @@
     margin-top: 40px; 
 }
 .yz-relase-box .select ul {
-    width: 80%;
+    width: 74%;
     overflow: hidden;
     float: left;
     border-radius: 4px;
 }
 .yz-relase-box .select ul li {
-    width: 70px;
+    width: 80px;
+    height: 23px;
+    line-height: 23px;
     font-size: 12px;
     text-align: center;
     border-radius: 4px;
     border: 1px solid #ff733a;
     color:#ff733a; 
     float: left;
-    padding: 4px 6px;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 6px;

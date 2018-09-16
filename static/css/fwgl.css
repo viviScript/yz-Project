@@ -1,4 +1,276 @@
 
+/* 已开通服务 */
+.yz-fwgl-service {
+    width: auto;
+    min-height: 1000px;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 30px;
+    background-color: #fff;
+    display: block;
+}
+.yz-fwgl-service .title {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.yz-fwgl-service .title .name {
+    font-size: 18px;
+    color: #333333;
+    float: left;
+}
+.yz-fwgl-service .title .name span {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #ff733a;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.yz-fwgl-service .title .list {
+    width: auto;
+    float: right;
+}
+.yz-fwgl-service .title .list span{
+    width: 80px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    border: 1px solid #ff733a;
+    color: #666666;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.yz-fwgl-service .nav {
+    width: auto;
+    padding: 15px 0 15px 0;
+    overflow: hidden;
+    color: #333333;
+    border-top: 1px solid #ff733a;
+    border-bottom: 1px solid #ff733a;
+}
+.yz-fwgl-service .nav li{
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ff733a;
+    font-size: 16px;
+    color: #333333;
+}
+.yz-fwgl-service .nav li:nth-child(1) {
+    width: 191px;
+}
+.yz-fwgl-service .nav li:nth-child(2) {
+    width: 112px;
+}
+.yz-fwgl-service .nav li:nth-child(3) {
+    width: 80px;
+}
+.yz-fwgl-service .nav li:nth-child(4) {
+    width: 142px;
+}
+.yz-fwgl-service .nav li:nth-child(5) {
+    width: 144px;
+}
+.yz-fwgl-service .nav li:nth-child(6) {
+    width: 82px;
+}
+.yz-fwgl-service .nav li:nth-child(7) {
+    width: 153px;
+    border-right: none;
+}
+
+.yz-fwgl-service .item {
+    width: auto;
+    overflow: hidden;
+    color: #333333;
+    border: 1px solid #ff733a;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.yz-fwgl-service .item:hover {
+    background-color: #ffe3d8;
+}
+.yz-fwgl-service .item li{
+    height: 53px;
+    line-height: 53px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.yz-fwgl-service .item li:nth-child(1) {
+    width: 191px;
+}
+.yz-fwgl-service .item li:nth-child(2) {
+    width: 112px;
+}
+.yz-fwgl-service .item li:nth-child(3) {
+    width: 80px;
+}
+.yz-fwgl-service .item li:nth-child(4) {
+    width: 142px;
+}
+.yz-fwgl-service .item li:nth-child(5) {
+    width: 144px;
+}
+.yz-fwgl-service .item li:nth-child(6) {
+    width: 82px;
+}
+.yz-fwgl-service .item li:nth-child(7) {
+    width: 153px;
+    border-right: none;
+}
+.yz-fwgl-service .item li:nth-child(7) span{
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.yz-fwgl-service .item li:nth-child(7) span:hover{
+    color: #ff733a;
+}
+.yz-fwgl-service .item li:nth-child(7) img{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* 服务设置 */
+.yz-fwgl-dialog {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+.yz-fwgl-dialog .box{
+    width: 582px;
+    height: 380px;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+    padding-bottom: 20px
+}
+.yz-fwgl-dialog .box .title{
+    width: auto;
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+    color: #666666;
+    position: relative;
+}
+.yz-fwgl-dialog .box .title .close {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 0 22px;
+    cursor: pointer;
+    color: #666666;
+}
+.yz-fwgl-dialog .box .edit {
+    width: auto;
+    overflow: hidden;
+    padding: 0 90px;
+}
+.yz-fwgl-dialog .box .edit .form {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin-top: 30px;
+}
+
+.yz-fwgl-dialog .box .edit .form input {
+    width: 239px;
+    height: 41px;
+    line-height: 41px;
+    float: left;
+    padding: 0 20px;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+    color: #999999;
+}
+.yz-fwgl-dialog .box .edit .form select {
+    width: 284px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    padding: 0 20px;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    color: #999999;
+}
+.yz-fwgl-dialog .box .edit .textLaber {
+    width: 70px;
+    height: 26px;
+    color: #666666;
+    line-height: 26px;
+    margin-right: 10px;
+    font-size: 16px;
+    float: left;
+    text-align:justify;
+    text-align-last:justify 
+}
+.yz-fwgl-dialog .box .edit .text {
+    width: auto;
+    padding-left: 80px;
+    font-size: 14px;
+    color: #999999;
+    padding-top: 4px;
+    cursor: pointer;
+}
+.yz-fwgl-dialog .box .edit .text:hover {
+    color: red;
+}
+.yz-fwgl-btn {
+    width: 60%;
+    overflow: hidden;
+    margin: 30px auto 0;
+}
+.yz-fwgl-btn button:first-child{
+    width: 96px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    color: #b8b8b8;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.yz-fwgl-btn button:last-child{
+    width: 223px;
+    height: 38px;
+    line-height: 38px;
+    border: none;
+    background-color: #ff733a;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* 发布任务 */
 .yz-fwgl-box {
     width: auto;
     min-height: 1000px;
@@ -6,6 +278,7 @@
     border-radius: 6px;
     padding: 30px;
     background-color: #fff;
+    display: none;
 }
 .yz-fwgl-box .title {
     width: auto;
@@ -16,6 +289,20 @@
     text-align: left;
     padding-bottom: 10px;
     border-bottom: 1px solid #e1e1e1;
+    position: relative;
+}
+.yz-fwgl-box .close {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 18px;
+    color: #999999;
+    z-index: 10;
 }
 .yz-fwgl-box .nav {
     width: auto;

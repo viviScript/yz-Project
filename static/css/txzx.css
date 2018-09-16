@@ -1,0 +1,140 @@
+.yz-tx-box {
+    
+}
+/* 提现头部 */
+.yz-txzx-titleName {
+    height: 77px;
+    line-height: 77px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.yz-txzx-titleName span {
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #333333;
+}
+.yz-txzx-titleName .line {
+    width: 2px;
+    height: 24px;
+    background-color: #ff733a;
+    display: block;
+    margin-top: 28px;
+    margin-right: 6px;
+}
+
+/* 提现内容区 */
+
+.yz-txzx-box {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px 0;
+    margin-bottom: 200px;
+}
+.yz-txzx-block {
+    width: auto;
+    overflow: hidden;
+    line-height: 40px;
+    padding: 0 40px;
+    margin-bottom: 30px;
+}
+.yz-txzx-label {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    color: #333333;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    text-align: right;
+}
+.yz-txzx-block .price {
+    float: left;
+    font-size: 18px;
+    color: #ff5b5b;
+}
+.yz-txzx-block .priceSelect {
+    width: auto;
+    float: left;
+    position: relative;
+}
+.yz-txzx-block .priceSelect .price-unit {
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 3px;
+    color: #666666;
+}
+.text-order {
+    font-size: 14px;
+    color: #ff733a;
+    display: block;
+}
+.price-default {
+    color: #999999;
+    border: 1px solid #e1e1e1;
+}
+.price-active {
+    color: #ff733a !important;
+    border: 1px solid #ff733a !important;
+}
+.price-input {
+    width: 150px;
+    height: 40px;
+    float: left;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.yz-txzx-pay{
+    width: auto;
+    float: left;
+}
+.yz-txzx-pay .pay-block{
+    width: 146px;
+    height: 68px;
+    line-height: 68px;
+    float: left;
+    border-radius: 6px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.yz-txzx-pay .pay-block img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.pay-active {
+    color: #ff733a !important;
+    border: 1px solid #ff733a !important;
+}
+.yz-txzx-order {
+    width: auto;
+    overflow: hidden;
+}
+.yz-txzx-order-btn {
+    width: 166px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #ff733a;
+    display: block;
+    float: left;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.yz-txzx-order-txt {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    float: left;
+    color: #b8b8b8;
+    border-radius: 6px;
+    text-align: left;
+}

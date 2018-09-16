@@ -19,6 +19,9 @@
     background:rgb(253,92,45);
     color: #fff;
 }
+.yz-header-active img{
+    display: none;
+}
 .yz-nav {
     width: 1200px;
     line-height: 39px;

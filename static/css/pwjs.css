@@ -1,0 +1,244 @@
+/* 陪玩介绍头部区 */
+.yz-pwjs-head {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 25px 0;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left {
+    width: auto;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-img {
+    width: 80px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 36px;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-details {
+    width: auto;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-details .name {
+    width: auto;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 20px;
+    color: #333333;
+    display: block;
+    text-align: left;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-details .user-id {
+    width: auto;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-details .user-label {
+    width: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-details .user-label span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    display: block;
+}
+
+.yz-pwjs-head .yz-pwjs-head-left .yz-pwjs-head-left-details .user-label .yz-details {
+    width: auto;
+    padding: 0 4px;
+}
+
+.yz-pwjs-head .yz-pwjs-head-right {
+    width: auto;
+    overflow: hidden;
+    float: right;
+    height: 90px;
+    line-height: 90px;
+}
+
+.yz-pwjs-head .yz-pwjs-head-right .yz-pwjs-head-right-btn {
+    width: auto;
+    overflow: hidden;
+    padding-right: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-pwjs-head .yz-pwjs-head-right .yz-pwjs-head-right-btn span:nth-child(1) {
+    width: 90px;
+    height: 46px;
+    background-color: #ff733a;
+    text-align: center;
+    line-height: 46px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    display: block;
+    font-size: 16px;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.yz-pwjs-head .yz-pwjs-head-right .yz-pwjs-head-right-btn span:nth-child(1) img {
+    width: 21px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 4px;
+}
+
+.yz-pwjs-head .yz-pwjs-head-right .yz-pwjs-head-right-btn span:nth-child(2) {
+    width: 88px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid #ff733a;
+    color: #ff733a;
+    text-align: center;
+    line-height: 46px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    display: block;
+    font-size: 16px;
+    float: left;
+}
+
+/* 陪玩用户详情区 */
+.yz-pwjs-details {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.yz-pwjs-details-left {
+    width: 470px;
+    overflow: hidden;
+    float: left;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList {
+    width: 100%;
+    overflow: hidden;
+    padding: 24px 0;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .left-page {
+    width: 40px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    text-align: center;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .left-page img {
+    display: inline;
+    vertical-align: middle;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .right-page {
+    width: 40px;
+    height: 100%;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .right-page img {
+    display: inline;
+    vertical-align: middle;
+    transform: rotateY(180deg);
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .photo-list {
+    width: 370px;
+    height: 80px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    float: left;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .photo-list .photo-list-ul {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 80px;
+    white-space: nowrap;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .photo-list li {
+    display: inline-block;
+}
+
+.yz-pwjs-details .yz-pwjs-details-left-photoList .photo-list img {
+    width: 80px;
+    height: 76px;
+}
+.yz-pwjs-details .yz-pwjs-details-left-photoList .photo-list .photo-list-ul .photo-list-ul-active img{
+    border: 2px solid #ff733a;
+}
+.yz-pwjs-details .yz-pwjs-details-left-largeImg{
+    width: 100%;
+    overflow: hidden;
+    max-height: 598px;
+    border-radius: 10px;
+}
+.yz-pwjs-details .yz-pwjs-details-left-largeImg img{
+    width: 100%;
+}
+.yz-pwjs-details .yz-pwjs-details-left-text{
+    width: auto;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.yz-pwjs-details .yz-pwjs-details-left-text .title{
+    width: auto;
+    overflow: hidden;
+    font-size: 18px;
+    color: #ff733a;
+}
+.yz-pwjs-details .yz-pwjs-details-left-text p{
+    width: auto;
+    overflow: hidden;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.yz-pwjs-details .yz-pwjs-details-left-text p span:nth-child(1){
+    width: auto;
+    overflow: hidden;
+    font-size: 18px;
+    color: #666666;
+    float: left;
+}
+.yz-pwjs-details .yz-pwjs-details-left-text p span:nth-child(2){
+    width: 350px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #999999;
+    float: left;
+}

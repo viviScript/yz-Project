@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>约战电竞-安全中心</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='./common/js/common.js'></script>
+    <script src="./static/js/wdqb.js"></script>
+    <link rel="stylesheet" href="./common//css/reset.css">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./static/css/wdqb.css">
+    <link rel="stylesheet" href="./common/css/grzx.css">
+</head>
+
+<body>
+
+    <!-- 头部导航栏 -->
+    <header class="yz-header yz-header-bg">
+        <nav class="yz-nav">
+            <!-- <img class='yz-logo' src="./static/img/logo.png" alt=""> -->
+            <ul class='yz-ul'>
+                <li onclick="setUrl('./yz-home.html')" class="yz-ul-active">首页</li>
+                <li onclick="setUrl('./yz-zyds.html')">
+                    职业大神
+                    <img src="./common/img/jiaru.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-mfkh.html')">免费开黑
+                    <img src="./common/img/free.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-qdmx.html')">趣带萌新
+                    <img src="./common/img/new.gif" alt="">
+                </li>
+                <li onclick="setUrl('./yz-xxpw.html')">线下陪玩
+                    <img src="./common/img/hot.gif" alt="">
+                </li>
+                <li class="yz-header-active" onclick=" setUrl('./yz-wbss.html')">网吧赛事 </li>
+                <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
+                <li onclick="setUrl('./yz-hd.html')">活动</li>
+            </ul>
+            <div class="yz-user">
+                <input class="yz-user-search" type="text" placeholder="ID/手机号/靓号">
+                <span class="yz-app-download">APP下载</span>
+                <div class="yz-user-img">
+                    <img class="yz-user-headImg" src="./static/img/touxiang.jpg" alt="">
+                    <div class="yz-user-details">
+                        <div class="yz-user-box">
+                            <img class="head-img" src="./static/img/touxiang.jpg" alt="">
+                            <div class="head-box">
+                                <p class="head-name">娇御</p>
+                                <p class="yz-details">
+                                    <img src="./static/img/icon_nvxing.png" alt="">
+                                    22
+                                </p>
+                                <p class="yz-user-rank">
+                                    <span class="vip">vip0</span>
+                                    <span class="line">|</span>
+                                    <span class="yz-grade">荣耀皇冠</span>
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="list">
+                            <li onclick="setUrl('./yz-czzx.html')">
+                                <img src="./common/img/icon_qianbao.png" alt="">
+                                <p>充值</p>
+                            </li>
+                            <li onclick="setUrl('./yz-txzx.html')">
+                                <img src="./common/img/icon_tixian.png" alt="">
+                                <p>提现</p>
+                            </li>
+                            <li onclick="setUrl('./yz-qzzx.html')">
+                                <img src="./common/img/icon_quanzi.png" alt="">
+                                <p>圈子</p>
+                            </li>
+                            <li onclick="setUrl('./yz-xxzx.html')">
+                                <img src="./common/img/icon_xiaoxi.png" alt="">
+                                <p>消息</p>
+                            </li>
+                            <li onclick="setUrl('./yz-wdqb.html')">
+                                <img src="./common/img/icon_shezhi.png" alt="">
+                                <p>个人中心</p>
+                            </li>
+                            <li>
+                                <img src="./common/img/icon_shezhi.png" alt="">
+                                <p>退出登陆</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="yz-grzx yz-section-auto yz-section-top">
+        <!-- 个人中心左侧栏 -->
+        <aside class="yz-grzx-left">
+            <div class="yz-grzx-left-title">
+                <img src="./common/img/icon_guanli.png" alt="">
+                管理
+            </div>
+            <ul class="yz-grzx-left-list">
+                <li onclick="setUrl('./yz-wddd.html')">我的订单</li>
+                <li class="yz-grzx-active" onclick="setUrl('./yz-wdqb.html')">我的钱包</li>
+                <li onclick="setUrl('./yz-hyzx.html')">会员中心</li>
+                <li onclick="setUrl('./yz-fwgl.html')">服务管理</li>
+                <li onclick="setUrl('./yz-ddgl.html')">订单管理</li>
+            </ul>
+            <div class="yz-grzx-left-title">
+                <img src="./common/img/icon__grzx_shezhi.png" alt="">
+                设置
+            </div>
+            <ul class="yz-grzx-left-list">
+                <li onclick="setUrl('./yz-grzl.html')">个人资料</li>
+                <li onclick="setUrl('./yz-aqzx.html')">安全中心</li>
+            </ul>
+        </aside>
+
+        <!-- 安全中心 -->
+        <div class="yz-grzx-right">
+            <div class="yz-wdqb-box">
+                <p class="title">账户管理</p>
+                <div class="yz-wdqb-balance">
+                    <p class="balance">我的余额 <span>0.00</span></p>
+                    <p class="btn">
+                        <span>去充值</span>
+                        <span>我的红包</span>
+                        <span>去提现</span>
+                    </p>
+                </div>
+                <div class="yz-wdqb-detail">
+                    <p class="title">资金明细</p>
+                    <div class="btn">
+                        <p class="btn-left">
+                            <span>开始时间</span>
+                            <span>结束时间</span>
+                            <span>搜索</span>
+                        </p>
+                        <div class="btn-right">
+                            <span class="all">全部</span>
+                            <span>收入</span>
+                            <span>支出</span>
+                        </div>
+                        </divs>
+                    </div>
+                    <ul class="nav">
+                        <li>订单号</li>
+                        <li>资金类型</li>
+                        <li>金额</li>
+                        <li>账户余额</li>
+                        <li>描述</li>
+                        <li>创建时间</li>
+                    </ul>
+                    <ul class="item">
+                        <li>123345567678</li>
+                        <li>支付宝</li>
+                        <li>100元</li>
+                        <li>1000元</li>
+                        <li>支付宝支付</li>
+                        <li>
+                            2018年9月16号
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <!-- 右侧固定栏 -->
+    <aside class="yz-aside">
+        <ul>
+            <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
+            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+            <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
+            <li><img src="./common/img/icon_top.png" alt="">top</li>
+        </ul>
+    </aside>
+
+    <!-- 脚部区 -->
+    <footer class="yz-footer">
+        <div class="yz-footer-box">
+            <div class="yz-footer-flow">
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_mian.png" alt="">
+                    <p class="yz-footer-flow-text">消费不满意 无理由退单</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_tui.png" alt="">
+                    <p class="yz-footer-flow-text">下单未开始 订单随时退</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_kuaisu.png" alt="">
+                    <p class="yz-footer-flow-text">八分钟未接单 立即退款</p>
+                </div>
+                <span class="yz-footer-flow-line"></span>
+                <div class="yz-footer-flow-img">
+                    <img src="./common/img/icon_qian1.png" alt="">
+                    <p class="yz-footer-flow-text">实时掌控工资 给您安心</p>
+                </div>
+            </div>
+            <p class="yz-footer-info">Copyright www.91yuezhan.com,All Rights Reserved</p>
+            <p class="yz-footer-info">Email:531745270@qq.com QQ:531745270</p>
+        </div>
+    </footer>
+</body>
+
+</html>

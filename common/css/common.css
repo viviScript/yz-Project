@@ -511,6 +511,7 @@
     position: fixed;
     top: 20%;
     right: 10px;
+    background-color: #fff;
 }
 
 .yz-aside ul {
@@ -530,6 +531,9 @@
     height: 20px;
     display: block;
     margin: 10px auto;
+}
+.yz-aside ul li:last-child img{
+    height: 10px;
 }
 .yz-aside-active {
     background-color: rgb(253,92,45);

@@ -1,0 +1,152 @@
+/* 海报图样式 */
+.yz-hd-banner img {
+    width: 100%;
+}
+
+/* 排序区 */
+
+.yz-hd-sort {
+    width: 1200px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.yz-hd-sort-ul {
+    width: 100%;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.yz-hd-sort-active {
+    background-color: rgb(253, 92, 45) !important;
+    color: #fff !important;
+}
+
+.yz-hd-sort-ul li {
+    width: 96px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #fff;
+    float: left;
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.yz-hd-sort-ul li:hover {
+    background-color: rgb(253, 92, 45) !important;
+    color: #fff !important;
+}
+
+/* 活动海报区 */
+.yz-hd-bannerList {
+    margin-top: 20px;
+}
+
+.yz-hd-bannerlist-right {
+    width: 940px;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.yz-hd-bannerlist-right li {
+    width: 442px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #fff;
+    float: left;
+    margin-right: 28px;
+}
+
+.yz-hd-bannerlist-right li .banner {
+    width: 100%;
+    height: 270px;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .text{
+    width: auto;
+    font-size: 18px;
+    color: #333333;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.yz-hd-bannerlist-right li .yz-hd-banner-details .time{
+    width: auto;
+    font-size: 16px;
+    color: #666666;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.yz-hd-bannerlist-right li .yz-hd-banner-details .timeNum{
+    width: auto;
+    overflow: hidden;
+    font-size: 16px;
+    color: #666666;
+    padding: 0 20px 10px;;
+    margin-top: 20px;
+    text-align: left;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .timeNum span:first-child {
+    font-size: 16px;
+    color: #999999;
+    float: left;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .timeNum span:last-child {
+    font-size: 16px;
+    color: #999999;
+    float: right;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .timeNum span:last-child img{
+    width: 24px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .banner-label {
+    width: 96px;
+    height: 43px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .banner-label .banner-label-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.yz-hd-bannerlist-right li .yz-hd-banner-details .banner-label .banner-label-box span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 81px;
+    height: 43px;
+    padding-right: 15px;
+    line-height: 43px;
+    font-size: 18px;
+    color: #fffefe;
+    text-align: right;
+}
+
+.yz-hd-right {
+    width: 260px;
+    overflow: hidden;
+    float: right;
+    padding-bottom: 40px;
+}

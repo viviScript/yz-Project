@@ -1,0 +1,454 @@
+/* 我的圈子详情区  */
+.yz-qzzx-box {
+    overflow: hidden;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left {
+    width: 320px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 30px 0;
+    color: #666666;
+    float: left;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-name {
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-id {
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-num {
+    width: auto;
+    overflow: hidden;
+    display: block;
+    margin-top: 18px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-num p {
+    width: 49%;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-num p:first-child {
+    border-right: 1px solid #e1e1e1;
+}
+
+.yz-qzzx-box .yz-qzzx-box-left .head-num p span {
+    width: auto;
+    height: 40px;
+    ;
+    text-align: center;
+    display: block;
+}
+
+.yz-qzzx-box .yz-qzzx-box-right {
+    width: 850px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    float: right;
+}
+
+
+.yz-qzzx-box-right .yz-qzzx-right-navLine {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px;
+    background-color: rgba(255, 115, 58, 0.05);
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-navLine p {
+    font-size: 18px;
+    float: left;
+    height: 50px;
+    padding-right: 36px;
+    line-height: 50px;
+    color: #666666;
+    cursor: pointer;
+    position: relative;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-navLine .navline-active {
+    color: #ff733a;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-navLine p:hover {
+    color: #ff733a;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-navLine span {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #ff6362;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fb {
+    width: 21px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fb img {
+    width: 21px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* 全部圈子 */
+.yz-qzzx-box-right .yz-qzzx-right-list {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px;
+    display: block;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content {
+    width: auto;
+    overflow: hidden;
+    padding-left: 10px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .name {
+    width: auto;
+    overflow: hidden;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .explain {
+    width: auto;
+    overflow: hidden;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .photo {
+    width: 440px;
+    height: 252px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .photo img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 4px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label {
+    width: auto;
+    height: 20px;
+    padding: 10px 0;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .time {
+    width: auto;
+    overflow: hidden;
+    float: left;
+    font-size: 16px;
+    color: #666666
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .praise {
+    width: auto;
+    overflow: hidden;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    margin-left: 300px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .praise img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .btn {
+    width: auto;
+    overflow: hidden;
+    float: left;
+    margin-top: -10px;
+    color: #545455;
+    margin-left: 40px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .btn span:first-child {
+    font-size: 16px;
+    background-color: #efeff4;
+    width: 55px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid #f7f7f9;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .btn span:last-child {
+    font-size: 16px;
+    background-color: #efeff4;
+    width: 55px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .comment-btn {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .comment-text {
+    width: 568px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #e1e1e1;
+    padding: 0 10px;
+    margin-top: 20px;
+    display: block;
+    border-radius: 4px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list .user-content .comment-text span {
+    color: #576b95;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-list li {
+    overflow: hidden;
+    padding-top: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* 我的粉丝 */
+.yz-qzzx-box-right .yz-qzzx-right-fans {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px 100px;
+    display: none;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-title {
+    width: auto;
+    overflow: hidden;
+    font-size: 18px;
+    color: #333333;
+    padding: 26px 0 0;
+    font-weight: bold;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    display: block;
+    float: left;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content {
+    width: auto;
+    height: 90px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(1) {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(2) {
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(3) {
+    width: auto;
+    overflow: hidden;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(3) span {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 10px;
+    padding: 0 8px;
+    margin-top: 7px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content .time {
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
+    font-size: 16px;
+    color: #666666;
+    height: 22px;
+    line-height: 22px;
+}
+
+.yz-qzzx-right-fans .text-more {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ff733a;
+}
+
+.yz-qzzx-box-right .look-more {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ff733a;
+    border-top: 1px solid #e1e1e1;
+}
+
+
+/* 全部消息 */
+
+.yz-qzzx-box-right .yz-qzzx-right-message {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px 100px;
+    display: none;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-message li {
+    width: auto;
+    overflow: hidden;
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-message li .user-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    float: left;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-message li .user-content {
+    width: auto;
+    overflow: hidden;
+    display: block;
+    padding-left: 20px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(1) {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    color: #333333;
+    height: 40px;
+    line-height: 40px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(1) span:last-child {
+    font-size: 16px;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 30px;
+}
+.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(2) {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    font-size: 16px;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+}
+
+.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(2) span:last-child {
+    font-size: 18px;
+    color: #ff733a;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 30px;
+}

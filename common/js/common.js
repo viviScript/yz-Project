@@ -7,6 +7,10 @@ function registration(el) {
     $(el).siblings().removeClass("yz-registration-block");
     $(el).addClass('yz-registration-block')
 }
+function setClass(el, styleClass) {
+    $(el).siblings().removeClass(styleClass);
+    $(el).addClass(styleClass)
+}
 // 设置显示隐藏
 function toggleDisplay(arry) {
     console.log(typeof arry)

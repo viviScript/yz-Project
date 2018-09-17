@@ -292,11 +292,13 @@
     width: 130px;
     height: 130px;
 }
+/* 线上区 */
 .yz-pwjs-details-right .yz-pwjs-details-right-order-content {
     width: 500px;
     height: 130px;
     margin-left: 24px;
     float: left;
+    display: none;
 }
 .yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-time{
     width: auto;
@@ -327,7 +329,7 @@
 }
 .yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number input{
     width: 38px;
-    height: 44px;
+    height: 42px;
     float: left;
     border: none;
     padding: 0;
@@ -335,18 +337,19 @@
     line-height: 44px;
 }
 .yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number p{
-    width: 18px;
+    width: 21px;
     height: 44px;
     float: left;
     border-left: 1px solid #999999;
 }
 .yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number p span{
-    width: 18px;
+    width: 21px;
     height: 22px;
     display: block;
     line-height: 22px;
     text-align: center;
     color: #999999;
+    cursor: pointer;
 }
 .yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number p span:first-child{
    border-bottom: 1px solid #999999;
@@ -363,6 +366,115 @@
     float: right;
     border: none;
 }
+
+/* 线下区 */
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline {
+    width: 500px;
+    height: 130px;
+    margin-left: 24px;
+    float: left;
+    display: block;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-time{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    font-size: 16px;
+    color: #666666;
+    float: left;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-time span:nth-child(1){
+    color: #ff3030;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-time span:nth-child(2){
+    color: #ff3030;
+    font-size: 36px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num  {
+    width: 300px;
+    overflow: hidden;
+    margin-top: 13px;
+    float: left;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num .price-input-number {
+    width: 60px;
+    overflow: hidden;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    float: right;
+    margin-right: 13px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num .price-input-number input{
+    width: 38px;
+    height: 42px;
+    float: left;
+    border: none;
+    padding: 0;
+    text-align: center;
+    line-height: 44px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num .price-input-number p{
+    width: 21px;
+    height: 44px;
+    float: left;
+    border-left: 1px solid #999999;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num .price-input-number p span{
+    width: 21px;
+    height: 22px;
+    display: block;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+    cursor: pointer;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num .price-input-number p span:first-child{
+   border-bottom: 1px solid #999999;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .price-num .price-btn {
+    width: 190px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #ff733a;
+    float: right;
+    border: none;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .offline-right {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    margin-top: 25px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .offline-right button{
+    width: 112px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    color: #fff;
+    background-color: #ff733a;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    float: right;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content-offline .offline-right p{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    color: #ff733a;
+    font-size: 14px;
+    float: right;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+
 .yz-pwjs-details-right .yz-pwjs-details-right-introduce {
     width: auto;
     overflow: hidden;
@@ -477,4 +589,67 @@
     text-align: center;
     font-size: 18px;
     color: #ff733a;
+}
+
+/* 接单地点弹窗 */
+.yz-pwjs-order-dialog {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1888;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+
+.yz-pwjs-order-dialog .yz-pwjs-order-box{
+    width: 820px;
+    height: 312px;
+    position: relative;
+    margin: 300px auto 0;
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+}
+.yz-pwjs-order-dialog .yz-pwjs-order-box .title{
+    width: auto;
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+    color: #333333;
+    position: relative;
+}
+.yz-pwjs-order-dialog .yz-pwjs-order-box .title span{
+    color: #ff733a; 
+}
+.yz-pwjs-order-dialog .yz-pwjs-order-box .close {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #666666;
+    text-align: center;
+}
+.yz-pwjs-order-dialog .yz-pwjs-order-box .yz-pwjs-order-box-list{
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 250px;
+}
+.yz-pwjs-order-dialog .yz-pwjs-order-box .yz-pwjs-order-box-list li{
+    width: 630px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #666666;
+    font-size: 16px;
+    padding-left: 93px;
 }

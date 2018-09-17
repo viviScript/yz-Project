@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>约战电竞-我的订单</title>
+    <title>约战电竞-认证技能</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src='./common/js/common.js'></script>
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
-    <link rel="stylesheet" href="./static/css/wddd.css">
-    <link rel="stylesheet" href="./common/css/grzx.css">
+    <link rel="stylesheet" href="./static/css/rzjn.css">
+    <script src="./static/js/rzjn.js"></script>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                 <li onclick="setUrl('./yz-xxpw.html')">线下陪玩
                     <img src="./common/img/hot.gif" alt="">
                 </li>
-                <li onclick="setUrl('./yz-wbss.html')">网吧赛事 </li> 
+                <li onclick=" setUrl('./yz-wbss.html')">网吧赛事 </li>
                 <li onclick="setUrl('./yz-sqrz.html')">申请入驻</li>
                 <li onclick="setUrl('./yz-hd.html')">活动</li>
             </ul>
@@ -92,83 +92,91 @@
         </nav>
     </header>
 
-    <section class="yz-grzx yz-section-auto yz-section-top">
-        <!-- 个人中心左侧栏 -->
-        <aside class="yz-grzx-left">
-            <div class="yz-grzx-left-title">
-                <img src="./common/img/icon_guanli.png" alt="">
-                管理
-            </div>
-            <ul class="yz-grzx-left-list">
-                <li class="yz-grzx-active" onclick="setUrl('./yz-wddd.html')">我的订单</li>
-                <li onclick="setUrl('./yz-wdqb.html')">我的钱包</li>
-                <li onclick="setUrl('./yz-hyzx.html')">会员中心</li>
-                <li onclick="setUrl('./yz-fwgl.html')">服务管理</li>
-                <li onclick="setUrl('./yz-ddgl.html')">订单管理</li>
-            </ul>
-            <div class="yz-grzx-left-title">
-                <img src="./common/img/icon__grzx_shezhi.png" alt="">
-                设置
-            </div>
-            <ul class="yz-grzx-left-list">
-                <li onclick="setUrl('./yz-grzl.html')">个人资料</li>
-                <li onclick="setUrl('./yz-aqzx.html')">安全中心</li>
-            </ul>
-        </aside>
+    <!-- 认证技能 -->
+    <section class="yz-rzjn-titleName yz-section-auto yz-section-top">
+        <span class="line"></span>
+        <span class="name">认证技能</span>
+        <span class="text">(务必完善个人资料)</span>
+    </section>
 
-        <!-- 我的订单 -->
-        <div class="yz-grzx-right">
-            <div class="yz-wddd-box">
-                <div class="title">
-                    <span class="name">我的订单</span>
-                    <div class="list">
-                        <span class="all">全部</span>
-                        <span class="pay">待付款</span>
-                        <span class="new">进行中</span>
-                        <span class="shopOk">已完成</span>
+    <!-- 开通类别 -->
+    <section class="yz-rzjn-dredgeType yz-section-auto">
+        <p class="yz-rzjn-dredgeType-title">
+            <span class="circle"></span>
+            <span>开通类别</span>
+            <span class="text">绝地求生(高级)、英雄联盟(大师)，其余免考，请谨慎选择您对段位</span>
+        </p>
+        <div class="yz-rzjn-dredgeType-select">
+            <div class="select-label-nav">
+                趣带萌新
+                <div class="select-label-box">
+                    <div class="sanjiao-box">
+                        <span class="sanjiao"></span>
                     </div>
+                    <ul class="list">
+                        <li>职业大神</li>
+                        <li>免费开黑</li>
+                        <li class="select-label-active">趣带萌新</li>
+                        <li>线下陪玩</li>
+                        <li>网吧竞赛</li>
+                    </ul>
                 </div>
-                <ul class="nav">
-                    <li>订单信息</li>
-                    <li>栏目</li>
-                    <li>单价</li>
-                    <li>时间</li>
-                    <li>金额</li>
-                    <li>订单状态</li>
-                    <li>操作</li>
-                </ul>
-                <ul class="item">
-                    <li>LOL指导</li>
-                    <li>职业大神</li>
-                    <li>50元</li>
-                    <li>1小时</li>
-                    <li>50元</li>
-                    <li>待支付</li>
-                    <li>
-                        <p>
-                            <span onclick="setUrl('./yz-tjdd.html')">去支付</span>
-                            <span>取消接单</span>
-                        </p>
-                        <img src="./static/img/icon_shanchu.png" alt="">
-                    </li>
-                </ul>
-                <ul class="item">
-                    <li>LOL指导</li>
-                    <li>职业大神</li>
-                    <li>50元</li>
-                    <li>1小时</li>
-                    <li>50元</li>
-                    <li>待支付</li>
-                    <li>
-                        <p>
-                            <span onclick="setUrl('./yz-tjdd.html')">去支付</span>
-                            <span>取消接单</span>
-                        </p>
-                        <img src="./static/img/icon_shanchu.png" alt="">
-                    </li>
-                </ul>
+            </div>
+            <div class="select-label-game">
+                游戏类别
+                <div class="select-label-box">
+                    <div class="sanjiao-box">
+                        <span class="sanjiao"></span>
+                    </div>
+                    <ul class="list">
+                        <li>英雄联盟</li>
+                        <li>穿越火线</li>
+                        <li class="select-label-active">堡垒之夜</li>
+                        <li>绝地求生</li>
+                        <li>刺激战场</li>
+                        <li>魔兽争霸RPG</li>
+                        <li>王者荣耀</li>
+                        <li>守望先锋</li>
+                        <li>QQ飞车</li>
+                        <li>第五人格</li>
+                        <li>手游荒野行动</li>
+                        <li>彩虹六号</li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </section>
+
+    <!-- 认证资料 -->
+    <section class="yz-rzjn-data yz-section-auto">
+        <p class="yz-rzjn-data-title">
+            <span class="circle"></span>
+            <span>认证资料</span>
+        </p>
+        <div class="yz-rzjn-data-photo">
+            <div class="yz-rzjn-data-photo-left">
+                <p>此图要求如下：</p>
+                <p>1、电脑清晰截图，不能手机拍摄</p>
+                <p>2、游戏昵称与分数清晰</p>
+                <p>3、如需考核上此号审核</p>
+            </div>
+            <p class="yz-rzjn-data-photo-text">实例</p>
+            <div class="yz-rzjn-data-photo-right">
+                <img src="./static/img/lol.png" alt="">
+            </div>
+        </div>
+        <div class="yz-rzjn-data-photo-uploading">
+            <button>上传图片</button>
+        </div>
+    </section>
+
+    <!-- 认证协议 提交 -->
+    <section class="yz-rzjn-submit yz-section-auto">
+        <p class="yz-rzjn-submit-text">
+            <input type="checkbox">
+            我已阅读并同意《认证协议》
+        </p>
+        <button class="yz-rzjn-submit-btn">提交</button>
     </section>
 
     <!-- 右侧固定栏 -->

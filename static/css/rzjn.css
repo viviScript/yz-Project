@@ -1,0 +1,335 @@
+/* 账户充值头部 */
+.yz-rzjn-titleName {
+    height: 77px;
+    line-height: 77px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.yz-rzjn-titleName span {
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #333333;
+}
+
+.yz-rzjn-titleName .line {
+    width: 2px;
+    height: 24px;
+    background-color: #ff733a;
+    display: block;
+    margin-top: 28px;
+    margin-right: 6px;
+}
+
+.yz-rzjn-titleName .text {
+    font-size: 16px;
+    color: #ff3030;
+}
+
+/* 开通类别 */
+.yz-rzjn-dredgeType {
+    overflow: initial;
+    display: block;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-title {
+    width: 940px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 20px;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-title .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #ff733a;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-title .text {
+    color: #ff3030;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select {
+    width: auto;
+    overflow: initial;
+    background-color: #fff;
+    padding: 42px 97px;
+    border-radius: 4px;
+}
+/* 趣带萌新 */
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav {
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding-right: 30px;
+    background: url(../img/right.png) no-repeat right center;
+    background-size: 30px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box {
+    width: auto;
+    height: 242px;
+    position: absolute;
+    right: -148px;
+    bottom: -118px;
+    z-index: 10;
+    border-radius: 4px;
+    display: none;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .sanjiao-box {
+    height: 242px;
+    width: 20px;
+    position: relative;
+    right: -10px;
+    float: left;
+    line-height: 242px;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .sanjiao-box .sanjiao {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: #e1e1e1 solid;
+    border-width: 1px 1px 0 0;
+    transform: rotate(225deg);
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list {
+    width: 128px;
+    overflow: hidden;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list li{
+    width: 128px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #666666;
+    cursor: pointer;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list li:hover{
+    color: #ff733a;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list .select-label-active{
+    color: #ff733a;
+}
+
+
+/* 游戏类别 */
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game {
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding-right: 30px;
+    background: url(../img/right.png) no-repeat right center;
+    background-size: 30px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box {
+    width: 376px;
+    height: 242px;
+    position: absolute;
+    right: -373px;
+    bottom: -118px;
+    z-index: 10;
+    border-radius: 4px;
+    display: none;
+}
+
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .sanjiao-box {
+    height: 242px;
+    width: 20px;
+    position: relative;
+    right: -10px;
+    float: left;
+    line-height: 242px;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .sanjiao-box .sanjiao {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: #e1e1e1 solid;
+    border-width: 1px 1px 0 0;
+    transform: rotate(225deg);
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .list {
+    width: 354px;
+    overflow: hidden;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .list li{
+    width: 118px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #666666;
+    cursor: pointer;
+    float: left;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .list li:hover{
+    color: #ff733a;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .list .select-label-active{
+    color: #ff733a;
+}
+
+
+/* 认证资料 */
+.yz-rzjn-data {
+    overflow: initial;
+    display: block;
+    background-color: #fff;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.yz-rzjn-data .yz-rzjn-data-title {
+    width: 940px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.yz-rzjn-data .yz-rzjn-data-title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-rzjn-data .yz-rzjn-data-title .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #ff733a;
+}
+.yz-rzjn-data .yz-rzjn-data-photo {
+    width: auto;
+    overflow: hidden;
+    padding: 30px 55px;
+}
+.yz-rzjn-data .yz-rzjn-data-photo .yz-rzjn-data-photo-left{
+    width: 260px;
+    height: 125px;
+    float: left;
+    padding: 110px 110px 105px 105px;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+}
+.yz-rzjn-data .yz-rzjn-data-photo .yz-rzjn-data-photo-left p{
+    width: auto;
+    text-align: left;
+    color: #ff3030;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-rzjn-data .yz-rzjn-data-photo .yz-rzjn-data-photo-text{
+    width: 140px;
+    height: 340px;
+    float: left;
+    line-height: 340px;
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+}
+.yz-rzjn-data .yz-rzjn-data-photo .yz-rzjn-data-photo-right{
+    width: 475px;
+    height: 340px;
+    float: left;
+    overflow: hidden;
+}
+.yz-rzjn-data .yz-rzjn-data-photo .yz-rzjn-data-photo-right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.yz-rzjn-data .yz-rzjn-data-photo-uploading{
+    width: auto;
+    overflow: hidden;
+    padding-left: 56px;
+}
+.yz-rzjn-data .yz-rzjn-data-photo-uploading button{
+    width: 201px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff733a;
+    border-radius: 4px;
+    border: none;
+}
+
+/* 认证协议 提交 */
+.yz-rzjn-submit {
+    overflow: hidden;
+    padding: 50px 0;
+}
+.yz-rzjn-submit .yz-rzjn-submit-text{
+    width: auto;
+    overflow: hidden;
+    padding-left: 56px;
+    font-size: 16px;
+    color: #999999;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.yz-rzjn-submit .yz-rzjn-submit-text input{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-rzjn-submit .yz-rzjn-submit-btn{
+    width: 201px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff733a;
+    border-radius: 4px;
+    border: none;
+    margin-left: 56px;
+}

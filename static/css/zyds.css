@@ -99,12 +99,13 @@
 .yz-zyds-userCard {
     width: 1200px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 .yz-zyds-userCard-left {
     width: 80%;
     overflow: hidden;
     float: left;
+    padding-bottom: 10px;
 }
 .yz-zyds-userCard-right {
     width: 20%;

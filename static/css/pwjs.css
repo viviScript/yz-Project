@@ -132,6 +132,7 @@
 .yz-pwjs-details {
     overflow: hidden;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .yz-pwjs-details-left {
@@ -144,6 +145,7 @@
     width: 100%;
     overflow: hidden;
     padding: 24px 0;
+    background-color: #fff;
 }
 
 .yz-pwjs-details .yz-pwjs-details-left-photoList .left-page {
@@ -214,6 +216,7 @@
     overflow: hidden;
     background-color: #fff;
     margin-top: 20px;
+    border-radius: 4px;
 }
 .yz-pwjs-details .yz-pwjs-details-left-text .title{
     width: auto;
@@ -241,4 +244,237 @@
     font-size: 16px;
     color: #999999;
     float: left;
+}
+.yz-pwjs-details-right {
+    width: 700px;
+    overflow: hidden;
+    float: right;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-navLine {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px;
+    background-color: rgba(255,115,58,0.05);
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-navLine li{
+    font-size: 16px;
+    float: left;
+    height: 56px;
+    padding: 0 20px;
+    line-height: 56px;
+    color: #ff733a;
+    cursor: pointer;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-navLine .navline-active {
+    background: url(../img/icon_orgjiantou.png) no-repeat center bottom;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-navLine li:hover{
+    background: url(../img/icon_orgjiantou.png) no-repeat center bottom;
+}
+
+.yz-pwjs-details-right .yz-pwjs-details-right-order {
+    width: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px 23px;
+    border-bottom: 1px solid rgba(255,115,58,0.3);
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-img {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 4px;
+    float: left;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-img img{
+    width: 130px;
+    height: 130px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content {
+    width: 500px;
+    height: 130px;
+    margin-left: 24px;
+    float: left;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-time{
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    font-size: 16px;
+    color: #666666;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-time span:nth-child(1){
+    color: #ff3030;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-time span:nth-child(2){
+    color: #ff3030;
+    font-size: 36px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num  {
+    width: auto;
+    overflow: hidden;
+    margin-top: 23px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number {
+    width: 60px;
+    overflow: hidden;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    float: left;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number input{
+    width: 38px;
+    height: 44px;
+    float: left;
+    border: none;
+    padding: 0;
+    text-align: center;
+    line-height: 44px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number p{
+    width: 18px;
+    height: 44px;
+    float: left;
+    border-left: 1px solid #999999;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number p span{
+    width: 18px;
+    height: 22px;
+    display: block;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-input-number p span:first-child{
+   border-bottom: 1px solid #999999;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-order-content .price-num .price-btn {
+    width: 190px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #ff733a;
+    float: right;
+    border: none;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-introduce {
+    width: auto;
+    overflow: hidden;
+    padding: 30px 32px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-introduce .title{
+    font-size: 16px;
+    color: #999999;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-introduce .title span{
+    font-size: 18px;
+    color: #ff733a;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-introduce .content{
+    width: auto;
+    height: 210px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment {
+    width: auto;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .title {
+    width: auto;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    padding-left: 30px;
+    text-align: left;
+    color: #ff733a;
+    background-color: #fff8f5;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .list{
+    width: auto;
+    overflow: hidden;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .list li{
+    width: auto;
+    overflow: hidden;
+    padding: 20px 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .list li .user-img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .list li .user-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .list li .user-text{
+    width: 357px;
+    overflow: hidden;
+    float: left;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-details{
+    width: auto;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-details span{
+    float: left;
+    font-size: 18px;
+    margin-right: 20px;
+    display: block;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-details .yz-details-vip{
+    font-size: 16px;
+    padding: 0 4px
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-details .time{
+    font-size: 16px;
+    color: #666666;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-explain{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666666;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-grade{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 55px;
+    float: left;
+    text-align: center;
+}
+.yz-pwjs-details-right .yz-pwjs-details-right-comment .user-grade img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.yz-pwjs-more {
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff733a;
 }

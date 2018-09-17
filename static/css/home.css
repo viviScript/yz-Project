@@ -58,9 +58,11 @@
 /*  热门推荐区 */
 .yz-home-hot {
     width: 1200px;
+    overflow: hidden;
     margin: 35px auto;
     padding-bottom: 30px;
     background: #fff;
+    border-radius: 4px;
 } 
 .yz-home-hot-title {
     width: 1200px;
@@ -96,6 +98,7 @@
     margin: 35px auto;
     background: #fff;
     overflow: hidden;
+    border-radius: 4px;
 }
 .yz-home-newHot-title {
     float: left;
@@ -167,6 +170,7 @@
     overflow: hidden;
     float: left;
     background-color: #fff;
+    border-radius: 4px;
 }
 .yz-home-ranking-title {
     width: 100%;

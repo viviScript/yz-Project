@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>约战电竞-我的圈子</title>
+    <title>约战电竞-我的消息</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src='./common/js/common.js'></script>
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
-    <link rel="stylesheet" href="./static/css/qzzx.css">
+    <link rel="stylesheet" href="./static/css/wdxx.css">
 </head>
 
 <body>
@@ -94,8 +94,8 @@
     </header>
 
     <!-- 我的圈子详情区 -->
-    <section class="yz-qzzx-box yz-section-auto yz-section-top">
-        <div class="yz-qzzx-box-left">
+    <section class="yz-wdxx-box yz-section-auto yz-section-top">
+        <div class="yz-wdxx-box-left">
             <img class="head-img" src="./static/img/touxiang.jpg" alt="">
             <p class="head-name">娇御</p>
             <p class="head-id">117043</p>
@@ -111,141 +111,156 @@
             </div>
         </div>
 
-        <div class="yz-qzzx-box-right">
-            <div class="yz-qzzx-right-navLine">
+        <div class="yz-wdxx-box-right">
+            <div class="yz-wdxx-right-navLine">
                 <p onclick="toggleDisplay([
-                {el: '.yz-qzzx-right-list', styleCss: 'block'},
-                {el: '.yz-qzzx-right-fans', styleCss: 'none'},
-                {el: '.yz-qzzx-right-message', styleCss: 'none'},
-            ]), setClass(this, 'navline-active')" class="navline-active">
-                    全部圈子
-                    <span>0</span>
-                </p>
+                {el: '.yz-wdxx-right-fans', styleCss: 'none'},
+                {el: '.yz-wdxx-right-message', styleCss: 'block'},
+            ]), setClass(this, 'navline-active')" class="navline-active" >全部消息</p>
                 <p>我的关注</p>
-                <p>我的动态</p>
-                <div class="yz-qzzx-right-fb">
+                <p onclick="toggleDisplay([
+                {el: '.yz-wdxx-right-fans', styleCss: 'block'},
+                {el: '.yz-wdxx-right-message', styleCss: 'none'},
+            ]), setClass(this, 'navline-active')" >我的粉丝</p>
+                <div class="yz-wdxx-right-fb">
                     <img src="./static/img/icon_fabu.png" alt="">
                 </div>
             </div>
-            <!-- 全部圈子 -->
-            <ul class="yz-qzzx-right-list">
-                <li>
-                    <div class="user-img">
-                        <img src="./static/img/touxiang.jpg" alt="">
-                    </div>
+            <!-- 我的粉丝 -->
+            <div class="yz-wdxx-right-fans">
+                <p class="yz-wdxx-right-fans-title">A</p>
+                <div class="yz-wdxx-right-fans-item">
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
                     <div class="user-content">
-                        <p class='name'>娇御</p>
-                        <p class="explain">无聊，约玩</p>
-                        <div class="photo">
-                            <img src="./static/img/zhaopian.png" alt="">
-                        </div>
-                        <div class="label">
-                            <span class="time">10小时前</span>
-                            <span class="praise"><img src="./static/img/icon_zan1.png" alt="">11个赞</span>
-                            <p class="btn">
-                                <span>点赞</span>
-                                <span>评论</span>
-                            </p>
-                            <img class="comment-btn" src="./static/img/icon_pinglun.png" alt="">
-                        </div>
-                        <p class="comment-text">
-                            <span>愤怒的小马：</span>约起
+                        <p>娇御</p>
+                        <p>接单22次</p>
+                        <p>
+                            <span class="yz-details">
+                                <img src="./static/img/icon_nvxing.png" alt="">
+                                22
+                            </span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <span class="time">10小时前</span>
+                    </div>
+                </div>
+                <div class="yz-wdxx-right-fans-item">
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
+                    <div class="user-content">
+                        <p>娇御</p>
+                        <p>接单22次</p>
+                        <p>
+                            <span class="yz-details">
+                                <img src="./static/img/icon_nvxing.png" alt="">
+                                22
+                            </span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <span class="time">10小时前</span>
+                    </div>
+                </div>
+                <div class="yz-wdxx-right-fans-item">
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
+                    <div class="user-content">
+                        <p>娇御</p>
+                        <p>接单22次</p>
+                        <p>
+                            <span class="yz-details">
+                                <img src="./static/img/icon_nvxing.png" alt="">
+                                22
+                            </span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <span class="time">10小时前</span>
+                    </div>
+                </div>
+                <div class="yz-wdxx-right-fans-item">
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
+                    <div class="user-content">
+                        <p>娇御</p>
+                        <p>接单22次</p>
+                        <p>
+                            <span class="yz-details">
+                                <img src="./static/img/icon_nvxing.png" alt="">
+                                22
+                            </span>
+                            <span class="yz-grade">荣耀皇冠</span>
+                        </p>
+                        <span class="time">10小时前</span>
+                    </div>
+                </div>
+                <p class="text-more">没有更多了...</p>
+            </div>
+
+            <!-- 全部消息 -->
+            <ul class="yz-wdxx-right-message">
+                <li>
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
+                    <div class="user-content">
+                        <p>
+                            <span>娇御</span>
+                            <span>8/28 15:53</span>
+                        </p>
+
+                        <p>
+                            <span>娇御对您说：在的，亲</span>
+                            <span>回复</span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <div class="user-img">
-                        <img src="./static/img/touxiang.jpg" alt="">
-                    </div>
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
                     <div class="user-content">
-                        <p class='name'>娇御</p>
-                        <p class="explain">无聊，约玩</p>
-                        <div class="photo">
-                            <img src="./static/img/zhaopian.png" alt="">
-                        </div>
-                        <div class="label">
-                            <span class="time">10小时前</span>
-                            <span class="praise"><img src="./static/img/icon_zan1.png" alt="">11个赞</span>
-                            <p class="btn">
-                                <span>点赞</span>
-                                <span>评论</span>
-                            </p>
-                            <img class="comment-btn" src="./static/img/icon_pinglun.png" alt="">
-                        </div>
-                        <p class="comment-text">
-                            <span>愤怒的小马：</span>约起
+                        <p>
+                            <span>娇御</span>
+                            <span>8/28 15:53</span>
+                        </p>
+
+                        <p>
+                            <span>娇御对您说：在的，亲</span>
+                            <span>回复</span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <div class="user-img">
-                        <img src="./static/img/touxiang.jpg" alt="">
-                    </div>
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
                     <div class="user-content">
-                        <p class='name'>娇御</p>
-                        <p class="explain">无聊，约玩</p>
-                        <div class="photo">
-                            <img src="./static/img/zhaopian.png" alt="">
-                        </div>
-                        <div class="label">
-                            <span class="time">10小时前</span>
-                            <span class="praise"><img src="./static/img/icon_zan1.png" alt="">11个赞</span>
-                            <p class="btn">
-                                <span>点赞</span>
-                                <span>评论</span>
-                            </p>
-                            <img class="comment-btn" src="./static/img/icon_pinglun.png" alt="">
-                        </div>
-                        <p class="comment-text">
-                            <span>愤怒的小马：</span>约起
+                        <p>
+                            <span>娇御</span>
+                            <span>8/28 15:53</span>
+                        </p>
+
+                        <p>
+                            <span>娇御对您说：在的，亲</span>
+                            <span>回复</span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <div class="user-img">
-                        <img src="./static/img/touxiang.jpg" alt="">
-                    </div>
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
                     <div class="user-content">
-                        <p class='name'>娇御</p>
-                        <p class="explain">无聊，约玩</p>
-                        <div class="photo">
-                            <img src="./static/img/zhaopian.png" alt="">
-                        </div>
-                        <div class="label">
-                            <span class="time">10小时前</span>
-                            <span class="praise"><img src="./static/img/icon_zan1.png" alt="">11个赞</span>
-                            <p class="btn">
-                                <span>点赞</span>
-                                <span>评论</span>
-                            </p>
-                            <img class="comment-btn" src="./static/img/icon_pinglun.png" alt="">
-                        </div>
-                        <p class="comment-text">
-                            <span>愤怒的小马：</span>约起
+                        <p>
+                            <span>娇御</span>
+                            <span>8/28 15:53</span>
+                        </p>
+
+                        <p>
+                            <span>娇御对您说：在的，亲</span>
+                            <span>回复</span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <div class="user-img">
-                        <img src="./static/img/touxiang.jpg" alt="">
-                    </div>
+                    <img class="user-img" src="./static/img/touxiang.jpg" alt="">
                     <div class="user-content">
-                        <p class='name'>娇御</p>
-                        <p class="explain">无聊，约玩</p>
-                        <div class="photo">
-                            <img src="./static/img/zhaopian.png" alt="">
-                        </div>
-                        <div class="label">
-                            <span class="time">10小时前</span>
-                            <span class="praise"><img src="./static/img/icon_zan1.png" alt="">11个赞</span>
-                            <p class="btn">
-                                <span>点赞</span>
-                                <span>评论</span>
-                            </p>
-                            <img class="comment-btn" src="./static/img/icon_pinglun.png" alt="">
-                        </div>
-                        <p class="comment-text">
-                            <span>愤怒的小马：</span>约起
+                        <p>
+                            <span>娇御</span>
+                            <span>8/28 15:53</span>
+                        </p>
+
+                        <p>
+                            <span>娇御对您说：在的，亲</span>
+                            <span>回复</span>
                         </p>
                     </div>
                 </li>

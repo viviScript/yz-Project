@@ -123,6 +123,7 @@
     line-height: 50px;
     text-align: center;
     float: right;
+    cursor: pointer;
 }
 
 .yz-qzzx-box-right .yz-qzzx-right-fb img {
@@ -242,6 +243,7 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-right: 1px solid #f7f7f9;
+    cursor: pointer;
 }
 
 .yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .btn span:last-child {
@@ -255,6 +257,7 @@
     float: left;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 
 .yz-qzzx-box-right .yz-qzzx-right-list .user-content .label .comment-btn {
@@ -263,6 +266,7 @@
     float: left;
     margin-left: 10px;
     display: block;
+    cursor: pointer;
 }
 
 .yz-qzzx-box-right .yz-qzzx-right-list .user-content .comment-text {
@@ -274,6 +278,7 @@
     margin-top: 20px;
     display: block;
     border-radius: 4px;
+    color: #666666;
 }
 
 .yz-qzzx-box-right .yz-qzzx-right-list .user-content .comment-text span {
@@ -285,96 +290,6 @@
     padding-top: 30px;
     border-bottom: 1px solid #e1e1e1;
 }
-
-/* 我的粉丝 */
-.yz-qzzx-box-right .yz-qzzx-right-fans {
-    width: auto;
-    overflow: hidden;
-    padding: 0 30px 100px;
-    display: none;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-title {
-    width: auto;
-    overflow: hidden;
-    font-size: 18px;
-    color: #333333;
-    padding: 26px 0 0;
-    font-weight: bold;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item {
-    width: auto;
-    overflow: hidden;
-    position: relative;
-    padding-top: 20px;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-img {
-    width: 90px;
-    height: 90px;
-    border-radius: 4px;
-    display: block;
-    float: left;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content {
-    width: auto;
-    height: 90px;
-    display: block;
-    float: left;
-    margin-left: 20px;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(1) {
-    width: auto;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
-    color: #333333;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(2) {
-    width: auto;
-    height: 20px;
-    line-height: 20px;
-    font-size: 16px;
-    color: #666666;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(3) {
-    width: auto;
-    overflow: hidden;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content p:nth-child(3) span {
-    float: left;
-    height: 22px;
-    line-height: 22px;
-    margin-right: 10px;
-    padding: 0 8px;
-    margin-top: 7px;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-fans .yz-qzzx-right-fans-item .user-content .time {
-    width: auto;
-    overflow: hidden;
-    position: absolute;
-    right: 70px;
-    bottom: 30px;
-    font-size: 16px;
-    color: #666666;
-    height: 22px;
-    line-height: 22px;
-}
-
-.yz-qzzx-right-fans .text-more {
-    height: 50px;
-    line-height: 50px;
-    font-size: 18px;
-    color: #ff733a;
-}
-
 .yz-qzzx-box-right .look-more {
     width: 100%;
     text-align: center;
@@ -383,72 +298,4 @@
     font-size: 18px;
     color: #ff733a;
     border-top: 1px solid #e1e1e1;
-}
-
-
-/* 全部消息 */
-
-.yz-qzzx-box-right .yz-qzzx-right-message {
-    width: auto;
-    overflow: hidden;
-    padding: 0 30px 100px;
-    display: none;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-message li {
-    width: auto;
-    overflow: hidden;
-    padding: 30px 0 20px;
-    border-bottom: 1px solid #e1e1e1;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-message li .user-img {
-    width: 90px;
-    height: 90px;
-    border-radius: 4px;
-    float: left;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-message li .user-content {
-    width: auto;
-    overflow: hidden;
-    display: block;
-    padding-left: 20px;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(1) {
-    width: 100%;
-    overflow: hidden;
-    display: block;
-    font-size: 18px;
-    color: #333333;
-    height: 40px;
-    line-height: 40px;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(1) span:last-child {
-    font-size: 16px;
-    color: #666666;
-    height: 40px;
-    line-height: 40px;
-    float: right;
-    margin-right: 30px;
-}
-.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(2) {
-    width: 100%;
-    overflow: hidden;
-    display: block;
-    font-size: 16px;
-    color: #666666;
-    height: 40px;
-    line-height: 40px;
-}
-
-.yz-qzzx-box-right .yz-qzzx-right-message li .user-content p:nth-child(2) span:last-child {
-    font-size: 18px;
-    color: #ff733a;
-    height: 40px;
-    line-height: 40px;
-    float: right;
-    margin-right: 30px;
 }

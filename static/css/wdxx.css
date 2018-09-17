@@ -1,0 +1,300 @@
+/* 我的圈子详情区  */
+.yz-wdxx-box {
+    overflow: hidden;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left {
+    width: 320px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 30px 0;
+    color: #666666;
+    float: left;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-name {
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-id {
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-num {
+    width: auto;
+    overflow: hidden;
+    display: block;
+    margin-top: 18px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-num p {
+    width: 49%;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-num p:first-child {
+    border-right: 1px solid #e1e1e1;
+}
+
+.yz-wdxx-box .yz-wdxx-box-left .head-num p span {
+    width: auto;
+    height: 40px;
+    ;
+    text-align: center;
+    display: block;
+}
+
+.yz-wdxx-box .yz-wdxx-box-right {
+    width: 850px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    float: right;
+}
+
+
+.yz-wdxx-box-right .yz-wdxx-right-navLine {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px;
+    background-color: rgba(255, 115, 58, 0.05);
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-navLine p {
+    font-size: 18px;
+    float: left;
+    height: 50px;
+    padding-right: 36px;
+    line-height: 50px;
+    color: #666666;
+    cursor: pointer;
+    position: relative;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-navLine .navline-active {
+    color: #ff733a;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-navLine p:hover {
+    color: #ff733a;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-navLine span {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #ff6362;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fb {
+    width: 21px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fb img {
+    width: 21px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* 我的粉丝 */
+.yz-wdxx-box-right .yz-wdxx-right-fans {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px 100px;
+    display: none;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-title {
+    width: auto;
+    overflow: hidden;
+    font-size: 18px;
+    color: #333333;
+    padding: 26px 0 0;
+    font-weight: bold;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    display: block;
+    float: left;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-content {
+    width: auto;
+    height: 90px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-content p:nth-child(1) {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-content p:nth-child(2) {
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-content p:nth-child(3) {
+    width: auto;
+    overflow: hidden;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-content p:nth-child(3) span {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 10px;
+    padding: 0 8px;
+    margin-top: 7px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-fans .yz-wdxx-right-fans-item .user-content .time {
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
+    font-size: 16px;
+    color: #666666;
+    height: 22px;
+    line-height: 22px;
+}
+
+.yz-wdxx-right-fans .text-more {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ff733a;
+}
+
+.yz-wdxx-box-right .look-more {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ff733a;
+    border-top: 1px solid #e1e1e1;
+}
+
+
+/* 全部消息 */
+
+.yz-wdxx-box-right .yz-wdxx-right-message {
+    width: auto;
+    overflow: hidden;
+    padding: 0 30px 100px;
+    display: block;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-message li {
+    width: auto;
+    overflow: hidden;
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-message li .user-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    float: left;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-message li .user-content {
+    width: auto;
+    overflow: hidden;
+    display: block;
+    padding-left: 20px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-message li .user-content p:nth-child(1) {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    color: #333333;
+    height: 40px;
+    line-height: 40px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-message li .user-content p:nth-child(1) span:last-child {
+    font-size: 16px;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 30px;
+}
+.yz-wdxx-box-right .yz-wdxx-right-message li .user-content p:nth-child(2) {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    font-size: 16px;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+}
+
+.yz-wdxx-box-right .yz-wdxx-right-message li .user-content p:nth-child(2) span:last-child {
+    font-size: 18px;
+    color: #ff733a;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 30px;
+}

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
     <link rel="stylesheet" href="./static/css/qdmx.css">
+    <link rel="stylesheet" href="./common/css/release.css">
 </head>
 
 <body>
@@ -386,11 +387,60 @@
     <aside class="yz-aside">
         <ul>
             <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
-            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+            <li onclick="toggleDisplay([
+            {el: '.yz-relase-box-qdmx', styleCss: 'block'},
+        ])" ><img src="./common/img/icon_liaotian.png" alt="">发布</li>
             <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
             <li><img src="./common/img/icon_top.png" alt="">top</li>
         </ul>
     </aside>
+
+    <!-- 发布趣带萌新功能区 -->
+    <section class="yz-relase-box-qdmx">
+        <div class="yz-relase-box">
+            <div class="title">
+                发布趣带萌新任务
+                <span onclick="toggleDisplay([
+                {el: '.yz-relase-box-qdmx', styleCss: 'none'},
+            ])" class="close">X</span>
+            </div>
+            <div class="content">
+                <p class="options">
+                    <span class="beg">求带</span>
+                    <span class="band">带人</span>
+                </p>
+                <div class="form">
+                    <label class="textLaber" for="">标题</label>
+                    <input type="text" placeholder="如：高玩带队">
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">备注</label>
+                    <input type="text" placeholder="如：高玩带队">
+                </div>
+                <div class="select">
+                    <p class="textLaber">选择游戏</p>
+                    <ul>
+                        <li>绝地求生</li>
+                        <li>英雄联盟</li>
+                        <li>王者荣耀</li>
+                        <li>第五人格</li>
+                        <li>堡垒之夜</li>
+                        <li>QQ飞车</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <p class="textLaber">选择价格</p>
+                    <input type="text" placeholder="数字">
+                    <span>元/半小时</span>
+                </div>
+                <div class="yz-relase-btn">
+                    <button>发布</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <!-- 脚部区 -->
     <footer class="yz-footer">

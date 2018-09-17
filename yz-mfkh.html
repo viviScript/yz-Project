@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
     <link rel="stylesheet" href="./static/css/mfkh.css">
+    <link rel="stylesheet" href="./common/css/release.css">
 </head>
 
 <body>
@@ -307,11 +308,63 @@
     <aside class="yz-aside">
         <ul>
             <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
-            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+            <li onclick="toggleDisplay([
+            {el: '.yz-relase-box-mfkh', styleCss: 'block'},
+        ])" ><img src="./common/img/icon_liaotian.png" alt="">发布</li>
             <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
             <li><img src="./common/img/icon_top.png" alt="">top</li>
         </ul>
     </aside>
+
+    <!-- 发布免费开黑功能区 -->
+    <section class="yz-relase-box-mfkh">
+        <div class="yz-relase-box">
+            <div class="title">
+                发布免费开黑任务
+                <span onclick="toggleDisplay([
+                {el: '.yz-relase-box-mfkh', styleCss: 'none'},
+            ])" class="close">X</span>
+            </div>
+            <div class="content">
+                <div class="form">
+                    <label class="textLaber" for="">选择网吧</label>
+                    <select name="" id="" class="selectBar">
+                        <option value="长沙四季网吧">长沙四季网吧</option>
+                        <option value="长沙无极网吧">长沙无极网吧</option>
+                        <option value="长沙天辰网吧">长沙天辰网吧</option>
+                    </select>
+                    <select name="" id="" class="selectBar">
+                        <option value="长沙四季网吧">长沙四季网吧</option>
+                        <option value="长沙无极网吧">长沙无极网吧</option>
+                        <option value="长沙天辰网吧">长沙天辰网吧</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">选择时限</label>
+                    <select name="" id="" class="selectTime">
+                        <option value="10分钟">10分钟</option>
+                        <option value="30分钟">30分钟</option>
+                        <option value="1小时">1小时</option>
+                    </select>
+                    <select name="" id="" class="selectTime">
+                        <option value="等待">等待</option>
+                        <option value="到达">到达</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">标题</label>
+                    <input type="text" placeholder="如：高玩带队">
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">备注</label>
+                    <textarea type="" placeholder="如：高玩带队"></textarea>
+                </div>
+                <div class="yz-relase-btn">
+                    <button>发布</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 脚部区 -->
     <footer class="yz-footer">

@@ -43,5 +43,8 @@ $(function () {
     $('.yz-user-login').click(function () {
         $('.yz-registration-login').addClass('yz-registration-block')
     })
-
+    $(".yz-aside li:last-child").click(function(){
+        $('body,html').animate({scrollTop:0},500);
+        return false;
+    });
 })

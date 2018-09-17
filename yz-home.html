@@ -684,16 +684,20 @@
     <!-- 右侧固定栏 -->
     <aside class="yz-aside">
         <ul>
-            <li class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
+            <li onclick="toggleDisplay([
+            {el: '.yz-customer-box-kf', styleCss: 'block'},
+        ])"class="yz-aside-active"><img src="./common/img/icon_kefu1.png" alt="">客服</li>
             <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
-            <li><img src="./common/img/icon_fankui.png" alt="">反馈</li>
+            <li onclick="toggleDisplay([
+            {el: '.yz-relase-box-fk', styleCss: 'block'},
+        ])"><img src="./common/img/icon_fankui.png" alt="">反馈</li>
             <li><img src="./common/img/icon_top.png" alt="">top</li>
         </ul>
     </aside>
 
     <!-- 登陆注册区域 -->
     <section class="yz-registration">
-        <span  onclick="registration('.close')" class="close">X</span>
+        <span onclick="registration('.close')" class="close">X</span>
         <!-- 登陆弹窗 -->
         <div class="yz-registration-wrapper yz-registration-login">
             <div class="yz-registration-title">
@@ -803,7 +807,7 @@
         <!-- 设置密码 -->
         <div class="yz-registration-wrapper yz-registration-setPassword">
             <div class="yz-registration-brack-title">
-                <span  onclick="registration('.yz-registration-regist')" class="yz-registration-brack">返回</span>
+                <span onclick="registration('.yz-registration-regist')" class="yz-registration-brack">返回</span>
                 <p class="title">设置密码</p>
             </div>
             <div class="yz-registration-box">
@@ -852,106 +856,114 @@
         </div>
     </section>
 
-    <!-- 发布趣带萌新功能区 -->
-    <section class="yz-relase-box yz-relase-none">
-        <div class="title">
-            发布趣带萌新任务
-            <span class="close">X</span>
-        </div>
-        <div class="content">
-            <p class="options">
-                <span class="beg">求带</span>
-                <span class="band">带人</span>
-            </p>
-            <div class="form">
-                <label class="textLaber" for="">标题</label>
-                <input type="text" placeholder="如：高玩带队">
-            </div>
-            <div class="form">
-                <label class="textLaber" for="">备注</label>
-                <input type="text" placeholder="如：高玩带队">
-            </div>
-            <div class="select">
-                <p class="textLaber">选择游戏</p>
-                <ul>
-                    <li>绝地求生</li>
-                    <li>英雄联盟</li>
-                    <li>王者荣耀</li>
-                    <li>第五人格</li>
-                    <li>堡垒之夜</li>
-                    <li>QQ飞车</li>
-                    <li>其他</li>
+    <!-- 客服弹窗 -->
+    <section class="yz-customer-box-kf">
+        <div class="yz-customer-box">
+            <ul class="yz-customer-box-left">
+                <li>
+                    <img src="./static/img/touxiang.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./static/img/icon_time1-kf.png" alt="">
+                </li>
+                <li>
+                    <img src="./static/img/icon_geren-kf.png" alt="">
+                </li>
+                <li>
+                    <img src="./static/img/icon_renqun-kf.png" alt="">
+                </li>
+            </ul>
+            <ul class="yz-customer-box-midder">
+                <li><img src="./static/img/xiaoxi-kf.png" alt="">消息中心</li>
+                <li><img src="./static/img/touxiang.jpg" alt="">客服小姐姐</li>
+                <li><img src="./static/img/touxiang.jpg" alt="">喵喵喵</li>
+            </ul>
+            <div class="yz-customer-box-right">
+                <div class="title">客服小姐姐
+                        <span onclick="toggleDisplay([
+                        {el: '.yz-customer-box-kf', styleCss: 'none'},
+                    ])" class="close">X</span>
+                </div>
+                <ul class="message-list">
+                    <p class="time">19:35</p>
+                    <li class="message-left">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-right">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-left">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-right">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-left">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-right">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-left">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-right">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-left">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-right">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-left">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
+                    <li class="message-right">
+                        <img src="./static/img/touxiang.jpg" alt="">
+                        <p class="text">您好！欢迎来到约战电竞！</p>
+                    </li>
                 </ul>
-            </div>
-            <div class="price">
-                <p class="textLaber">选择价格</p>
-                <input type="text" placeholder="数字">
-                <span>元/半小时</span>
-            </div>
-            <div class="yz-relase-btn">
-                <button>发布</button>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- 发布免费开黑功能区 -->
-    <section class="yz-relase-box yz-relase-none">
-        <div class="title">
-            发布免费开黑任务
-            <span class="close">X</span>
-        </div>
-        <div class="content">
-            <div class="form">
-                <label class="textLaber" for="">选择网吧</label>
-                <select name="" id="" class="selectBar">
-                    <option value="长沙四季网吧">长沙四季网吧</option>
-                    <option value="长沙无极网吧">长沙无极网吧</option>
-                    <option value="长沙天辰网吧">长沙天辰网吧</option>
-                </select>
-                <select name="" id="" class="selectBar">
-                    <option value="长沙四季网吧">长沙四季网吧</option>
-                    <option value="长沙无极网吧">长沙无极网吧</option>
-                    <option value="长沙天辰网吧">长沙天辰网吧</option>
-                </select>
-            </div>
-            <div class="form">
-                <label class="textLaber" for="">选择时限</label>
-                <select name="" id="" class="selectTime">
-                    <option value="10分钟">10分钟</option>
-                    <option value="30分钟">30分钟</option>
-                    <option value="1小时">1小时</option>
-                </select>
-                <select name="" id="" class="selectTime">
-                    <option value="等待">等待</option>
-                    <option value="到达">到达</option>
-                </select>
-            </div>
-            <div class="form">
-                <label class="textLaber" for="">标题</label>
-                <input type="text" placeholder="如：高玩带队">
-            </div>
-            <div class="form">
-                <label class="textLaber" for="">备注</label>
-                <textarea type="" placeholder="如：高玩带队"></textarea>
-            </div>
-            <div class="yz-relase-btn">
-                <button>发布</button>
+                <div class="message-send">
+                    <ul class="message-tools">
+                        <li><img src="./static/img/icon_biaoqin-kf.png" alt=""></li>
+                        <li><img src="./static/img/icon_liwu-kf.png" alt=""></li>
+                    </ul>
+                    <div class="message-edit">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="请输入消息"></textarea>
+                        <button>发送</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
 
     <!-- 发布意见反馈功能区 -->
-    <section class="yz-relase-box yz-relase-none">
-        <div class="title">
-            您的意见
-            <span class="close">X</span>
-        </div>
-        <div class="opinion-box">
-            <textarea class="opinion" name="" id="" cols="30" rows="10"></textarea>
-            <div class="yz-relase-btn">
-                <button>发布</button>
+    <section class="yz-relase-box-fk">
+        <div class="yz-relase-box">
+            <div class="title">
+                您的意见
+                <span onclick="toggleDisplay([
+            {el: '.yz-relase-box-fk', styleCss: 'none'},
+        ])"
+                    class="close">X</span>
+            </div>
+            <div class="opinion-box">
+                <textarea class="opinion" name="" id="" cols="30" rows="10"></textarea>
+                <div class="yz-relase-btn">
+                    <button>发布</button>
+                </div>
             </div>
         </div>
     </section>

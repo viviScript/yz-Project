@@ -212,3 +212,245 @@
     resize: none;
     margin-bottom: 20px;
 }
+
+/* 趣带萌新弹框 */
+.yz-relase-box-qdmx {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1888;
+}
+/* 免费开黑弹窗 */
+.yz-relase-box-mfkh {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1888;
+}
+/* 反馈 */
+.yz-relase-box-fk {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1888;
+}
+
+/* 客服弹窗 */
+.yz-customer-box-kf {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1888; 
+}
+.yz-customer-box {
+    width: 938px;
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+}
+.yz-customer-box-left {
+    width: 89px;
+    height: 768px;
+    float: left;
+    background-color: rgba(255,115,58,0.3);
+}
+.yz-customer-box-left li{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+.yz-customer-box-left li img{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.yz-customer-box-left li:nth-child(1) img{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.yz-customer-box-midder {
+    width: 254px;
+    height: 768px;
+    overflow-y: auto;
+    float: left;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    position: relative;
+    background-color: #fff;
+    z-index: 10;
+}
+.yz-customer-box-midder li{
+    width: 100%;
+    height: 91px;
+    line-height: 91px;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+}
+.yz-customer-box-midder li img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+.yz-customer-box-right {
+    width: 595px;
+    height: 768px;
+    float: left;
+}
+.yz-customer-box-right .title{
+    width: auto;
+    font-size: 18px;
+    color: #333333;
+    padding: 0 30px;
+    height: 91px;
+    line-height: 91px;
+    background-color: #fff;
+    position: relative;
+}
+.yz-customer-box-right .title .close{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #666666;
+    display: inline-block;
+    line-height: 20px;
+}
+.yz-customer-box-right .message-list{
+    width: auto;
+    font-size: 16px;
+    color: #333333;
+    padding: 0 31px;
+    height: 505px;
+    overflow-y: auto;
+    background-color: #fafafa;
+    padding: 15px 30px;
+}
+.yz-customer-box-right .message-list .time{
+    width: auto;
+    font-size: 14px;
+    color: #666666;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fafafa;
+}
+.yz-customer-box-right .message-list li{
+    width: auto;
+    overflow: hidden;
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.yz-customer-box-right .message-list li img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.yz-customer-box-right .message-list li p{
+    width: auto;
+    max-width: 280px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.yz-customer-box-right .message-list .message-left img{
+    float: left;
+}
+.yz-customer-box-right .message-list .message-left p{
+    float: left;
+    border-radius: 4px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.yz-customer-box-right .message-list .message-right img{
+    float: right;
+}
+.yz-customer-box-right .message-list .message-right p{
+    float: right;
+    border-radius: 4px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.yz-customer-box-right .message-send {
+    width: 100%;
+    height: 141px;
+}
+.yz-customer-box-right .message-tools {
+    width: auto;
+    overflow: hidden;
+    padding: 0 22px;
+}
+.yz-customer-box-right .message-tools li{
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.yz-customer-box-right .message-tools li img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yz-customer-box-right .message-edit{
+    width: auto;
+    height: 100px;
+    position: relative;
+}
+.yz-customer-box-right .message-edit textarea{
+    width: 555px;
+    height: 80px;
+    font-size: 16px;
+    color: #666666;
+    resize: none;
+    border: none;
+    padding: 10px 20px;
+}
+.yz-customer-box-right .message-edit button{
+    width: 90px;
+    height: 38px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    position: absolute;
+    bottom: 18px;
+    right: 30px;
+    background-color: #ff733a;
+    border: none;
+    cursor: pointer;
+}

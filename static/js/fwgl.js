@@ -35,6 +35,6 @@ $(function() {
         <option value="长沙无极网吧">长沙无极网吧</option>
         <option value="长沙天辰网吧">长沙天辰网吧</option>
     </select>`
-        $('.yz-fwgl-mfkh .selectBox').append(selectHtml)
+        $('.yz-fwgl-xxpw .selectBox .title-explain').before(selectHtml)
     })
 })

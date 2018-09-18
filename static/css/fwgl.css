@@ -240,6 +240,17 @@
 .yz-fwgl-dialog .box .edit .text:hover {
     color: red;
 }
+.yz-fwgl-add {
+    width: 26px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e1e1e1;
+    color: #999999;
+    cursor: pointer;
+}
 .yz-fwgl-btn {
     width: 60%;
     overflow: hidden;

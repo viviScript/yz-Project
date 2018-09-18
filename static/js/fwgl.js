@@ -29,4 +29,12 @@ $(function() {
                 break;
         }
     })
+    $('.yz-fwgl-add').click(function() {
+        let selectHtml = `<select name="" id="" class="selectBar">
+        <option value="长沙四季网吧">长沙四季网吧</option>
+        <option value="长沙无极网吧">长沙无极网吧</option>
+        <option value="长沙天辰网吧">长沙天辰网吧</option>
+    </select>`
+        $('.yz-fwgl-mfkh .selectBox').append(selectHtml)
+    })
 })

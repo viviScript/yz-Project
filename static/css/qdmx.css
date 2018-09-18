@@ -42,6 +42,9 @@
 }
 
 /* 趣带萌新列表 */
+.yz-qdmx-list {
+    margin-top: 10px;
+}
 .yz-qdmx-list-rigth {
     width: 940px;
     overflow: hidden;
@@ -53,8 +56,9 @@
     overflow: hidden;
     float: left;
     border-radius: 6px;
-    margin: 10px 1%;
+    margin: 0 20px 20px 0;
     background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 .yz-qdmx-card {
     width: auto;

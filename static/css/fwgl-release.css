@@ -31,7 +31,7 @@
 }
 .yz-fwgl-relase-box .content {
     width: auto;
-    padding: 50px 109px 0;
+    padding: 70px 109px 0;
 }
 .yz-fwgl-relase-box .content .title-content{
     width: auto;
@@ -177,7 +177,12 @@
     cursor: pointer;
     margin: 0 auto;
 }
-
+.yz-fwgl-relase-box .form .selectBox {
+    width: 284px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
 .yz-fwgl-relase-box .form .selectBar {
     width: 284px;
     height: 26px;
@@ -188,6 +193,7 @@
     border-radius: 4px;
     float: left;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 .yz-fwgl-relase-box .form .selectTime {
     width: 100px;

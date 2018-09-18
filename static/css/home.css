@@ -72,7 +72,8 @@
     text-align: center;
 }
 .yz-home-hot-box {
-    width: 100%;
+    width: auto;
+    padding: 0 10px;
     overflow: hidden;
 }
 

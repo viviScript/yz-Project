@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./common//css/reset.css">
     <link rel="stylesheet" href="./common/css/common.css">
     <link rel="stylesheet" href="./static/css/qzzx.css">
+    <link rel="stylesheet" href="./common/css/release.css">
 </head>
 
 <body>
@@ -117,13 +118,17 @@
                 {el: '.yz-qzzx-right-list', styleCss: 'block'},
                 {el: '.yz-qzzx-right-fans', styleCss: 'none'},
                 {el: '.yz-qzzx-right-message', styleCss: 'none'},
-            ]), setClass(this, 'navline-active')" class="navline-active">
+            ]), setClass(this, 'navline-active')"
+                    class="navline-active">
                     全部圈子
                     <span>0</span>
                 </p>
                 <p>我的关注</p>
                 <p>我的动态</p>
-                <div class="yz-qzzx-right-fb">
+                <div onclick="toggleDisplay([
+                {el: '.yz-relase-box-qz', styleCss: 'block'},
+            ])"
+                    class="yz-qzzx-right-fb">
                     <img src="./static/img/icon_fabu.png" alt="">
                 </div>
             </div>
@@ -254,6 +259,30 @@
         </div>
     </section>
 
+    <!-- 发布圈子功能区 -->
+    <section class="yz-relase-box-qz">
+        <div class="yz-relase-box">
+            <div class="title">
+                发圈子
+                <span onclick="toggleDisplay([
+        {el: '.yz-relase-box-qz', styleCss: 'none'},
+    ])" class="close">X</span>
+            </div>
+            <div class="opinion-box">
+                <p class="opinion-box-title">您的动态</p>
+                <textarea class="opinion" name="" id="" cols="30" rows="10"></textarea>
+                <div class="yz-relase-qz-fb-photo">
+                    <span class="yz-relase-qz-fb-photo-title">添加图片</span>
+                    <div class="yz-relase-qz-fb-photo-box">
+                        <img src="./static/img/icon _tianjia-fb.png" alt="">
+                    </div>
+                </div>
+                <div class="yz-relase-btn">
+                    <button>提交</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 脚部区 -->
     <footer class="yz-footer">
@@ -278,9 +307,28 @@
                     <img src="./common/img/icon_qian1.png" alt="">
                     <p class="yz-footer-flow-text">实时掌控工资 给您安心</p>
                 </div>
+                <div class="yz-footer-flow-erweima">
+                    <div class="erweima-box">
+                        <img src="./static/img/weixin-erweima.png" alt="">
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="erweima-box">
+                        <img src="./static/img/weixin-erweima.png" alt="">
+                        <p>微信公众号</p>
+                    </div>
+                </div>
             </div>
-            <p class="yz-footer-info">Copyright www.91yuezhan.com,All Rights Reserved</p>
-            <p class="yz-footer-info">Email:531745270@qq.com QQ:531745270</p>
+            <!-- <p class="yz-footer-info">Copyright www.91yuezhan.com,All Rights Reserved</p> -->
+            <!-- <p class="yz-footer-info">Email:531745270@qq.com QQ:531745270</p> -->
+        </div>
+        <div class="yz-footer-text">
+            <p>
+                <span>联系我们</span>
+                <span>关于我们</span>
+                <span>Email:531745270@qq.com</span>
+                <span>QQ:53174527</span>
+            </p>
+            <p>版权所有Copyright www.91yuezhan.com,All Rights Reserved.湘CP备18019028号</p>
         </div>
     </footer>
 </body>

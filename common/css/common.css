@@ -592,7 +592,10 @@
     cursor: pointer;
     /* border: 1px solid rgba(0,0,0,0.1); */
 }
-
+.yz-aside ul li:hover{
+    background-color: rgb(253,92,45);
+    color: #fff;
+}
 .yz-aside ul li img{
     width: 20px;
     height: 20px;

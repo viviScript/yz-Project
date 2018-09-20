@@ -569,7 +569,7 @@
 /* 右侧固定栏 */
 
 .yz-aside {
-    width: 114px;
+    width: 70px;
     overflow: hidden;
     position: fixed;
     top: 20%;
@@ -585,7 +585,7 @@
 }
 .yz-aside ul li{
     width: 100%;
-    height: 104px;
+    height: 84px;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -594,28 +594,26 @@
 }
 
 .yz-aside ul li img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: block;
     margin: 20px auto 10px;
 }
 .yz-aside ul li:last-child img{
+    width: 20px;
     height: 10px;
+    margin-top: 30px;
 }
 .yz-aside-qq{
-    font-size: 14px;
+    font-size: 18px;
 }
 .yz-aside-qq span{
     display: block;
-    font-size: 18px;
-    margin-bottom: 4px;
+    font-size: 14px;
 }
 .yz-aside-active {
     background-color: rgb(253,92,45);
     color: #fff;
-}
-.yz-aside ul li:last-child img{
-    width: 20px;
 }
 /* 消息通知 */
 .yz-message {

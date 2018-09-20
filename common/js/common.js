@@ -47,4 +47,10 @@ $(function () {
         $('body,html').animate({scrollTop:0},500);
         return false;
     });
+
+    $(".yz-aside .yz-aside-qq").hover(function() {
+        $('.yz-aside .yz-aside-qq span').css('display', 'block'); 
+    },function() {
+        $('.yz-aside .yz-aside-qq span').css('display', 'none'); 
+    })
 })

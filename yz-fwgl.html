@@ -124,12 +124,7 @@
                 <div class="title">
                     <p class="name">已开通服务<span>2</span></p>
                     <div class="list">
-                        <span onclick="toggleDisplay([
-                            {
-                                el: '.yz-fwgl-dialog',
-                                styleCss: 'block' 
-                            }
-                        ])">开始接单</span>
+                        <span>开始接单</span>
                         <span onclick="toggleDisplay([
                             {el: '.yz-fwgl-service', styleCss: 'none'},
                             {el: '.yz-fwgl-box', styleCss: 'block'}
@@ -148,16 +143,46 @@
                 </ul>
                 <ul class="item">
                     <li>LOL指导</li>
-                    <li>线下陪玩</li>
+                    <li>免费开黑</li>
                     <li>在线</li>
                     <li>2018.12.12</li>
                     <li>中单全包</li>
                     <li>15元</li>
                     <li>
                         <span onclick="toggleDisplay([
-                            {el: '.yz-fwgl-dialog', styleCss: 'block'}
+                            {el: '.yz-fwgl-dialog-mfkh', styleCss: 'block'}
                         ])"
                             class="service-setting">设置</span>
+                        <img src="./static/img/icon_shanchu.png" alt="">
+                    </li>
+                </ul>
+                <ul class="item">
+                    <li>LOL指导</li>
+                    <li>趣带萌新</li>
+                    <li>在线</li>
+                    <li>2018.12.12</li>
+                    <li>中单全包</li>
+                    <li>15元</li>
+                    <li>
+                        <span onclick="toggleDisplay([
+                        {el: '.yz-fwgl-dialog-qdmx', styleCss: 'block'}
+                    ])"
+                         class="service-setting">设置</span>
+                        <img src="./static/img/icon_shanchu.png" alt="">
+                    </li>
+                </ul>
+                <ul class="item">
+                    <li>LOL指导</li>
+                    <li>职业大神</li>
+                    <li>在线</li>
+                    <li>2018.12.12</li>
+                    <li>中单全包</li>
+                    <li>15元</li>
+                    <li>
+                        <span onclick="toggleDisplay([
+                        {el: '.yz-fwgl-dialog-zyds', styleCss: 'block'}
+                    ])"
+                         class="service-setting">设置</span>
                         <img src="./static/img/icon_shanchu.png" alt="">
                     </li>
                 </ul>
@@ -169,7 +194,10 @@
                     <li>中单全包</li>
                     <li>15元</li>
                     <li>
-                        <span class="service-setting">设置</span>
+                        <span onclick="toggleDisplay([
+                        {el: '.yz-fwgl-dialog-xxpw', styleCss: 'block'}
+                    ])"
+                         class="service-setting">设置</span>
                         <img src="./static/img/icon_shanchu.png" alt="">
                     </li>
                 </ul>
@@ -332,11 +360,11 @@
         </div>
     </section>
 
-    <!-- 服务设置 -->
-    <section class="yz-fwgl-relase-box yz-fwgl-dialog">
+    <!-- 免费开黑设置 -->
+    <section class="yz-fwgl-relase-box yz-fwgl-dialog yz-fwgl-dialog-mfkh">
         <div class="box">
             <div class="title">
-                设置
+                免费开黑设置
                 <span onclick="toggleDisplay([
                 {el: '.yz-fwgl-dialog', styleCss: 'none'}
             ])"
@@ -350,6 +378,135 @@
                         <option value="长沙无极网吧">长沙无极网吧</option>
                         <option value="长沙天辰网吧">长沙天辰网吧</option>
                     </select>
+                </div>
+                <div class="select">
+                    <p class="textLaber">选择游戏</p>
+                    <ul>
+                        <li>绝地求生</li>
+                        <li>英雄联盟</li>
+                        <li>王者荣耀</li>
+                        <li>第五人格</li>
+                        <li>堡垒之夜</li>
+                        <li>QQ飞车</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <p class="textLaber">选择价格</p>
+                    <input type="text" placeholder="数字">
+                    <span>元/半小时</span>
+                </div>
+            </div>
+            <div class="yz-fwgl-btn">
+                <button>取消</button>
+                <button>确认修改</button>
+            </div>
+        </div>
+    </section>
+    <!-- 趣带萌新设置 -->
+    <section class="yz-fwgl-relase-box yz-fwgl-dialog yz-fwgl-dialog-qdmx">
+        <div class="box">
+            <div class="title">
+                趣带萌新设置
+                <span onclick="toggleDisplay([
+            {el: '.yz-fwgl-dialog', styleCss: 'none'}
+        ])" class="close">X</span>
+            </div>
+            <div class="edit">
+                <p class="options">
+                    <span class="beg">求带</span>
+                    <span class="band">带人</span>
+                </p>
+                <div class="form">
+                    <label class="textLaber" for="">标题</label>
+                    <input type="text" placeholder="如：高玩带队">
+                </div>
+                <div class="form">
+                    <label class="textLaber" for="">备注</label>
+                    <input type="text" placeholder="如：高玩带队">
+                </div>
+                <div class="select">
+                    <p class="textLaber">选择游戏</p>
+                    <ul>
+                        <li>绝地求生</li>
+                        <li>英雄联盟</li>
+                        <li>王者荣耀</li>
+                        <li>第五人格</li>
+                        <li>堡垒之夜</li>
+                        <li>QQ飞车</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <p class="textLaber">选择价格</p>
+                    <input type="text" placeholder="数字">
+                    <span>元/半小时</span>
+                </div>
+            </div>
+            <div class="yz-fwgl-btn">
+                <button>取消</button>
+                <button>确认修改</button>
+            </div>
+        </div>
+    </section>
+    <!-- 职业大神设置 -->
+    <section class="yz-fwgl-relase-box yz-fwgl-dialog yz-fwgl-dialog-zyds">
+        <div class="box">
+            <div class="title">
+                职业大神设置
+                <span onclick="toggleDisplay([
+                {el: '.yz-fwgl-dialog', styleCss: 'none'}
+            ])"
+                    class="close">X</span>
+            </div>
+            <div class="edit">
+                <div class="select">
+                    <p class="textLaber">选择游戏</p>
+                    <ul>
+                        <li>绝地求生</li>
+                        <li>英雄联盟</li>
+                        <li>王者荣耀</li>
+                        <li>第五人格</li>
+                        <li>堡垒之夜</li>
+                        <li>QQ飞车</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <p class="textLaber">选择价格</p>
+                    <input type="text" placeholder="数字">
+                    <span>元/半小时</span>
+                </div>
+            </div>
+            <div class="yz-fwgl-btn">
+                <button>取消</button>
+                <button>确认修改</button>
+            </div>
+        </div>
+    </section>
+    <!-- 线下陪玩设置 -->
+    <section class="yz-fwgl-relase-box yz-fwgl-dialog yz-fwgl-dialog-xxpw">
+        <div class="box">
+            <div class="title">
+                线下陪玩设置
+                <span onclick="toggleDisplay([
+                {el: '.yz-fwgl-dialog', styleCss: 'none'}
+            ])"
+                    class="close">X</span>
+            </div>
+            <div class="edit">
+                <p class="title-content">*为保障个人安全，请选择本平台合作的网吧完成下定单任务！</p>
+                <div class="form">
+                    <label class="textLaber" for="">选择网吧</label>
+                    <div class="form-float selectBox">
+                        <select name="" id="" class="selectBar">
+                            <option value="长沙四季网吧">长沙四季网吧</option>
+                            <option value="长沙无极网吧">长沙无极网吧</option>
+                            <option value="长沙天辰网吧">长沙天辰网吧</option>
+                        </select>
+                        <p class="title-explain">(未选即表示无地域限制)</p>
+                    </div>
+                    <span class="yz-fwgl-add">+</span>
                 </div>
                 <div class="select">
                     <p class="textLaber">选择游戏</p>

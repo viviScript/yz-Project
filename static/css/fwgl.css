@@ -154,7 +154,7 @@
 }
 .yz-fwgl-dialog .box{
     width: 582px;
-    height: 380px;
+    overflow: hidden;
     position: fixed;
     top: 20%;
     left: 0;
@@ -184,10 +184,48 @@
     cursor: pointer;
     color: #666666;
 }
+.yz-fwgl-dialog .box .title-content{
+    width: auto;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #ff3030;
+}
+.yz-fwgl-dialog .box .title-explain{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    color: #666666;
+}
 .yz-fwgl-dialog .box .edit {
     width: auto;
     overflow: hidden;
-    padding: 0 90px;
+    padding: 30px 90px;
+}
+.yz-fwgl-dialog .box .options{
+    margin-bottom: 40px;
+    width: 100%;
+}
+.yz-fwgl-dialog .box .options span{
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 6px;
+    border-radius: 4px;
+    margin-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.yz-fwgl-dialog .box .options .beg {
+    color: #1fc7fc;
+    border: 1px solid #1fc7fc;
+}
+.yz-fwgl-dialog .box .options .band {
+    color: #ff733a;
+    border: 1px solid #ff733a;
 }
 .yz-fwgl-dialog .box .edit .form {
     width: 100%;

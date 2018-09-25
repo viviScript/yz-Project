@@ -41,10 +41,13 @@
                 <li onclick="setUrl('./yz-hd.html')">活动</li>
             </ul>
             <div class="yz-user">
-                <input class="yz-user-search" type="text" placeholder="ID/手机号/靓号">
+                <div class="yz-user-search">
+                    <input type="text" placeholder="ID/手机号/靓号">
+                    <img src="./static/img/icon_search.png" alt="">
+                </div>
                 <span class="yz-app-download">APP下载</span>
                 <div class="yz-user-img">
-                    <img class="yz-user-headImg" src="./static/img/touxiang.jpg" alt="">
+                    <img class="yz-user-headImg" src="./static/img/icon_me.png" alt="">
                     <div class="yz-user-details">
                         <div class="yz-user-box">
                             <img class="head-img" src="./static/img/touxiang.jpg" alt="">
@@ -99,7 +102,10 @@
         <img class="yz-home-banner-img" src="./static/img/banner.jpg" alt="">
         <div class="yz-home-search">
             <p class="yz-home-search-text">约战，陪你征战天下</p>
-            <input class="yz-home-search-input" type="text">
+            <div class="yz-home-search-input">
+                <input type="text">
+                <img src="./static/img/icon_search.png" alt="">
+            </div>
             <ul class="yz-home-search-hot">
                 <li>萌神</li>
                 <li>不败战神</li>
@@ -686,9 +692,11 @@
         <ul>
             <li onclick="toggleDisplay([
             {el: '.yz-customer-box-kf', styleCss: 'block'},
-        ])" class="yz-aside-active"><img
-                    src="./common/img/icon_kefu1.png" alt="">客服</li>
-            <li><img src="./common/img/icon_liaotian.png" alt="">聊天</li>
+        ])" class="yz-aside-active">
+                <img src="./common/img/icon_kefu1.png" alt="">客服
+            </li>
+            <li><img src="./common/img/icon_liaotian.png"
+                    alt="">聊天</li>
             <li onclick="toggleDisplay([
             {el: '.yz-relase-box-fk', styleCss: 'block'},
         ])"><img src="./common/img/icon_fankui.png"

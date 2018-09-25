@@ -22,8 +22,9 @@
     cursor: pointer;
 }
 /* 趣带梦新导航 */
-/* .yz-qdmx-nav {
-} */
+.yz-qdmx-nav {
+    margin-top: 10px;
+}
 .yz-qdmx-nav li{
     width: 94px;
     height: 37px;
@@ -36,6 +37,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.yz-qdmx-nav li:hover{
+    background-color: rgb(253,92,45) !important;
+    color: #fff !important;
+}
 .yz-qdmx-nav-active {
     background-color: rgb(253,92,45) !important;
     color: #fff !important;
@@ -43,13 +48,18 @@
 
 /* 趣带萌新列表 */
 .yz-qdmx-list {
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
-.yz-qdmx-list-rigth {
+.yz-qdmx-list-left {
     width: 940px;
     overflow: hidden;
     float: left;
     padding-bottom: 40px;
+}
+.yz-qdmx-list-rigth {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
 }
 .yz-qdmx-list-rigth li {
     width: 448px;
@@ -57,9 +67,31 @@
     float: left;
     border-radius: 6px;
     margin: 0 20px 20px 0;
+    position: relative;
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
+.yz-qdmx-list-rigth li:hover {
+    -webkit-animation: gd-shake 0.3s ease;
+    -moz-animation: gd-shake 0.3s ease;
+    animation: gd-shake 0.3s ease;
+    transform: scale(1.05);
+}
+
+@keyframes gd-shake {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -5px;
+    }
+
+    100% {
+        top: 5px;
+    }
+}
+
 .yz-qdmx-card {
     width: auto;
     padding: 10px;
@@ -160,14 +192,14 @@
     border: 1px solid #1fc7fc; 
 }
 .yz-qdmx-blue  .text span{
-    background-color: rgb(34,187,250);
+    background-color: #67ccf5;
     color: #ffffff;
 }
 .yz-qdmx-blue  .time span{
     color: #ff3030;
 }
 .yz-qdmx-blue  .order{
-    background-color:rgb(34,187,250); 
+    background-color:#67ccf5; 
     color: #fff;
 }
 .yz-qdmx-blue .yz-qdmx-txt{
@@ -202,5 +234,14 @@
     overflow: hidden;
     float: left;
     padding-bottom: 40px; 
+    margin-top: 10px;
 }
-
+.yz-qdmx-right .yz-grade {
+    font-size: 12px;
+}
+.yz-qdmx-right .yz-ranking-bill {
+    font-size: 14px !important;
+}
+.yz-qdmx-right .yz-details {
+    font-size: 16px;
+}

@@ -42,9 +42,14 @@
 }
 
 /* 活动海报区 */
-/* .yz-hd-bannerList {
-    padding-top: 20px;
-} */
+ .yz-hd-banner {
+    position: relative;
+}
+.yz-hd-banner img {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
 
 .yz-hd-bannerlist-right {
     width: 928px;

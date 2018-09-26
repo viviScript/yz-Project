@@ -838,3 +838,7 @@
     overflow: hidden;
     padding-top: 20px;
 }
+
+.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+}

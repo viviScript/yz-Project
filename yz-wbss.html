@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./common/css/common.css">
     <link rel="stylesheet" href="./static/css/wbss.css">
     <script src="./static/js/wbss.js"></script>
+    <script src="./common/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./common/css/swiper.min.css">
 </head>
 
 <body>
@@ -97,7 +99,21 @@
 
     <!-- banner海报图 -->
     <section class="yz-wbss-banner yz-section-auto yz-section-top">
-        <img src="./static/img/mfkh-banner.jpg" alt="">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./static/img/mfkh-banner.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./static/img/mfkh-banner.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./static/img/mfkh-banner.jpg" alt="">
+            </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </section>
 
     <!-- 游戏类型选取区 -->

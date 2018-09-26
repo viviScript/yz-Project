@@ -788,3 +788,28 @@
     color: #666666;
     text-align: center;
 }
+
+.img-box {
+    position: relative;
+    width: 30px;
+    height: 38px;
+    margin: 0 auto;
+    line-height: 46px;
+    text-align: center;
+    overflow: hidden;
+}
+.img1 {
+    opacity: 1 !important;
+}
+.img-box-sort {
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    position: relative;
+    vertical-align: text-top;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.img-box-sort-img-1 {
+
+}

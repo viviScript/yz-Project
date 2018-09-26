@@ -81,25 +81,26 @@
     background: url(../img/right.png) no-repeat right center;
     background-size: 30px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 19px;
 }
 
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box {
-    width: auto;
+    width: 130px;
     height: 242px;
     position: absolute;
-    right: -148px;
-    bottom: -118px;
+    right: 40px;
+    bottom: -242px;
     z-index: 10;
     border-radius: 4px;
     display: none;
 }
 
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .sanjiao-box {
-    height: 242px;
-    width: 20px;
+    height: 20px;
+    width: 130px;
     position: relative;
-    right: -10px;
+    top: 0;
+    right: 0;
     float: left;
     line-height: 242px;
 }
@@ -109,9 +110,12 @@
     display: inline-block;
     border: #e1e1e1 solid;
     border-width: 1px 1px 0 0;
-    transform: rotate(225deg);
+    transform: rotate(315deg);
     margin-bottom: 10px;
     background-color: #fff;
+    position: absolute;
+    top: 9px;
+    left: 58px;
 }
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list {
     width: 128px;
@@ -151,27 +155,28 @@
     background: url(../img/right.png) no-repeat right center;
     background-size: 30px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 19px;
 }
 
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box {
     width: 376px;
     height: 242px;
     position: absolute;
-    right: -373px;
-    bottom: -118px;
+    right: -100px;
+    bottom: -242px;
     z-index: 10;
     border-radius: 4px;
     display: none;
 }
 
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .sanjiao-box {
-    height: 242px;
-    width: 20px;
+    height: 20px;
+    width: 30px;
     position: relative;
-    right: -10px;
+    right: -160px;
+    top: 10px;
     float: left;
-    line-height: 242px;
+    /* line-height: 242px; */
 }
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .sanjiao-box .sanjiao {
     width: 20px;
@@ -179,7 +184,7 @@
     display: inline-block;
     border: #e1e1e1 solid;
     border-width: 1px 1px 0 0;
-    transform: rotate(225deg);
+    transform: rotate(315deg);
     margin-bottom: 10px;
     background-color: #fff;
 }
@@ -206,7 +211,21 @@
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-game .select-label-box .list .select-label-active{
     color: #ff733a;
 }
-
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .yz-rzjn-dredgeType-input {
+    width: auto;
+    overflow: hidden;
+}
+.yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .yz-rzjn-dredgeType-input input{
+    width: 416px;
+    height:35px;
+    padding: 4px 34px;
+    border:1px solid #e1e1e1;
+    color: #666666;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size:16px;
+}
 
 /* 认证资料 */
 .yz-rzjn-data {

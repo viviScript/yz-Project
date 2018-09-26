@@ -33,16 +33,38 @@
 .yz-wbss-gameType-list-active {
     color: rgb(229,139, 103);
 }
+.yz-wbss-gameType-list-active .img1 {
+    opacity: 0 !important;
+}
+.yz-wbss-gameType-list-active .img2 {
+    opacity: 1 !important;
+    /*transition: 0.5s ease;*/
+}
 .yz-wbss-gameType-list li{
     float: left;
     width: 140px;
     text-align: center;
+}
+.yz-wbss-gameType-list li:hover{
+    color: rgb(229,139, 103);
+}
+.yz-wbss-gameType-list li:hover .img1 {
+    opacity: 0 !important;
+}
+.yz-wbss-gameType-list li:hover .img2 {
+    opacity: 1 !important;
 }
 .yz-wbss-gameType-list li img{
     width: 30px;
     height: 30px;
     display: block;
     margin: 0 auto 10px;
+    position: absolute;
+    border: none;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
 
 /* 网吧赛事海报区 */

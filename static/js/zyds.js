@@ -7,22 +7,16 @@ $(function() {
     * */
     $('.yz-zyds-sort-ul li').click(function() {
         console.log(this)
-        $(this).siblings().removeClass("yz-zyds-sort-active").removeClass('yz-zyds-sort-active-top').removeClass('yz-zyds-sort-active-bottom')
+        $(this).siblings().removeClass("yz-zyds-sort-active").removeClass('yz-zyds-sort-active-top')
         if ($(this).hasClass('yz-zyds-sort-active')) {
             if ($(this).hasClass('yz-zyds-sort-active-top')) {
-                if ($(this).hasClass('yz-zyds-sort-active-bottom')) {
-                    $(this).removeClass('yz-zyds-sort-active-top')
-                    $(this).removeClass('yz-zyds-sort-active-bottom')
-                } else {
-                    $(this).addClass('yz-zyds-sort-active-bottom')
-                }
+                $(this).removeClass('yz-zyds-sort-active-top')
             } else {
                 $(this).addClass('yz-zyds-sort-active-top')
             }
-
         } else {
             $(this).addClass('yz-zyds-sort-active')
-            $(this).siblings().removeClass("yz-zyds-sort-active").removeClass('yz-zyds-sort-active-top').removeClass('yz-zyds-sort-active-bottom')
+            $(this).siblings().removeClass("yz-zyds-sort-active").removeClass('yz-zyds-sort-active-top')
         }
     })
     $('.yz-zyds-gameType-list li').click(function() {

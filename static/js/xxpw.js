@@ -7,22 +7,16 @@ $(function() {
     * */
     $('.yz-xxpw-sort-ul li').click(function() {
         console.log(this)
-        $(this).siblings().removeClass("yz-xxpw-sort-active").removeClass('yz-xxpw-sort-active-top').removeClass('yz-xxpw-sort-active-bottom')
+        $(this).siblings().removeClass("yz-xxpw-sort-active").removeClass('yz-xxpw-sort-active-top')
         if ($(this).hasClass('yz-xxpw-sort-active')) {
             if ($(this).hasClass('yz-xxpw-sort-active-top')) {
-                if ($(this).hasClass('yz-xxpw-sort-active-bottom')) {
-                    $(this).removeClass('yz-xxpw-sort-active-top')
-                    $(this).removeClass('yz-xxpw-sort-active-bottom')
-                } else {
-                    $(this).addClass('yz-xxpw-sort-active-bottom')
-                }
+                $(this).removeClass('yz-xxpw-sort-active-top')
             } else {
                 $(this).addClass('yz-xxpw-sort-active-top')
             }
-
         } else {
             $(this).addClass('yz-xxpw-sort-active')
-            $(this).siblings().removeClass("yz-xxpw-sort-active").removeClass('yz-xxpw-sort-active-top').removeClass('yz-xxpw-sort-active-bottom')
+            $(this).siblings().removeClass("yz-xxpw-sort-active").removeClass('yz-xxpw-sort-active-top')
         }
     })
 

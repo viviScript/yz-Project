@@ -137,45 +137,25 @@
 .yz-xxpw-sort-ul .img-box-sort-img-3{
     opacity: 0;
 }
-.yz-xxpw-sort-ul .img-box-sort-img-4{
-    opacity: 0;
-}
 .yz-xxpw-sort-ul .yz-xxpw-sort-active .img-box-sort-img-1{
     opacity: 0;
 }
 .yz-xxpw-sort-ul .yz-xxpw-sort-active .img-box-sort-img-2{
-    opacity: 1;
+    opacity: 0;
 }
 .yz-xxpw-sort-ul .yz-xxpw-sort-active .img-box-sort-img-3{
-    opacity: 0;
-}
-.yz-xxpw-sort-ul .yz-xxpw-sort-active .img-box-sort-img-4{
-    opacity: 0;
+    opacity: 1;
 }
 .yz-xxpw-sort-ul .yz-xxpw-sort-active-top .img-box-sort-img-1{
     opacity: 0;
 }
 .yz-xxpw-sort-ul .yz-xxpw-sort-active-top .img-box-sort-img-2{
-    opacity: 0;
+    opacity: 1;
 }
 .yz-xxpw-sort-ul .yz-xxpw-sort-active-top .img-box-sort-img-3{
-    opacity: 1;
-}
-.yz-xxpw-sort-ul .yz-xxpw-sort-active-top .img-box-sort-img-4{
     opacity: 0;
 }
-.yz-xxpw-sort-ul .yz-xxpw-sort-active-bottom .img-box-sort-img-1{
-    opacity: 0;
-}
-.yz-xxpw-sort-ul .yz-xxpw-sort-active-bottom .img-box-sort-img-2{
-    opacity: 0;
-}
-.yz-xxpw-sort-ul .yz-xxpw-sort-active-bottom .img-box-sort-img-3{
-    opacity: 0;
-}
-.yz-xxpw-sort-ul .yz-xxpw-sort-active-bottom .img-box-sort-img-4{
-    opacity: 1;
-}
+
 /* 排序搜索区 */
 
 .yz-xxpw-userCard {

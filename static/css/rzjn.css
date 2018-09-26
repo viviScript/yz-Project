@@ -86,10 +86,10 @@
 
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box {
     width: 130px;
-    height: 242px;
+    height: 70px;
     position: absolute;
-    right: 40px;
-    bottom: -242px;
+    right: 70px;
+    bottom: -71px;
     z-index: 10;
     border-radius: 4px;
     display: none;
@@ -97,7 +97,7 @@
 
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .sanjiao-box {
     height: 20px;
-    width: 130px;
+    width: 640px;
     position: relative;
     top: 0;
     right: 0;
@@ -118,7 +118,7 @@
     left: 58px;
 }
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list {
-    width: 128px;
+    width: 640px;
     overflow: hidden;
     float: left;
     border-radius: 4px;
@@ -132,6 +132,7 @@
     font-size: 16px;
     color: #666666;
     cursor: pointer;
+    float: left;
 }
 .yz-rzjn-dredgeType .yz-rzjn-dredgeType-select .select-label-nav .select-label-box .list li:hover{
     color: #ff733a;
@@ -162,7 +163,7 @@
     width: 376px;
     height: 242px;
     position: absolute;
-    right: -100px;
+    right: -170px;
     bottom: -242px;
     z-index: 10;
     border-radius: 4px;
@@ -173,7 +174,7 @@
     height: 20px;
     width: 30px;
     position: relative;
-    right: -160px;
+    right: -70px;
     top: 10px;
     float: left;
     /* line-height: 242px; */

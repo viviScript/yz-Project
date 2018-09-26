@@ -199,8 +199,8 @@
 .yz-qdmx-blue  .time span{
     color: #ff3030;
 }
-.yz-qdmx-blue  .order{
-    background-color:#67ccf5; 
+.yz-qdmx-blue .order{
+    background-color:#06aef3;
     color: #fff;
 }
 .yz-qdmx-blue .yz-qdmx-txt{
@@ -213,15 +213,15 @@
 .yz-qdmx-orange {
     border: 1px solid #ff733a; 
 }
-.yz-qdmx-orange  .text span{
-    background-color: #ff733a;
+.yz-qdmx-orange .text span{
+    background-color: #f68d62;
     color: #ffffff;
 }
 .yz-qdmx-orange .time span{
     color: #ff3030;
 }
 .yz-qdmx-orange  .order{
-    background-color:#ff733a; 
+    background-color:#ff733a;
     color: #fff;
 }
 .yz-qdmx-orange .yz-qdmx-txt{

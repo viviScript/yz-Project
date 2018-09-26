@@ -13,7 +13,7 @@ $(function(){
         }else{
             $('.yz-header').removeClass("yz-header-bg");
             $('.yz-user-search').css('display', 'none')
-            if (!$('.yz-user-headImg').attr('src') || $('.yz-user-headImg').attr('src') == './static/img/icon_me.png') {
+            if (!$('.yz-user-headImg').attr('src') || $('.yz-user-headImg').attr('src') == './static/img/icon_touxiang2.png') {
                 $('.yz-user-headImg').attr('src', './static/img/icon_me.png')
             }
         }

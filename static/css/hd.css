@@ -47,15 +47,16 @@
 } */
 
 .yz-hd-bannerlist-right {
-    width: 940px;
+    width: 928px;
     overflow: hidden;
     float: left;
     padding-bottom: 40px;
     padding-top: 20px;
+    padding-left: 12px;
 }
 
 .yz-hd-bannerlist-right li {
-    width: 442px;
+    width: 436px;
     overflow: hidden;
     margin-bottom: 30px;
     background-color: #fff;

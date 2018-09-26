@@ -33,20 +33,7 @@ function toggleDisplay(arry) {
     //     $(el).css('display', style); 
     // }
 }
-var SetImg = function () {
-    this.ele = null;
-    this.eleImg = null;
-    this.oldImg = null;
-}
-SetImg.prototype.attrImage = function (el, img) {
-    this.el = el;
-    this.eleImg = $($(el).children('img')[0]);
-    this.oldImg = eleImg.attr('src');
-    eleImg.attr('src', img)
-}
-SetImg.prototype.removeImage = function () {
-    this.eleImg.attr('src', this.oldImg)
-}
+
 
 $(function () {
     console.log($(".yz-aside").find('img').attr('src'))
@@ -58,7 +45,7 @@ $(function () {
 
     $('.yz-user-login').click(function () {
         $('.yz-registration-login').addClass('yz-registration-block')
-    })
+    });
     $(".yz-aside li:last-child").click(function(){
         $('body,html').animate({scrollTop:0},500);
         return false;

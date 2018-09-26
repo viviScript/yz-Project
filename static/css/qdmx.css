@@ -60,9 +60,10 @@
     width: 100%;
     overflow: hidden;
     padding-top: 10px;
+    padding-left:12px;
 }
 .yz-qdmx-list-rigth li {
-    width: 448px;
+    width: 438px;
     overflow: hidden;
     float: left;
     border-radius: 6px;

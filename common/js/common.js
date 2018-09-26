@@ -56,4 +56,7 @@ $(function () {
     },function() {
         $('.yz-aside .yz-aside-qq span').css('display', 'none'); 
     })
+    $(".yz-aside li").click(function() {
+        $(this).addClass('yz-aside-active').siblings().removeClass('yz-aside-active')
+    })
 })

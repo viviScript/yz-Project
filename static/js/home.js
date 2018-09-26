@@ -7,7 +7,7 @@ $(function(){
             $(".yz-header").addClass("yz-header-bg");
             $('.yz-user-search').css('display', 'block')
             if (!$('.yz-user-headImg').attr('src') || $('.yz-user-headImg').attr('src') == './static/img/icon_me.png') {
-                $('.yz-user-headImg').attr('src', './static/img/touxiang.jpg')
+                $('.yz-user-headImg').attr('src', './static/img/icon_touxiang2.png')
             }
         }else{
             $('.yz-header').removeClass("yz-header-bg");
